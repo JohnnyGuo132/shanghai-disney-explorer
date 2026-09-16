@@ -77,7 +77,7 @@ cd shanghai-disney-explorer
 node scripts/serve.mjs
 ```
 
-Open **http://127.0.0.1:4173/** and wait for the scene to load. No `npm install`, build step, API key, or external asset CDN is needed. Keep the terminal running while exploring; press `Ctrl+C` to stop.
+Open [http://127.0.0.1:4173/](http://127.0.0.1:4173/) and wait for the scene to load. No `npm install`, build step, API key, or external asset CDN is needed. Keep the terminal running while exploring; press `Ctrl+C` to stop.
 
 **Prefer a ZIP?** Open the [latest release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest), download the named `shanghai-disney-explorer-v…-source.zip` attachment, extract it, and run `node scripts/serve.mjs` in that folder. Downloads are public. GitHub Pages is not enabled; the application is available to run locally. See [release packaging](./docs/RELEASING.md) for the static website archive and checksum verification, or [support](./SUPPORT.md) for startup help.
 

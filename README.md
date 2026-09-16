@@ -65,7 +65,7 @@
 
 [![步道路线预览与导航控件实际运行截图](./docs/media/showcase/navigation.jpg)](./docs/media/showcase/navigation.jpg)
 
-**基本操作：**拖动环顾，滚轮缩放，`W A S D` 或方向键行走，按住 `Shift` 加速。`/` 打开搜索，`Esc` 关闭面板或中断自动移动。完整交互见 [操作指南](./docs/USER_GUIDE.md)。
+**基本操作：** 拖动环顾，滚轮缩放，`W A S D` 或方向键行走，按住 `Shift` 加速。`/` 打开搜索，`Esc` 关闭面板或中断自动移动。完整交互见 [操作指南](./docs/USER_GUIDE.md)。
 
 ## 快速开始
 
@@ -77,7 +77,7 @@ cd shanghai-disney-explorer
 node scripts/serve.mjs
 ```
 
-打开 **http://127.0.0.1:4173/**，等待场景载入即可开始。无需 `npm install`、前端构建、API Key 或外部素材 CDN。游览时保持终端运行，结束后按 `Ctrl+C` 关闭服务。
+打开 [http://127.0.0.1:4173/](http://127.0.0.1:4173/)，等待场景载入即可开始。无需 `npm install`、前端构建、API Key 或外部素材 CDN。游览时保持终端运行，结束后按 `Ctrl+C` 关闭服务。
 
 **不使用 Git？** 打开 [最新发行版](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest)，下载名称以 `-source.zip` 结尾的源码包，解压后在项目目录运行 `node scripts/serve.mjs`。下载无需登录。GitHub Pages 尚未启用，目前通过本机运行体验。静态网站包与校验方法见 [发行指南](./docs/RELEASING.md)，启动问题见 [反馈与支持](./SUPPORT.md)。
 
@@ -92,7 +92,7 @@ npm test
 
 欢迎提交 Issue 和 Pull Request。从 [贡献指南](./CONTRIBUTING.md) 与 [架构说明](./docs/ARCHITECTURE.md) 开始，也可以查看 [路线图](./docs/ROADMAP.md) 或 [反馈问题](https://github.com/JohnnyGuo132/shanghai-disney-explorer/issues/new/choose)。安全问题请使用 [私密报告渠道](./SECURITY.md)，版本变化见 [更新记录](./CHANGELOG.md)。
 
-**体验范围：**园区轮廓参考 OpenStreetMap，建筑与景观为近似重建，内景以局部橱窗和陈设为主；未达到测绘级复刻。应用不提供真实排队、票务、营业数据或完整设施乘坐模拟，手机与平板尚未完成广泛机型验证。详见 [已知限制](./docs/ROADMAP.md) 与 [性能说明](./docs/PERFORMANCE.md)。
+**体验范围：** 园区轮廓参考 OpenStreetMap，建筑与景观为近似重建，内景以局部橱窗和陈设为主；未达到测绘级复刻。应用不提供真实排队、票务、营业数据或完整设施乘坐模拟，手机与平板尚未完成广泛机型验证。详见 [已知限制](./docs/ROADMAP.md) 与 [性能说明](./docs/PERFORMANCE.md)。
 
 ## 许可与致谢
 
