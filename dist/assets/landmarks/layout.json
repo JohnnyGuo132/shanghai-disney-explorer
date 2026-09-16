@@ -1,0 +1,105 @@
+[
+  {
+    "id": "tron",
+    "file": "tron.glb",
+    "footprint": 495378407,
+    "anchor": [
+      -336.82,
+      166.78
+    ],
+    "offset": [
+      32.789,
+      -29.642
+    ],
+    "rotation": 1.386,
+    "radius": 100
+  },
+  {
+    "id": "avenue",
+    "file": "mickey.glb",
+    "footprints": [
+      483565962,
+      483565963,
+      483565964,
+      483565961
+    ],
+    "anchor": [
+      236.5,
+      248
+    ],
+    "offset": [
+      0,
+      28.425
+    ],
+    "rotation": 0.75922616,
+    "radius": 70
+  },
+  {
+    "id": "mountain",
+    "file": "roaring-mountain.glb",
+    "anchor": [
+      449.58,
+      -19.17
+    ],
+    "rotation": -1.3,
+    "radius": 65
+  },
+  {
+    "id": "port",
+    "file": "treasure-cove-port.glb",
+    "anchor": [
+      283,
+      -207
+    ],
+    "rotation": -0.3,
+    "radius": 85
+  },
+  {
+    "id": "ship",
+    "file": "treasure-cove-galleon.glb",
+    "anchor": [
+      306,
+      -152
+    ],
+    "rotation": -2.17,
+    "y": -2.4,
+    "radius": 35,
+    "scale": 0.9,
+    "footprint": 494576612
+  },
+  {
+    "rotation": 0,
+    "footprint": 1234934044,
+    "offset": [
+      0,
+      -11.57
+    ],
+    "anchor": [
+      -3.1,
+      -347.61
+    ],
+    "id": "zootopia",
+    "file": "zootopia.glb",
+    "radius": 85
+  },
+  {
+    "radius": 25,
+    "anchor": [
+      -48,
+      -263
+    ],
+    "id": "pooh",
+    "rotation": 1.57,
+    "file": "fantasy-facade.glb"
+  },
+  {
+    "radius": 25,
+    "anchor": [
+      -184,
+      47
+    ],
+    "id": "peter",
+    "rotation": -0.88,
+    "file": "fantasy-facade.glb"
+  }
+]

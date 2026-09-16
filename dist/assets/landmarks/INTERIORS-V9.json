@@ -1,0 +1,6020 @@
+{
+  "classical_window": {
+    "file": "classical_window.glb",
+    "bytes": 421608,
+    "before": {
+      "triangles": 5241,
+      "effectiveTriangles": 5241,
+      "surfaceAreaM2": 61.952185258346255,
+      "meshCount": 18,
+      "materials": [
+        "facade_interior_floor",
+        "facade_interior_plaster",
+        "facade_oak_wood",
+        "facade_walnut_frames",
+        "facade_carved_limestone",
+        "facade_aged_brass",
+        "facade_glass",
+        "facade_painted_sage_joinery",
+        "facade_ivory_fabric",
+        "facade_burgundy_fabric_and_books",
+        "facade_ivory_ceramic",
+        "facade_teal_enamel_and_books",
+        "facade_interior_light"
+      ],
+      "bounds": {
+        "min": [
+          -0.75,
+          0,
+          -1.600000023841858
+        ],
+        "max": [
+          0.7499966621398926,
+          2.4000000953674316,
+          0.2599816918373108
+        ]
+      }
+    },
+    "after": {
+      "triangles": 8537,
+      "effectiveTriangles": 8537,
+      "surfaceAreaM2": 68.48438042236918,
+      "meshCount": 26,
+      "materials": [
+        "facade_interior_floor",
+        "facade_interior_plaster",
+        "facade_oak_wood",
+        "facade_walnut_frames",
+        "facade_carved_limestone",
+        "facade_aged_brass",
+        "facade_glass",
+        "facade_painted_sage_joinery",
+        "facade_ivory_fabric",
+        "facade_burgundy_fabric_and_books",
+        "facade_ivory_ceramic",
+        "facade_teal_enamel_and_books",
+        "facade_interior_light"
+      ],
+      "bounds": {
+        "min": [
+          -0.75,
+          0,
+          -1.600000023841858
+        ],
+        "max": [
+          0.7499966621398926,
+          2.4000000953674316,
+          0.2599816918373108
+        ]
+      }
+    },
+    "addedTriangles": 3296,
+    "nominalSize": [
+      1.5,
+      2.4
+    ],
+    "opening": [
+      -0.455,
+      0.36,
+      0.455,
+      2.15
+    ],
+    "interiorDepth": 1.6,
+    "wallPlaneZ": 0,
+    "boundsDelta": {
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "max": [
+        0,
+        0,
+        0
+      ]
+    },
+    "exteriorAccessorHashesUnchanged": true,
+    "exteriorHashes": {
+      "exterior__facade_interior_floor": [
+        {
+          "POSITION": "e4fb82109f51ddf93db8a7b6773794ee30e53fe355d2e01a1028107a74aa62b1",
+          "NORMAL": "f5c86aee3cb8951b28df2b8d5aad61479ea527c130d0c4c2f283cf122f95e53e",
+          "TEXCOORD_0": "1ce5441220fda30e201cb74cd902d77fca400ab0d9ca7940f13a9c9c5e9807a6",
+          "indices": "55f62ce48b0d8b234d3e52e68032808af29112f0e7f621fbeccef71dca023985"
+        }
+      ],
+      "exterior__facade_interior_plaster": [
+        {
+          "POSITION": "dbf19859b3d3bab1d0b1594dfdccf2df6f85cd96bf162c59df1e80845d823188",
+          "NORMAL": "c2bd5364c1a33e734a88814362968e36a1a8b259e181cbc31a78bf0985040462",
+          "TEXCOORD_0": "f4eeca56cc5835d1378fd0f69e669e86031ce5cb0b34264cfee8f0bc4dd8e2a6",
+          "indices": "e01c39cdd33d68fad1459ab3c81ce8a383535cf66f1d7f728f7245005cab3da5"
+        }
+      ],
+      "exterior__facade_oak_wood": [
+        {
+          "POSITION": "d4e3ca3cfc7c942d4cb05ec7cbf7fd09fc5177ea3b8e44e8e321f64eadee4a5d",
+          "NORMAL": "a15b5396bb9183cbfb319155e8e3474a20bc11f2d5ba10d1850980b0c8a9558b",
+          "TEXCOORD_0": "958ca1da3531a3915a328414c93967129bac56ec26bdb94cfa8219559cb71c92",
+          "indices": "0bed8be17253d6681a52438ce64fc16f1d9dfff082788119807eb86ce24283bf"
+        }
+      ],
+      "exterior__facade_carved_limestone": [
+        {
+          "POSITION": "40ea5c1e9f272a18af47929e809ff4542c89d35ff32335aa5132a9c6f6e9426f",
+          "TEXCOORD_0": "59aef05041aa903385f400289d3fd90c3e38315ef94268f7faba5c3d90ff6c4d",
+          "NORMAL": "3c7ec045c79a90d156e088d0c1f19fdf787b12d5e46f394fe9012b061f76b327",
+          "indices": "ba79ca4809fad9560e5ac2ae1790707fdb24d60a85bcc4696ffe06821ebae122"
+        }
+      ],
+      "exterior__facade_aged_brass": [
+        {
+          "POSITION": "f5cbf6eac45d9aadf37820fc4d38b9f913f44b8edc2f7ddff8d2dd78f50dcaa1",
+          "TEXCOORD_0": "21e86a1873cf5a73a16ca29d9cc535df5e762939ad1ad824afe4bef683d7b619",
+          "NORMAL": "59db81233088e713a41eb2f940c9af4280b202e5a47da27b997d1e330c129cb9",
+          "indices": "d905e62b9ff8fca4be3647c1d5a66db8b842c586039f59f300219738d77b1f3a"
+        }
+      ],
+      "exterior__facade_glass": [
+        {
+          "POSITION": "6701728ca8c47cdbf3fb7720225f943e4e01958ae906b9b89cbd6fbed4512be0",
+          "NORMAL": "bade01eb0d184c85d8047157c4f039e036bc90c10138a3ac007469e11df3e74b",
+          "TEXCOORD_0": "a972af296c9ffc631837a9f3de753ebbfbc4669149e80b8eb1386243195a810e",
+          "indices": "4a83ba632126fa06d0219859250c02397fb2e2c7f38924a97f7748d1c4067bb1"
+        }
+      ],
+      "exterior__facade_walnut_frames": [
+        {
+          "POSITION": "c3dfa4b876fb2b52d1ac809bba78014d854f33ddb4c37870e2360908bbe3a16f",
+          "NORMAL": "4a0da718043280c809c693504a1b82c673eb77cc884c6be3a22623a2b3b7f330",
+          "TEXCOORD_0": "104fd21d1278751d11bdfeb438272428c61e28ee02624f35873e6e90178cb813",
+          "indices": "ba0a78435edeff7ccb4d149e6f6ca64cb9b2087f0a4a2f14e07d8519979da7c2"
+        }
+      ],
+      "exterior__facade_painted_sage_joinery": [
+        {
+          "POSITION": "4d153ff99810fc47f8b3cfdf839b58c9972e6ea949a6c3b89885b0546ffe415f",
+          "NORMAL": "f1adf8fe2fb898f853b2b835f0858b66651dcf2e8bc8a3e216ffc4445392ac0c",
+          "TEXCOORD_0": "46ff5a7ccd20a063b7205cf24edfd44666251a35c79aea2f9fd74fd4d7ed5708",
+          "indices": "1ddad4931c2533c0bce5751d55e128903db5511b25f2c98d2629b71badfc0396"
+        }
+      ]
+    },
+    "newVertexQA": {
+      "checkedVertices": 3404,
+      "boundsLimit": {
+        "min": [
+          -0.62,
+          0.082,
+          -1.5150000000000001
+        ],
+        "max": [
+          0.62,
+          2.25,
+          -0.18
+        ]
+      },
+      "hostWallBackZ": -0.32,
+      "minAddedVertexClearanceM": 0.030679636001586907,
+      "violations": 0
+    },
+    "newObjects": [
+      {
+        "label": "curtain_lining",
+        "material": "facade_ivory_fabric",
+        "vertices": 273,
+        "bounds": {
+          "min": [
+            -0.5249999761581421,
+            0.46000000834465027,
+            -0.39399999380111694
+          ],
+          "max": [
+            -0.39500001072883606,
+            1.9800000190734863,
+            -0.3659999966621399
+          ]
+        }
+      },
+      {
+        "label": "curtain_tie",
+        "material": "facade_aged_brass",
+        "vertices": 46,
+        "bounds": {
+          "min": [
+            -0.4622953236103058,
+            1.0535731315612793,
+            -0.36630678176879883
+          ],
+          "max": [
+            -0.3177046775817871,
+            1.116426944732666,
+            -0.3529999852180481
+          ]
+        }
+      },
+      {
+        "label": "curtain_tassel",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            -0.4397999942302704,
+            0.9419999718666077,
+            -0.3693203628063202
+          ],
+          "max": [
+            -0.420199990272522,
+            0.9980000257492065,
+            -0.3506796360015869
+          ]
+        }
+      },
+      {
+        "label": "curtain_lining",
+        "material": "facade_ivory_fabric",
+        "vertices": 273,
+        "bounds": {
+          "min": [
+            0.39500001072883606,
+            0.46000000834465027,
+            -0.39399999380111694
+          ],
+          "max": [
+            0.5249999761581421,
+            1.9800000190734863,
+            -0.3659999966621399
+          ]
+        }
+      },
+      {
+        "label": "curtain_tie",
+        "material": "facade_aged_brass",
+        "vertices": 46,
+        "bounds": {
+          "min": [
+            0.3177046775817871,
+            1.0535731315612793,
+            -0.36630678176879883
+          ],
+          "max": [
+            0.4622953236103058,
+            1.116426944732666,
+            -0.3529999852180481
+          ]
+        }
+      },
+      {
+        "label": "curtain_tassel",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            0.420199990272522,
+            0.9419999718666077,
+            -0.3693203628063202
+          ],
+          "max": [
+            0.4397999942302704,
+            0.9980000257492065,
+            -0.3506796360015869
+          ]
+        }
+      },
+      {
+        "label": "curtain_valance",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 273,
+        "bounds": {
+          "min": [
+            -0.4950000047683716,
+            1.9900000095367432,
+            -0.3790000081062317
+          ],
+          "max": [
+            0.4950000047683716,
+            2.0899999141693115,
+            -0.35100001096725464
+          ]
+        }
+      },
+      {
+        "label": "cabinet_drawer",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.4099999964237213,
+            0.6004999876022339,
+            -0.9330000281333923
+          ],
+          "max": [
+            0.4099999964237213,
+            0.6955000162124634,
+            -0.8529999852180481
+          ]
+        }
+      },
+      {
+        "label": "drawer_inset",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.38499999046325684,
+            0.6205000281333923,
+            -0.8525000214576721
+          ],
+          "max": [
+            0.38499999046325684,
+            0.6754999756813049,
+            -0.8414999842643738
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            -0.21799999475479126,
+            0.6349999904632568,
+            -0.8473637104034424
+          ],
+          "max": [
+            -0.19200000166893005,
+            0.6610000133514404,
+            -0.8226362466812134
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            0.19200000166893005,
+            0.6349999904632568,
+            -0.8473637104034424
+          ],
+          "max": [
+            0.21799999475479126,
+            0.6610000133514404,
+            -0.8226362466812134
+          ]
+        }
+      },
+      {
+        "label": "desk_lower_stretcher",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.3700000047683716,
+            0.22599999606609344,
+            -1.2599999904632568
+          ],
+          "max": [
+            0.3700000047683716,
+            0.2540000081062317,
+            -1
+          ]
+        }
+      },
+      {
+        "label": "reading_desk_lamp_base",
+        "material": "facade_aged_brass",
+        "vertices": 88,
+        "bounds": {
+          "min": [
+            -0.2828688621520996,
+            0.809499979019165,
+            -1.0800000429153442
+          ],
+          "max": [
+            -0.11713112890720367,
+            0.828499972820282,
+            -0.9100000262260437
+          ]
+        }
+      },
+      {
+        "label": "reading_desk_lamp_stem",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            -0.2171190232038498,
+            0.8190000057220459,
+            -1.0130000114440918
+          ],
+          "max": [
+            -0.18288098275661469,
+            1.0490000247955322,
+            -0.9769999980926514
+          ]
+        }
+      },
+      {
+        "label": "reading_desk_lamp_shade",
+        "material": "facade_ivory_fabric",
+        "vertices": 76,
+        "bounds": {
+          "min": [
+            -0.3034048080444336,
+            0.9990000128746033,
+            -1.100000023841858
+          ],
+          "max": [
+            -0.09659519046545029,
+            1.128999948501587,
+            -0.8899999856948853
+          ]
+        }
+      },
+      {
+        "label": "reading_desk_lamp_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 100,
+        "bounds": {
+          "min": [
+            -0.28299999237060547,
+            1.003000020980835,
+            -1.0779999494552612
+          ],
+          "max": [
+            -0.11700000613927841,
+            1.0089999437332153,
+            -0.9120000004768372
+          ]
+        }
+      },
+      {
+        "label": "reading_desk_lamp_bulb",
+        "material": "facade_interior_light",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            -0.22599999606609344,
+            0.9879999756813049,
+            -1.0197274684906006
+          ],
+          "max": [
+            -0.17399999499320984,
+            1.0399999618530273,
+            -0.9702725410461426
+          ]
+        }
+      },
+      {
+        "label": "folio",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.07000000029802322,
+            0.8115000128746033,
+            -1.0475000143051147
+          ],
+          "max": [
+            0.23000000417232513,
+            0.8485000133514404,
+            -0.9325000047683716
+          ]
+        }
+      },
+      {
+        "label": "folio_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.07599999755620956,
+            0.8174999952316284,
+            -1.0384999513626099
+          ],
+          "max": [
+            0.2240000069141388,
+            0.840499997138977,
+            -0.9294999837875366
+          ]
+        }
+      },
+      {
+        "label": "folio_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.16500000655651093,
+            0.8485000133514404,
+            -1.0302499532699585
+          ],
+          "max": [
+            0.18299999833106995,
+            0.8514999747276306,
+            -0.9497500061988831
+          ]
+        }
+      },
+      {
+        "label": "cup",
+        "material": "facade_ivory_ceramic",
+        "vertices": 65,
+        "bounds": {
+          "min": [
+            0.3059999942779541,
+            0.8140000104904175,
+            -1.034000039100647
+          ],
+          "max": [
+            0.3540000021457672,
+            0.859000027179718,
+            -0.9860000014305115
+          ]
+        }
+      },
+      {
+        "label": "cup_handle",
+        "material": "facade_ivory_ceramic",
+        "vertices": 65,
+        "bounds": {
+          "min": [
+            0.34672001004219055,
+            0.8149999976158142,
+            -1.0324000120162964
+          ],
+          "max": [
+            0.3627200126647949,
+            0.8597999811172485,
+            -0.9876000285148621
+          ]
+        }
+      },
+      {
+        "label": "alcove_bookcase_upright",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.6119999885559082,
+            1.1200000047683716,
+            -1.4950000047683716
+          ],
+          "max": [
+            -0.5899999737739563,
+            1.9500000476837158,
+            -1.3149999380111694
+          ]
+        }
+      },
+      {
+        "label": "alcove_bookcase_upright",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.30300000309944153,
+            1.1200000047683716,
+            -1.4950000047683716
+          ],
+          "max": [
+            -0.2809999883174896,
+            1.9500000476837158,
+            -1.3149999380111694
+          ]
+        }
+      },
+      {
+        "label": "alcove_bookcase_back",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.606499969959259,
+            1.1200000047683716,
+            -1.5045000314712524
+          ],
+          "max": [
+            -0.2865000069141388,
+            1.9500000476837158,
+            -1.4815000295639038
+          ]
+        }
+      },
+      {
+        "label": "alcove_bookcase_shelf",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.6115000247955322,
+            1.118499994277954,
+            -1.4900000095367432
+          ],
+          "max": [
+            -0.281499981880188,
+            1.1414999961853027,
+            -1.2899999618530273
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5824999809265137,
+            1.1440000534057617,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.5274999737739563,
+            1.3240000009536743,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5789999961853027,
+            1.152500033378601,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.531000018119812,
+            1.315500020980835,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5770000219345093,
+            1.1660000085830688,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.5329999923706055,
+            1.1720000505447388,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5770000219345093,
+            1.2960000038146973,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.5329999923706055,
+            1.3020000457763672,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5134999752044678,
+            1.1440000534057617,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.4584999978542328,
+            1.3509999513626099,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5099999904632568,
+            1.152500033378601,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.4620000123977661,
+            1.3424999713897705,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5080000162124634,
+            1.1660000085830688,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.46399998664855957,
+            1.1720000505447388,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5080000162124634,
+            1.3229999542236328,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.46399998664855957,
+            1.3289999961853027,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.44449999928474426,
+            1.1440000534057617,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.3894999921321869,
+            1.3240000009536743,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.4410000145435333,
+            1.152500033378601,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.3930000066757202,
+            1.315500020980835,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.4390000104904175,
+            1.1660000085830688,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.39500001072883606,
+            1.1720000505447388,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.4390000104904175,
+            1.2960000038146973,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.39500001072883606,
+            1.3020000457763672,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.37549999356269836,
+            1.1440000534057617,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.320499986410141,
+            1.3509999513626099,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.3720000088214874,
+            1.152500033378601,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.3240000009536743,
+            1.3424999713897705,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.3700000047683716,
+            1.1660000085830688,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.32600000500679016,
+            1.1720000505447388,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.3700000047683716,
+            1.3229999542236328,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.32600000500679016,
+            1.3289999961853027,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "alcove_bookcase_shelf",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.6115000247955322,
+            1.378499984741211,
+            -1.4900000095367432
+          ],
+          "max": [
+            -0.281499981880188,
+            1.4014999866485596,
+            -1.2899999618530273
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5824999809265137,
+            1.4040000438690186,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.5274999737739563,
+            1.5839999914169312,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5789999961853027,
+            1.412500023841858,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.531000018119812,
+            1.5755000114440918,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5770000219345093,
+            1.4259999990463257,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.5329999923706055,
+            1.4320000410079956,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5770000219345093,
+            1.555999994277954,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.5329999923706055,
+            1.562000036239624,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5134999752044678,
+            1.4040000438690186,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.4584999978542328,
+            1.6109999418258667,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5099999904632568,
+            1.412500023841858,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.4620000123977661,
+            1.6024999618530273,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5080000162124634,
+            1.4259999990463257,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.46399998664855957,
+            1.4320000410079956,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5080000162124634,
+            1.5829999446868896,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.46399998664855957,
+            1.5889999866485596,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.44449999928474426,
+            1.4040000438690186,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.3894999921321869,
+            1.5839999914169312,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.4410000145435333,
+            1.412500023841858,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.3930000066757202,
+            1.5755000114440918,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.4390000104904175,
+            1.4259999990463257,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.39500001072883606,
+            1.4320000410079956,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.4390000104904175,
+            1.555999994277954,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.39500001072883606,
+            1.562000036239624,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.37549999356269836,
+            1.4040000438690186,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.320499986410141,
+            1.6109999418258667,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.3720000088214874,
+            1.412500023841858,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.3240000009536743,
+            1.6024999618530273,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.3700000047683716,
+            1.4259999990463257,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.32600000500679016,
+            1.4320000410079956,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.3700000047683716,
+            1.5829999446868896,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.32600000500679016,
+            1.5889999866485596,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "alcove_bookcase_shelf",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.6115000247955322,
+            1.6484999656677246,
+            -1.4900000095367432
+          ],
+          "max": [
+            -0.281499981880188,
+            1.6714999675750732,
+            -1.2899999618530273
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5824999809265137,
+            1.6740000247955322,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.5274999737739563,
+            1.8539999723434448,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5789999961853027,
+            1.6825000047683716,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.531000018119812,
+            1.8454999923706055,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5770000219345093,
+            1.6959999799728394,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.5329999923706055,
+            1.7020000219345093,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5770000219345093,
+            1.8259999752044678,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.5329999923706055,
+            1.8320000171661377,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5134999752044678,
+            1.6740000247955322,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.4584999978542328,
+            1.88100004196167,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5099999904632568,
+            1.6825000047683716,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.4620000123977661,
+            1.872499942779541,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5080000162124634,
+            1.6959999799728394,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.46399998664855957,
+            1.7020000219345093,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5080000162124634,
+            1.8530000448226929,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.46399998664855957,
+            1.8589999675750732,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.44449999928474426,
+            1.6740000247955322,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.3894999921321869,
+            1.8539999723434448,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.4410000145435333,
+            1.6825000047683716,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.3930000066757202,
+            1.8454999923706055,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.4390000104904175,
+            1.6959999799728394,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.39500001072883606,
+            1.7020000219345093,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.4390000104904175,
+            1.8259999752044678,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.39500001072883606,
+            1.8320000171661377,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.37549999356269836,
+            1.6740000247955322,
+            -1.4270000457763672
+          ],
+          "max": [
+            -0.320499986410141,
+            1.88100004196167,
+            -1.3109999895095825
+          ]
+        }
+      },
+      {
+        "label": "bound_book_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.3720000088214874,
+            1.6825000047683716,
+            -1.3135000467300415
+          ],
+          "max": [
+            -0.3240000009536743,
+            1.872499942779541,
+            -1.3044999837875366
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.3700000047683716,
+            1.6959999799728394,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.32600000500679016,
+            1.7020000219345093,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "bound_book_spine",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.3700000047683716,
+            1.8530000448226929,
+            -1.3049999475479126
+          ],
+          "max": [
+            -0.32600000500679016,
+            1.8589999675750732,
+            -1.3009999990463257
+          ]
+        }
+      },
+      {
+        "label": "alcove_bookcase_shelf",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.6115000247955322,
+            1.9184999465942383,
+            -1.4900000095367432
+          ],
+          "max": [
+            -0.281499981880188,
+            1.941499948501587,
+            -1.2899999618530273
+          ]
+        }
+      },
+      {
+        "label": "wall_frame",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.5730000138282776,
+            1.2799999713897705,
+            -1.159999966621399
+          ],
+          "max": [
+            0.609000027179718,
+            1.7599999904632568,
+            -0.7599999904632568
+          ]
+        }
+      },
+      {
+        "label": "picture_mat",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.5605000257492065,
+            1.2999999523162842,
+            -1.1399999856948853
+          ],
+          "max": [
+            0.5715000033378601,
+            1.7400000095367432,
+            -0.7799999713897705
+          ]
+        }
+      },
+      {
+        "label": "original_relief_ground",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.5534999966621399,
+            1.3350000381469727,
+            -1.1050000190734863
+          ],
+          "max": [
+            0.5625,
+            1.7050000429153442,
+            -0.8149999976158142
+          ]
+        }
+      },
+      {
+        "label": "original_botanical_relief",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 14,
+        "bounds": {
+          "min": [
+            0.5490000247955322,
+            1.4509400129318237,
+            -1.0604000091552734
+          ],
+          "max": [
+            0.5490000247955322,
+            1.4930599927902222,
+            -0.9955999851226807
+          ]
+        }
+      },
+      {
+        "label": "original_botanical_relief",
+        "material": "facade_aged_brass",
+        "vertices": 14,
+        "bounds": {
+          "min": [
+            0.5490000247955322,
+            1.5429035425186157,
+            -0.9986100196838379
+          ],
+          "max": [
+            0.5490000247955322,
+            1.5930964946746826,
+            -0.9213899970054626
+          ]
+        }
+      },
+      {
+        "label": "original_botanical_relief",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 14,
+        "bounds": {
+          "min": [
+            0.5490000247955322,
+            1.4428670406341553,
+            -0.9368199706077576
+          ],
+          "max": [
+            0.5490000247955322,
+            1.5011329650878906,
+            -0.8471800088882446
+          ]
+        }
+      },
+      {
+        "label": "floor_border",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5559999942779541,
+            0.09000000357627869,
+            -1.4299999475479126
+          ],
+          "max": [
+            -0.5440000295639038,
+            0.09399999678134918,
+            -0.37000003457069397
+          ]
+        }
+      },
+      {
+        "label": "floor_border",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.5440000295639038,
+            0.09000000357627869,
+            -1.4299999475479126
+          ],
+          "max": [
+            0.5559999942779541,
+            0.09399999678134918,
+            -0.37000003457069397
+          ]
+        }
+      },
+      {
+        "label": "floor_border",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.550000011920929,
+            0.09000000357627869,
+            -1.4559999704360962
+          ],
+          "max": [
+            0.550000011920929,
+            0.09399999678134918,
+            -1.444000005722046
+          ]
+        }
+      }
+    ],
+    "validation": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "sha256": "67ce72bc954518cb61346e5c1c38a11599da433a3c742146b484753d529d917f"
+  },
+  "timber_storefront": {
+    "file": "timber_storefront.glb",
+    "bytes": 655848,
+    "before": {
+      "triangles": 9236,
+      "effectiveTriangles": 9236,
+      "surfaceAreaM2": 209.70442526395135,
+      "meshCount": 17,
+      "materials": [
+        "facade_interior_floor",
+        "facade_interior_plaster",
+        "facade_oak_wood",
+        "facade_walnut_frames",
+        "facade_glass",
+        "facade_aged_brass",
+        "facade_label_craft_goods",
+        "facade_ivory_ceramic",
+        "facade_burgundy_fabric_and_books",
+        "facade_teal_enamel_and_books",
+        "facade_carved_limestone",
+        "facade_interior_light"
+      ],
+      "bounds": {
+        "min": [
+          -2.0999999046325684,
+          -4.7683716530855236e-8,
+          -1.7999999523162842
+        ],
+        "max": [
+          2.0999999046325684,
+          3.4999780654907227,
+          1.0899896621704102
+        ]
+      }
+    },
+    "after": {
+      "triangles": 12484,
+      "effectiveTriangles": 12484,
+      "surfaceAreaM2": 219.72928152249182,
+      "meshCount": 25,
+      "materials": [
+        "facade_interior_floor",
+        "facade_interior_plaster",
+        "facade_oak_wood",
+        "facade_walnut_frames",
+        "facade_glass",
+        "facade_aged_brass",
+        "facade_label_craft_goods",
+        "facade_ivory_ceramic",
+        "facade_burgundy_fabric_and_books",
+        "facade_teal_enamel_and_books",
+        "facade_carved_limestone",
+        "facade_interior_light"
+      ],
+      "bounds": {
+        "min": [
+          -2.0999999046325684,
+          -4.7683716530855236e-8,
+          -1.7999999523162842
+        ],
+        "max": [
+          2.0999999046325684,
+          3.4999780654907227,
+          1.0899896621704102
+        ]
+      }
+    },
+    "addedTriangles": 3248,
+    "nominalSize": [
+      4.2,
+      3.5
+    ],
+    "opening": [
+      -1.82,
+      0.22,
+      1.82,
+      2.84
+    ],
+    "interiorDepth": 1.8,
+    "wallPlaneZ": 0,
+    "boundsDelta": {
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "max": [
+        0,
+        0,
+        0
+      ]
+    },
+    "exteriorAccessorHashesUnchanged": true,
+    "exteriorHashes": {
+      "exterior__facade_interior_floor": [
+        {
+          "POSITION": "45f78bbf94ba73c20cb939278610a2a36a9cf42fa66572e2594b99bca88732e1",
+          "NORMAL": "f5c86aee3cb8951b28df2b8d5aad61479ea527c130d0c4c2f283cf122f95e53e",
+          "TEXCOORD_0": "65e6daafbc1cfc7d5a02b5f978059376599a4ac3060fec981fc861556eefbc13",
+          "indices": "55f62ce48b0d8b234d3e52e68032808af29112f0e7f621fbeccef71dca023985"
+        }
+      ],
+      "exterior__facade_interior_plaster": [
+        {
+          "POSITION": "cce48818ab33a86685a4f46377d1fafef03aa59a7c6de8a808ea1913cc509f02",
+          "NORMAL": "c2bd5364c1a33e734a88814362968e36a1a8b259e181cbc31a78bf0985040462",
+          "TEXCOORD_0": "ca803c8080e02fc01166f66ad3e635e0e17674fbb9f32c57ff6cedec77410156",
+          "indices": "e01c39cdd33d68fad1459ab3c81ce8a383535cf66f1d7f728f7245005cab3da5"
+        }
+      ],
+      "exterior__facade_oak_wood": [
+        {
+          "POSITION": "32e5fa69d7d672e238c48a7406c466efa901ce6809df9aa7d1dfafccda858dfa",
+          "NORMAL": "ed32b07f206b24bdeb70ac6b835881a2a2ba06297404ed1bfd7d447e4551a12b",
+          "TEXCOORD_0": "119f40fae464d0c0b2c322d614129f71cf37a3dd342c55ce41569cb301dadee7",
+          "indices": "def65f66c8ec07ab5e21daa464e87a16756acbd223f57782f246672dd9ee4e18"
+        }
+      ],
+      "exterior__facade_walnut_frames": [
+        {
+          "POSITION": "b56c954839fb57e1aed0fbde76af92b96cc5ab6f3a533be3fd59b242a971f75b",
+          "NORMAL": "83a8dc39624f93334df62f9447cad343d224658c864c9c32da390eb7037182c9",
+          "TEXCOORD_0": "e1fbbf6095e74eebcf4d2cef6f6c3a786310b712cc38915042d22f038e3d99c4",
+          "indices": "179a265981fcf123cdbd19394774c4e2de381d23f6d21830a45326a0d8b8a51c"
+        }
+      ],
+      "exterior__facade_glass": [
+        {
+          "POSITION": "000cd09f39ab1bf3384af65d1dce3235bf1c6b24c06ebc3870d4c0e63e16bfe0",
+          "NORMAL": "3cef76b96eeb61ff1d4368e1c6abadaf7de7a3cd4bcbbb1dbc78de8f7aaa74d6",
+          "TEXCOORD_0": "c1a2e4eee59ea8061a1b6464b17f3bf69475711ce2fa4de646cc087e17132cc3",
+          "indices": "e01c39cdd33d68fad1459ab3c81ce8a383535cf66f1d7f728f7245005cab3da5"
+        }
+      ],
+      "exterior__facade_aged_brass": [
+        {
+          "POSITION": "109ff5922374c052e3ddc1ca077aa332927b6106198b07b7b8a08f4bfa84e11f",
+          "NORMAL": "b0bba54615f7fbeb590f1e8af5d658fb6013d93bf1fc743d9caefcb7d6ab608f",
+          "TEXCOORD_0": "4093cd8c4157a1d4a9cfa4b5f8594073ff136bba484df2db87f16c71107c77ce",
+          "indices": "4dc7978886de8882d059a225dda29f0ca4364304bddec229cbe4b07b26e38724"
+        }
+      ],
+      "exterior__facade_label_craft_goods": [
+        {
+          "POSITION": "a1692fddb7255e784a3c2bcce0061c84f0ec852b1004e3cb07a13088cdceea5b",
+          "NORMAL": "796f0b940d4268e7d9ccbd67f52dca773c768e372dae64d3c1b1caf59e6c8247",
+          "TEXCOORD_0": "f9d228e0dacefbaa2abcb90a930435b842027bd33d31a117eb3b8ba50650f785",
+          "indices": "0321725f3fb260c9658c1d8dd207f678f6de4eb657a5c70933225f3e8595bab2"
+        }
+      ]
+    },
+    "newVertexQA": {
+      "checkedVertices": 3733,
+      "boundsLimit": {
+        "min": [
+          -1.93,
+          0.082,
+          -1.715
+        ],
+        "max": [
+          1.93,
+          3.07,
+          -0.18
+        ]
+      },
+      "hostWallBackZ": -0.32,
+      "minAddedVertexClearanceM": 0.029999994039535516,
+      "violations": 0
+    },
+    "newObjects": [
+      {
+        "label": "cash_register_base",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.8252500295639038,
+            0.847000002861023,
+            -1.1085000038146973
+          ],
+          "max": [
+            1.0547499656677246,
+            0.9150000214576721,
+            -0.9214999675750732
+          ]
+        }
+      },
+      {
+        "label": "cash_register_body",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.8550000190734863,
+            0.8990782499313354,
+            -1.0944938659667969
+          ],
+          "max": [
+            1.024999976158142,
+            1.0091217756271362,
+            -0.9950061440467834
+          ]
+        }
+      },
+      {
+        "label": "register_screen",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.8889999985694885,
+            0.9455999732017517,
+            -1.0001499652862549
+          ],
+          "max": [
+            0.9909999966621399,
+            0.9847000241279602,
+            -0.9941499829292297
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.8864499926567078,
+            0.9156000018119812,
+            -0.988224983215332
+          ],
+          "max": [
+            0.9042999744415283,
+            0.9246000051498413,
+            -0.9737750291824341
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9161999821662903,
+            0.9156000018119812,
+            -0.988224983215332
+          ],
+          "max": [
+            0.9340500235557556,
+            0.9246000051498413,
+            -0.9737750291824341
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9459499716758728,
+            0.9156000018119812,
+            -0.988224983215332
+          ],
+          "max": [
+            0.9638000130653381,
+            0.9246000051498413,
+            -0.9737750291824341
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9757000207901001,
+            0.9156000018119812,
+            -0.988224983215332
+          ],
+          "max": [
+            0.9935500025749207,
+            0.9246000051498413,
+            -0.9737750291824341
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.8864499926567078,
+            0.9156000018119812,
+            -0.9627249836921692
+          ],
+          "max": [
+            0.9042999744415283,
+            0.9246000051498413,
+            -0.9482750296592712
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9161999821662903,
+            0.9156000018119812,
+            -0.9627249836921692
+          ],
+          "max": [
+            0.9340500235557556,
+            0.9246000051498413,
+            -0.9482750296592712
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9459499716758728,
+            0.9156000018119812,
+            -0.9627249836921692
+          ],
+          "max": [
+            0.9638000130653381,
+            0.9246000051498413,
+            -0.9482750296592712
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9757000207901001,
+            0.9156000018119812,
+            -0.9627249836921692
+          ],
+          "max": [
+            0.9935500025749207,
+            0.9246000051498413,
+            -0.9482750296592712
+          ]
+        }
+      },
+      {
+        "label": "cash_drawer_slot",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.8550000190734863,
+            0.8648999929428101,
+            -0.922950029373169
+          ],
+          "max": [
+            1.024999976158142,
+            0.8698999881744385,
+            -0.9149500131607056
+          ]
+        }
+      },
+      {
+        "label": "folio",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.7524999976158142,
+            0.8514999747276306,
+            -0.9900000095367432
+          ],
+          "max": [
+            0.8475000262260437,
+            0.8884999752044678,
+            -0.9179999828338623
+          ]
+        }
+      },
+      {
+        "label": "folio_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.7584999799728394,
+            0.8575000166893005,
+            -0.9810000061988831
+          ],
+          "max": [
+            0.8414999842643738,
+            0.8805000185966492,
+            -0.9150000214576721
+          ]
+        }
+      },
+      {
+        "label": "folio_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.8052499890327454,
+            0.8884999752044678,
+            -0.979200005531311
+          ],
+          "max": [
+            0.8232499957084656,
+            0.8914999961853027,
+            -0.9287999868392944
+          ]
+        }
+      },
+      {
+        "label": "cabinet_drawer",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.7250000238418579,
+            0.6675000190734863,
+            -0.8809999823570251
+          ],
+          "max": [
+            1.1549999713897705,
+            0.7825000286102295,
+            -0.8009999990463257
+          ]
+        }
+      },
+      {
+        "label": "drawer_inset",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.75,
+            0.6875,
+            -0.8004999756813049
+          ],
+          "max": [
+            1.1299999952316284,
+            0.762499988079071,
+            -0.7894999980926514
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            0.8195000290870667,
+            0.7120000123977661,
+            -0.79536372423172
+          ],
+          "max": [
+            0.8454999923706055,
+            0.7379999756813049,
+            -0.770636260509491
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            1.034500002861023,
+            0.7120000123977661,
+            -0.79536372423172
+          ],
+          "max": [
+            1.0605000257492065,
+            0.7379999756813049,
+            -0.770636260509491
+          ]
+        }
+      },
+      {
+        "label": "checkout_lower_shelf",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.7150000333786011,
+            0.27900001406669617,
+            -1.1699999570846558
+          ],
+          "max": [
+            1.1649999618530273,
+            0.3009999990463257,
+            -0.8700000047683716
+          ]
+        }
+      },
+      {
+        "label": "ledger_stack",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.824999988079071,
+            0.31049999594688416,
+            -1.1050000190734863
+          ],
+          "max": [
+            1.0549999475479126,
+            0.3474999964237213,
+            -0.9350000023841858
+          ]
+        }
+      },
+      {
+        "label": "ledger_stack_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.831000030040741,
+            0.3165000081062317,
+            -1.0959999561309814
+          ],
+          "max": [
+            1.0490000247955322,
+            0.3395000100135803,
+            -0.9319999814033508
+          ]
+        }
+      },
+      {
+        "label": "ledger_stack_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.965499997138977,
+            0.3474999964237213,
+            -1.0794999599456787
+          ],
+          "max": [
+            0.9835000038146973,
+            0.3504999876022339,
+            -0.9605000019073486
+          ]
+        }
+      },
+      {
+        "label": "right_bay_display_cabinet",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.315000057220459,
+            0.13999998569488525,
+            -0.8100000023841858
+          ],
+          "max": [
+            1.7649999856948853,
+            0.800000011920929,
+            -0.49000000953674316
+          ]
+        }
+      },
+      {
+        "label": "cabinet_countertop",
+        "material": "facade_carved_limestone",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.2949999570846558,
+            0.8004999756813049,
+            -0.8299999833106995
+          ],
+          "max": [
+            1.784999966621399,
+            0.843500018119812,
+            -0.4699999988079071
+          ]
+        }
+      },
+      {
+        "label": "cabinet_drawer",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.340000033378601,
+            0.6050000190734863,
+            -0.5019999742507935
+          ],
+          "max": [
+            1.7400000095367432,
+            0.7549999952316284,
+            -0.421999990940094
+          ]
+        }
+      },
+      {
+        "label": "drawer_inset",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.3650000095367432,
+            0.625,
+            -0.42149999737739563
+          ],
+          "max": [
+            1.715000033378601,
+            0.7350000143051147,
+            -0.4104999899864197
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            1.4270000457763672,
+            0.6669999957084656,
+            -0.41636374592781067
+          ],
+          "max": [
+            1.4529999494552612,
+            0.6930000185966492,
+            -0.3916362524032593
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            1.6269999742507935,
+            0.6669999957084656,
+            -0.41636374592781067
+          ],
+          "max": [
+            1.652999997138977,
+            0.6930000185966492,
+            -0.3916362524032593
+          ]
+        }
+      },
+      {
+        "label": "cabinet_lower_panel",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.3600000143051147,
+            0.27900001406669617,
+            -0.48649999499320984
+          ],
+          "max": [
+            1.7200000286102295,
+            0.5690000057220459,
+            -0.4715000092983246
+          ]
+        }
+      },
+      {
+        "label": "display_tray",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.340000033378601,
+            0.8475000262260437,
+            -0.7900000214576721
+          ],
+          "max": [
+            1.7400000095367432,
+            0.8705000281333923,
+            -0.5099999904632568
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.340000033378601,
+            0.8650000095367432,
+            -0.7889999747276306
+          ],
+          "max": [
+            1.7400000095367432,
+            0.8930000066757202,
+            -0.7710000276565552
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.340000033378601,
+            0.8650000095367432,
+            -0.5289999842643738
+          ],
+          "max": [
+            1.7400000095367432,
+            0.8930000066757202,
+            -0.5109999775886536
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.340999960899353,
+            0.8650000095367432,
+            -0.7900000214576721
+          ],
+          "max": [
+            1.3589999675750732,
+            0.8930000066757202,
+            -0.5099999904632568
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.7209999561309814,
+            0.8650000095367432,
+            -0.7900000214576721
+          ],
+          "max": [
+            1.7389999628067017,
+            0.8930000066757202,
+            -0.5099999904632568
+          ]
+        }
+      },
+      {
+        "label": "artisan_bottle",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            1.3957619667053223,
+            0.8949999809265137,
+            -0.7360000014305115
+          ],
+          "max": [
+            1.4642380475997925,
+            1.1150000095367432,
+            -0.6639999747276306
+          ]
+        }
+      },
+      {
+        "label": "artisan_bottle_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            1.4142504930496216,
+            1.1030000448226929,
+            -0.7165600061416626
+          ],
+          "max": [
+            1.4457495212554932,
+            1.13100004196167,
+            -0.6834400296211243
+          ]
+        }
+      },
+      {
+        "label": "artisan_bottle_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.4138000011444092,
+            0.949999988079071,
+            -0.6639999747276306
+          ],
+          "max": [
+            1.4462000131607056,
+            1.0160000324249268,
+            -0.6600000262260437
+          ]
+        }
+      },
+      {
+        "label": "artisan_bottle",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            1.5557619333267212,
+            0.8949999809265137,
+            -0.7160000205039978
+          ],
+          "max": [
+            1.6242380142211914,
+            1.065000057220459,
+            -0.6439999938011169
+          ]
+        }
+      },
+      {
+        "label": "artisan_bottle_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            1.5742504596710205,
+            1.0529999732971191,
+            -0.6965600252151489
+          ],
+          "max": [
+            1.605749487876892,
+            1.0809999704360962,
+            -0.6634399890899658
+          ]
+        }
+      },
+      {
+        "label": "artisan_bottle_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.573799967765808,
+            0.9375,
+            -0.6439999938011169
+          ],
+          "max": [
+            1.6061999797821045,
+            0.9884999990463257,
+            -0.6399999856948853
+          ]
+        }
+      },
+      {
+        "label": "artisan_bottle",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            1.4857620000839233,
+            0.8949999809265137,
+            -0.5960000157356262
+          ],
+          "max": [
+            1.5542380809783936,
+            1.0449999570846558,
+            -0.5239999890327454
+          ]
+        }
+      },
+      {
+        "label": "artisan_bottle_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            1.5042505264282227,
+            1.0329999923706055,
+            -0.5765600204467773
+          ],
+          "max": [
+            1.5357495546340942,
+            1.0609999895095825,
+            -0.5434399843215942
+          ]
+        }
+      },
+      {
+        "label": "artisan_bottle_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.5038000345230103,
+            0.9325000047683716,
+            -0.5239999890327454
+          ],
+          "max": [
+            1.5362000465393066,
+            0.9775000214576721,
+            -0.5199999809265137
+          ]
+        }
+      },
+      {
+        "label": "saucer",
+        "material": "facade_ivory_ceramic",
+        "vertices": 100,
+        "bounds": {
+          "min": [
+            -1.159000039100647,
+            0.8730000257492065,
+            -0.8389999866485596
+          ],
+          "max": [
+            -1.0410000085830688,
+            0.8809999823570251,
+            -0.7210000157356262
+          ]
+        }
+      },
+      {
+        "label": "cup",
+        "material": "facade_ivory_ceramic",
+        "vertices": 65,
+        "bounds": {
+          "min": [
+            -1.1260000467300415,
+            0.8859999775886536,
+            -0.8059999942779541
+          ],
+          "max": [
+            -1.0740000009536743,
+            0.9490000009536743,
+            -0.7540000081062317
+          ]
+        }
+      },
+      {
+        "label": "cup_handle",
+        "material": "facade_ivory_ceramic",
+        "vertices": 65,
+        "bounds": {
+          "min": [
+            -1.081220030784607,
+            0.8951600193977356,
+            -0.803600013256073
+          ],
+          "max": [
+            -1.0652199983596802,
+            0.942359983921051,
+            -0.7563999891281128
+          ]
+        }
+      },
+      {
+        "label": "saucer",
+        "material": "facade_ivory_ceramic",
+        "vertices": 100,
+        "bounds": {
+          "min": [
+            -0.7490000128746033,
+            0.8730000257492065,
+            -0.8389999866485596
+          ],
+          "max": [
+            -0.6309999823570251,
+            0.8809999823570251,
+            -0.7210000157356262
+          ]
+        }
+      },
+      {
+        "label": "cup",
+        "material": "facade_ivory_ceramic",
+        "vertices": 65,
+        "bounds": {
+          "min": [
+            -0.7160000205039978,
+            0.8859999775886536,
+            -0.8059999942779541
+          ],
+          "max": [
+            -0.6639999747276306,
+            0.9490000009536743,
+            -0.7540000081062317
+          ]
+        }
+      },
+      {
+        "label": "cup_handle",
+        "material": "facade_ivory_ceramic",
+        "vertices": 65,
+        "bounds": {
+          "min": [
+            -0.6712200045585632,
+            0.8951600193977356,
+            -0.803600013256073
+          ],
+          "max": [
+            -0.6552199721336365,
+            0.942359983921051,
+            -0.7563999891281128
+          ]
+        }
+      },
+      {
+        "label": "slatted_crate",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6800000071525574,
+            0.12250000238418579,
+            -0.7789999842643738
+          ],
+          "max": [
+            0.9599999785423279,
+            0.14749999344348907,
+            -0.7609999775886536
+          ]
+        }
+      },
+      {
+        "label": "slatted_crate",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6800000071525574,
+            0.12250000238418579,
+            -0.5389999747276306
+          ],
+          "max": [
+            0.9599999785423279,
+            0.14749999344348907,
+            -0.5210000276565552
+          ]
+        }
+      },
+      {
+        "label": "slatted_crate",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6800000071525574,
+            0.16750000417232513,
+            -0.7789999842643738
+          ],
+          "max": [
+            0.9599999785423279,
+            0.19249999523162842,
+            -0.7609999775886536
+          ]
+        }
+      },
+      {
+        "label": "slatted_crate",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6800000071525574,
+            0.16750000417232513,
+            -0.5389999747276306
+          ],
+          "max": [
+            0.9599999785423279,
+            0.19249999523162842,
+            -0.5210000276565552
+          ]
+        }
+      },
+      {
+        "label": "slatted_crate",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6800000071525574,
+            0.21250000596046448,
+            -0.7789999842643738
+          ],
+          "max": [
+            0.9599999785423279,
+            0.23749999701976776,
+            -0.7609999775886536
+          ]
+        }
+      },
+      {
+        "label": "slatted_crate",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6800000071525574,
+            0.21250000596046448,
+            -0.5389999747276306
+          ],
+          "max": [
+            0.9599999785423279,
+            0.23749999701976776,
+            -0.5210000276565552
+          ]
+        }
+      },
+      {
+        "label": "slatted_crate",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6800000071525574,
+            0.2574999928474426,
+            -0.7789999842643738
+          ],
+          "max": [
+            0.9599999785423279,
+            0.2824999988079071,
+            -0.7609999775886536
+          ]
+        }
+      },
+      {
+        "label": "slatted_crate",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6800000071525574,
+            0.2574999928474426,
+            -0.5389999747276306
+          ],
+          "max": [
+            0.9599999785423279,
+            0.2824999988079071,
+            -0.5210000276565552
+          ]
+        }
+      },
+      {
+        "label": "crate_corner",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6790000200271606,
+            0.10500000417232513,
+            -0.7710000276565552
+          ],
+          "max": [
+            0.7009999752044678,
+            0.29499998688697815,
+            -0.7490000128746033
+          ]
+        }
+      },
+      {
+        "label": "crate_corner",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6790000200271606,
+            0.10500000417232513,
+            -0.5509999990463257
+          ],
+          "max": [
+            0.7009999752044678,
+            0.29499998688697815,
+            -0.5289999842643738
+          ]
+        }
+      },
+      {
+        "label": "crate_corner",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9390000104904175,
+            0.10500000417232513,
+            -0.7710000276565552
+          ],
+          "max": [
+            0.9610000252723694,
+            0.29499998688697815,
+            -0.7490000128746033
+          ]
+        }
+      },
+      {
+        "label": "crate_corner",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9390000104904175,
+            0.10500000417232513,
+            -0.5509999990463257
+          ],
+          "max": [
+            0.9610000252723694,
+            0.29499998688697815,
+            -0.5289999842643738
+          ]
+        }
+      },
+      {
+        "label": "crate_base",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6800000071525574,
+            0.10000000149011612,
+            -0.7699999809265137
+          ],
+          "max": [
+            0.9599999785423279,
+            0.12600000202655792,
+            -0.5300000309944153
+          ]
+        }
+      },
+      {
+        "label": "boxed_craft",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            0.7162235975265503,
+            0.13699999451637268,
+            -0.675000011920929
+          ],
+          "max": [
+            0.763776421546936,
+            0.3070000112056732,
+            -0.625
+          ]
+        }
+      },
+      {
+        "label": "boxed_craft_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            0.7290628552436829,
+            0.29499998688697815,
+            -0.6614999771118164
+          ],
+          "max": [
+            0.7509371638298035,
+            0.3230000138282776,
+            -0.6384999752044678
+          ]
+        }
+      },
+      {
+        "label": "boxed_craft_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.7287499904632568,
+            0.17949999868869781,
+            -0.625
+          ],
+          "max": [
+            0.7512500286102295,
+            0.2304999977350235,
+            -0.6209999918937683
+          ]
+        }
+      },
+      {
+        "label": "boxed_craft",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            0.7962235808372498,
+            0.13699999451637268,
+            -0.675000011920929
+          ],
+          "max": [
+            0.8437764048576355,
+            0.3070000112056732,
+            -0.625
+          ]
+        }
+      },
+      {
+        "label": "boxed_craft_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            0.8090628385543823,
+            0.29499998688697815,
+            -0.6614999771118164
+          ],
+          "max": [
+            0.8309371471405029,
+            0.3230000138282776,
+            -0.6384999752044678
+          ]
+        }
+      },
+      {
+        "label": "boxed_craft_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.8087499737739563,
+            0.17949999868869781,
+            -0.625
+          ],
+          "max": [
+            0.831250011920929,
+            0.2304999977350235,
+            -0.6209999918937683
+          ]
+        }
+      },
+      {
+        "label": "boxed_craft",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            0.8762235641479492,
+            0.13699999451637268,
+            -0.675000011920929
+          ],
+          "max": [
+            0.923776388168335,
+            0.3070000112056732,
+            -0.625
+          ]
+        }
+      },
+      {
+        "label": "boxed_craft_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            0.8890628218650818,
+            0.29499998688697815,
+            -0.6614999771118164
+          ],
+          "max": [
+            0.9109371304512024,
+            0.3230000138282776,
+            -0.6384999752044678
+          ]
+        }
+      },
+      {
+        "label": "boxed_craft_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.8887500166893005,
+            0.17949999868869781,
+            -0.625
+          ],
+          "max": [
+            0.9112499952316284,
+            0.2304999977350235,
+            -0.6209999918937683
+          ]
+        }
+      },
+      {
+        "label": "rear_low_cabinet",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.2800000011920929,
+            0.10000000149011612,
+            -1.659999966621399
+          ],
+          "max": [
+            0.3800000250339508,
+            0.44999998807907104,
+            -1.4199999570846558
+          ]
+        }
+      },
+      {
+        "label": "cabinet_drawer",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.25,
+            0.20000000298023224,
+            -1.4470000267028809
+          ],
+          "max": [
+            0.3500000238418579,
+            0.41999998688697815,
+            -1.3669999837875366
+          ]
+        }
+      },
+      {
+        "label": "drawer_inset",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.22500000894069672,
+            0.2199999988079071,
+            -1.3665000200271606
+          ],
+          "max": [
+            0.32500001788139343,
+            0.4000000059604645,
+            -1.3554999828338623
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            -0.11299999803304672,
+            0.296999990940094,
+            -1.3613637685775757
+          ],
+          "max": [
+            -0.08699999749660492,
+            0.3230000138282776,
+            -1.3366363048553467
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            0.18700000643730164,
+            0.296999990940094,
+            -1.3613637685775757
+          ],
+          "max": [
+            0.21299999952316284,
+            0.3230000138282776,
+            -1.3366363048553467
+          ]
+        }
+      },
+      {
+        "label": "low_shelf_pottery",
+        "material": "facade_ivory_ceramic",
+        "vertices": 91,
+        "bounds": {
+          "min": [
+            -0.2290000021457672,
+            0.4620000123977661,
+            -1.5889999866485596
+          ],
+          "max": [
+            -0.13099999725818634,
+            0.5920000076293945,
+            -1.4910000562667847
+          ]
+        }
+      },
+      {
+        "label": "low_shelf_pottery_mouth",
+        "material": "facade_walnut_frames",
+        "vertices": 76,
+        "bounds": {
+          "min": [
+            -0.2045000046491623,
+            0.5730000138282776,
+            -1.5644999742507935
+          ],
+          "max": [
+            -0.15549999475479126,
+            0.5789999961853027,
+            -1.5154999494552612
+          ]
+        }
+      },
+      {
+        "label": "low_shelf_pottery",
+        "material": "facade_ivory_ceramic",
+        "vertices": 91,
+        "bounds": {
+          "min": [
+            0.0010000013280659914,
+            0.4620000123977661,
+            -1.5889999866485596
+          ],
+          "max": [
+            0.0989999994635582,
+            0.5920000076293945,
+            -1.4910000562667847
+          ]
+        }
+      },
+      {
+        "label": "low_shelf_pottery_mouth",
+        "material": "facade_walnut_frames",
+        "vertices": 76,
+        "bounds": {
+          "min": [
+            0.02550000138580799,
+            0.5730000138282776,
+            -1.5644999742507935
+          ],
+          "max": [
+            0.07450000196695328,
+            0.5789999961853027,
+            -1.5154999494552612
+          ]
+        }
+      },
+      {
+        "label": "low_shelf_pottery",
+        "material": "facade_ivory_ceramic",
+        "vertices": 91,
+        "bounds": {
+          "min": [
+            0.23100000619888306,
+            0.4620000123977661,
+            -1.5889999866485596
+          ],
+          "max": [
+            0.32899999618530273,
+            0.5920000076293945,
+            -1.4910000562667847
+          ]
+        }
+      },
+      {
+        "label": "low_shelf_pottery_mouth",
+        "material": "facade_walnut_frames",
+        "vertices": 76,
+        "bounds": {
+          "min": [
+            0.2554999887943268,
+            0.5730000138282776,
+            -1.5644999742507935
+          ],
+          "max": [
+            0.304500013589859,
+            0.5789999961853027,
+            -1.5154999494552612
+          ]
+        }
+      },
+      {
+        "label": "ceiling_beam",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.7625000476837158,
+            2.940000057220459,
+            -1.5149999856948853
+          ],
+          "max": [
+            -1.6974999904632568,
+            3.059999942779541,
+            -0.36500000953674316
+          ]
+        }
+      },
+      {
+        "label": "ceiling_beam",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.6974999904632568,
+            2.940000057220459,
+            -1.5149999856948853
+          ],
+          "max": [
+            1.7625000476837158,
+            3.059999942779541,
+            -0.36500000953674316
+          ]
+        }
+      },
+      {
+        "label": "ceiling_front_crossbeam",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.725000023841858,
+            2.9649999141693115,
+            -0.44999998807907104
+          ],
+          "max": [
+            1.725000023841858,
+            3.065000057220459,
+            -0.3499999940395355
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.4299999475479126,
+            1.2719999551773071,
+            -1.3869999647140503
+          ],
+          "max": [
+            1.4299999475479126,
+            1.284000039100647,
+            -1.3650000095367432
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.4299999475479126,
+            1.8220000267028809,
+            -1.3869999647140503
+          ],
+          "max": [
+            1.4299999475479126,
+            1.8339999914169312,
+            -1.3650000095367432
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.4299999475479126,
+            2.371999979019165,
+            -1.3869999647140503
+          ],
+          "max": [
+            1.4299999475479126,
+            2.384000062942505,
+            -1.3650000095367432
+          ]
+        }
+      },
+      {
+        "label": "wall_frame",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.871999979019165,
+            1.75,
+            -0.8050000071525574
+          ],
+          "max": [
+            1.9079999923706055,
+            2.25,
+            -0.4150000214576721
+          ]
+        }
+      },
+      {
+        "label": "picture_mat",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.8595000505447388,
+            1.7699999809265137,
+            -0.7850000262260437
+          ],
+          "max": [
+            1.8704999685287476,
+            2.2300000190734863,
+            -0.4350000023841858
+          ]
+        }
+      },
+      {
+        "label": "original_relief_ground",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.8524999618530273,
+            1.8050000667572021,
+            -0.75
+          ],
+          "max": [
+            1.8615000247955322,
+            2.194999933242798,
+            -0.4699999988079071
+          ]
+        }
+      },
+      {
+        "label": "original_botanical_relief",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 14,
+        "bounds": {
+          "min": [
+            1.8480000495910645,
+            1.9297200441360474,
+            -0.7074999809265137
+          ],
+          "max": [
+            1.8480000495910645,
+            1.9702800512313843,
+            -0.6450999975204468
+          ]
+        }
+      },
+      {
+        "label": "original_botanical_relief",
+        "material": "facade_aged_brass",
+        "vertices": 14,
+        "bounds": {
+          "min": [
+            1.8480000495910645,
+            2.0258328914642334,
+            -0.6471800208091736
+          ],
+          "max": [
+            1.8480000495910645,
+            2.074167013168335,
+            -0.5728200078010559
+          ]
+        }
+      },
+      {
+        "label": "original_botanical_relief",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 14,
+        "bounds": {
+          "min": [
+            1.8480000495910645,
+            1.9219460487365723,
+            -0.5868600010871887
+          ],
+          "max": [
+            1.8480000495910645,
+            1.9780540466308594,
+            -0.500540018081665
+          ]
+        }
+      }
+    ],
+    "validation": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "sha256": "bad7a652da24cff9996964b69cab0b9a873e3db2013d05b6bcbf32efa59d643f"
+  },
+  "urban_storefront": {
+    "file": "urban_storefront.glb",
+    "bytes": 654284,
+    "before": {
+      "triangles": 6702,
+      "effectiveTriangles": 6702,
+      "surfaceAreaM2": 201.1431914362573,
+      "meshCount": 20,
+      "materials": [
+        "facade_interior_floor",
+        "facade_interior_plaster",
+        "facade_oak_wood",
+        "facade_walnut_frames",
+        "facade_powder_coated_graphite",
+        "facade_aged_brass",
+        "facade_glass",
+        "facade_teal_enamel_and_books",
+        "facade_ivory_fabric",
+        "facade_label_atelier_gifts",
+        "facade_carved_limestone",
+        "facade_burgundy_fabric_and_books",
+        "facade_ivory_ceramic",
+        "facade_interior_light"
+      ],
+      "bounds": {
+        "min": [
+          -2.0999999046325684,
+          -5.7220457705398076e-8,
+          -2
+        ],
+        "max": [
+          2.0999999046325684,
+          3.499994993209839,
+          0.8612020611763
+        ]
+      }
+    },
+    "after": {
+      "triangles": 10872,
+      "effectiveTriangles": 10872,
+      "surfaceAreaM2": 213.26784708698904,
+      "meshCount": 28,
+      "materials": [
+        "facade_interior_floor",
+        "facade_interior_plaster",
+        "facade_oak_wood",
+        "facade_walnut_frames",
+        "facade_powder_coated_graphite",
+        "facade_aged_brass",
+        "facade_glass",
+        "facade_teal_enamel_and_books",
+        "facade_ivory_fabric",
+        "facade_label_atelier_gifts",
+        "facade_carved_limestone",
+        "facade_burgundy_fabric_and_books",
+        "facade_ivory_ceramic",
+        "facade_interior_light"
+      ],
+      "bounds": {
+        "min": [
+          -2.0999999046325684,
+          -5.7220457705398076e-8,
+          -2
+        ],
+        "max": [
+          2.0999999046325684,
+          3.499994993209839,
+          0.8612020611763
+        ]
+      }
+    },
+    "addedTriangles": 4170,
+    "nominalSize": [
+      4.2,
+      3.5
+    ],
+    "opening": [
+      -1.935,
+      0.24,
+      1.91,
+      3.06
+    ],
+    "interiorDepth": 2,
+    "wallPlaneZ": 0,
+    "boundsDelta": {
+      "min": [
+        0,
+        0,
+        0
+      ],
+      "max": [
+        0,
+        0,
+        0
+      ]
+    },
+    "exteriorAccessorHashesUnchanged": true,
+    "exteriorHashes": {
+      "exterior__facade_interior_floor": [
+        {
+          "POSITION": "62314f40feb6bb478191caa6edd6a0ef335ed8570ce5ea610bf8840ce099874d",
+          "NORMAL": "f5c86aee3cb8951b28df2b8d5aad61479ea527c130d0c4c2f283cf122f95e53e",
+          "TEXCOORD_0": "420b4660d7c8b02d549a229b75e73994d428f20685b6a66b2ee6eb2e8688e460",
+          "indices": "55f62ce48b0d8b234d3e52e68032808af29112f0e7f621fbeccef71dca023985"
+        }
+      ],
+      "exterior__facade_interior_plaster": [
+        {
+          "POSITION": "1984235a6c73ed27b3f4357e01c6eb03d675929b4b877d11ad8ac8530732a936",
+          "NORMAL": "c2bd5364c1a33e734a88814362968e36a1a8b259e181cbc31a78bf0985040462",
+          "TEXCOORD_0": "d6e547b70cc641a71d417f208294913f9f0d2380eedaaa53ecb9f370bcd80355",
+          "indices": "e01c39cdd33d68fad1459ab3c81ce8a383535cf66f1d7f728f7245005cab3da5"
+        }
+      ],
+      "exterior__facade_oak_wood": [
+        {
+          "POSITION": "232236b8cc36533939d8d87cb1f7ac269d805a7e0c39adc3b6aaa532b05e8d37",
+          "NORMAL": "a15b5396bb9183cbfb319155e8e3474a20bc11f2d5ba10d1850980b0c8a9558b",
+          "TEXCOORD_0": "6d87a5c6c86063650998bb1bb6f2d2cf8a874e07c1e1c7c8352f472cd07c6950",
+          "indices": "0bed8be17253d6681a52438ce64fc16f1d9dfff082788119807eb86ce24283bf"
+        }
+      ],
+      "exterior__facade_powder_coated_graphite": [
+        {
+          "POSITION": "ca70c9b65206c0ecd79e60cb49169a5fb8e2e839cf5860b24f8a9096f8fdbdc6",
+          "NORMAL": "9040b016aeee8a66fbeea3ecafc7dda737f0f741e5381e07aff464041f4ae096",
+          "TEXCOORD_0": "c48f1b7f8e3d5aae6278305e8a62f149be8070f2dc8797bed79660b612e83d51",
+          "indices": "072cfc3c8330b445b6af0d6b018e3b1192d8fc8c55de783aa5b5b9ab71291c97"
+        }
+      ],
+      "exterior__facade_aged_brass": [
+        {
+          "POSITION": "2904b2a10fef49f224f9bf48f150b26700869706f29d0d1c61de3ff3c4ca451e",
+          "NORMAL": "b34a1ad07879ac0e25851ccca89d084e0cdc5e0fe01b8ca763b3471e7e8a7e17",
+          "TEXCOORD_0": "9ed68870873d6d16aad2d274ecf0d12d836709d94cb005bd6146d8e2faba66a3",
+          "indices": "8aef365eaab21341e7a97e7e603217dfba380a1385295301d574a6fd3646405a"
+        }
+      ],
+      "exterior__facade_glass": [
+        {
+          "POSITION": "5a144f2c2cd034c41f76e098328eb3de25bef8359d0f2dcdf6365d5326824a37",
+          "NORMAL": "f5c86aee3cb8951b28df2b8d5aad61479ea527c130d0c4c2f283cf122f95e53e",
+          "TEXCOORD_0": "00f02bcbdc2144d3c75c6ee0f1fa43028cd9e8b9493458304a8d3002e9b3ee5c",
+          "indices": "55f62ce48b0d8b234d3e52e68032808af29112f0e7f621fbeccef71dca023985"
+        }
+      ],
+      "exterior__facade_teal_enamel_and_books": [
+        {
+          "POSITION": "d7f64bc0c651f2c7e6efb8ed6e4ba0ce33b5ccfda93ed6397bdc5e4b606409ac",
+          "TEXCOORD_0": "c641ac88ba2c8cc903f7ccf8b8714163d4132184878bafe9635408be77a7ee7f",
+          "NORMAL": "3c4cb9f8e5c6dc234b76a98ceda52ae9173ea837083084d0014db0a84e82642a",
+          "indices": "9db958a7d8a7c75940cf65f8c0502f9d1c5a0911ea46b57d7a826e358ae34fe8"
+        }
+      ],
+      "exterior__facade_ivory_fabric": [
+        {
+          "POSITION": "acbe1d57fa9152571c41e7ce768e3a0c0f7a25a47d911fe2c82531abdcf3dbcd",
+          "TEXCOORD_0": "bb2d40b0c7fd0488d03b4652f24901f804c22cc8df6fd714358c29ac688efd40",
+          "NORMAL": "c8cfa2165fc866c2c4d6781976f846829e97559b0178f9619641ad1496f7d29a",
+          "indices": "04dc366763711c2b3a78826e7333d5f3f94dd36d41bcee9db167f2505956886b"
+        }
+      ],
+      "exterior__facade_label_atelier_gifts": [
+        {
+          "POSITION": "07c11524fd337c6955fd2d26827f0c6cfb9e63c38b444db71342b2a4811b51ce",
+          "NORMAL": "796f0b940d4268e7d9ccbd67f52dca773c768e372dae64d3c1b1caf59e6c8247",
+          "TEXCOORD_0": "f9d228e0dacefbaa2abcb90a930435b842027bd33d31a117eb3b8ba50650f785",
+          "indices": "0321725f3fb260c9658c1d8dd207f678f6de4eb657a5c70933225f3e8595bab2"
+        }
+      ]
+    },
+    "newVertexQA": {
+      "checkedVertices": 5413,
+      "boundsLimit": {
+        "min": [
+          -1.93,
+          0.082,
+          -1.915
+        ],
+        "max": [
+          1.93,
+          3.3,
+          -0.18
+        ]
+      },
+      "hostWallBackZ": -0.32,
+      "minAddedVertexClearanceM": 0.08299999713897704,
+      "violations": 0
+    },
+    "newObjects": [
+      {
+        "label": "front_shelf_extension",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.9249999523162842,
+            0.6225000023841858,
+            -1.590000033378601
+          ],
+          "max": [
+            -1.2549999952316284,
+            0.6575000286102295,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "display_tray",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.9199999570846558,
+            0.6604999899864197,
+            -1.590000033378601
+          ],
+          "max": [
+            -1.2599999904632568,
+            0.6834999918937683,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.9199999570846558,
+            0.6779999732971191,
+            -1.5889999866485596
+          ],
+          "max": [
+            -1.2599999904632568,
+            0.706000030040741,
+            -1.5709999799728394
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.9199999570846558,
+            0.6779999732971191,
+            -1.4290000200271606
+          ],
+          "max": [
+            -1.2599999904632568,
+            0.706000030040741,
+            -1.4110000133514404
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.9190000295639038,
+            0.6779999732971191,
+            -1.590000033378601
+          ],
+          "max": [
+            -1.9010000228881836,
+            0.706000030040741,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.2790000438690186,
+            0.6779999732971191,
+            -1.590000033378601
+          ],
+          "max": [
+            -1.2610000371932983,
+            0.706000030040741,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            -1.8542380332946777,
+            0.6859999895095825,
+            -1.5360000133514404
+          ],
+          "max": [
+            -1.7857619524002075,
+            0.8560000061988831,
+            -1.4639999866485596
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            -1.8357495069503784,
+            0.843999981880188,
+            -1.5165599584579468
+          ],
+          "max": [
+            -1.8042504787445068,
+            0.871999979019165,
+            -1.4834400415420532
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.8361999988555908,
+            0.7285000085830688,
+            -1.4639999866485596
+          ],
+          "max": [
+            -1.8037999868392944,
+            0.7795000076293945,
+            -1.4600000381469727
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            -1.654237985610962,
+            0.6859999895095825,
+            -1.5360000133514404
+          ],
+          "max": [
+            -1.5857620239257812,
+            0.8959999680519104,
+            -1.4639999866485596
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            -1.6357494592666626,
+            0.8840000033378601,
+            -1.5165599584579468
+          ],
+          "max": [
+            -1.6042505502700806,
+            0.9120000004768372,
+            -1.4834400415420532
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.636199951171875,
+            0.7384999990463257,
+            -1.4639999866485596
+          ],
+          "max": [
+            -1.6038000583648682,
+            0.8015000224113464,
+            -1.4600000381469727
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            -1.4542380571365356,
+            0.6859999895095825,
+            -1.5360000133514404
+          ],
+          "max": [
+            -1.3857619762420654,
+            0.8560000061988831,
+            -1.4639999866485596
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            -1.4357495307922363,
+            0.843999981880188,
+            -1.5165599584579468
+          ],
+          "max": [
+            -1.4042505025863647,
+            0.871999979019165,
+            -1.4834400415420532
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.4362000226974487,
+            0.7285000085830688,
+            -1.4639999866485596
+          ],
+          "max": [
+            -1.4038000106811523,
+            0.7795000076293945,
+            -1.4600000381469727
+          ]
+        }
+      },
+      {
+        "label": "front_shelf_extension",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.9850000143051147,
+            0.6225000023841858,
+            -1.590000033378601
+          ],
+          "max": [
+            -0.3149999976158142,
+            0.6575000286102295,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "display_tray",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.9800000190734863,
+            0.6604999899864197,
+            -1.590000033378601
+          ],
+          "max": [
+            -0.3199999928474426,
+            0.6834999918937683,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.9800000190734863,
+            0.6779999732971191,
+            -1.5889999866485596
+          ],
+          "max": [
+            -0.3199999928474426,
+            0.706000030040741,
+            -1.5709999799728394
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.9800000190734863,
+            0.6779999732971191,
+            -1.4290000200271606
+          ],
+          "max": [
+            -0.3199999928474426,
+            0.706000030040741,
+            -1.4110000133514404
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.9789999723434448,
+            0.6779999732971191,
+            -1.590000033378601
+          ],
+          "max": [
+            -0.9610000252723694,
+            0.706000030040741,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.33899998664855957,
+            0.6779999732971191,
+            -1.590000033378601
+          ],
+          "max": [
+            -0.32100000977516174,
+            0.706000030040741,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            -0.9142380356788635,
+            0.6859999895095825,
+            -1.5360000133514404
+          ],
+          "max": [
+            -0.8457619547843933,
+            0.8560000061988831,
+            -1.4639999866485596
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            -0.8957495093345642,
+            0.843999981880188,
+            -1.5165599584579468
+          ],
+          "max": [
+            -0.8642504811286926,
+            0.871999979019165,
+            -1.4834400415420532
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.8962000012397766,
+            0.7285000085830688,
+            -1.4639999866485596
+          ],
+          "max": [
+            -0.8637999892234802,
+            0.7795000076293945,
+            -1.4600000381469727
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            -0.7142380475997925,
+            0.6859999895095825,
+            -1.5360000133514404
+          ],
+          "max": [
+            -0.6457619667053223,
+            0.8959999680519104,
+            -1.4639999866485596
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            -0.6957495212554932,
+            0.8840000033378601,
+            -1.5165599584579468
+          ],
+          "max": [
+            -0.6642504930496216,
+            0.9120000004768372,
+            -1.4834400415420532
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.6962000131607056,
+            0.7384999990463257,
+            -1.4639999866485596
+          ],
+          "max": [
+            -0.6638000011444092,
+            0.8015000224113464,
+            -1.4600000381469727
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            -0.5142380595207214,
+            0.6859999895095825,
+            -1.5360000133514404
+          ],
+          "max": [
+            -0.4457619786262512,
+            0.8560000061988831,
+            -1.4639999866485596
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            -0.49574950337409973,
+            0.843999981880188,
+            -1.5165599584579468
+          ],
+          "max": [
+            -0.46425050497055054,
+            0.871999979019165,
+            -1.4834400415420532
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.49619999527931213,
+            0.7285000085830688,
+            -1.4639999866485596
+          ],
+          "max": [
+            -0.46380001306533813,
+            0.7795000076293945,
+            -1.4600000381469727
+          ]
+        }
+      },
+      {
+        "label": "front_shelf_extension",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.04500000923871994,
+            0.6225000023841858,
+            -1.590000033378601
+          ],
+          "max": [
+            0.625,
+            0.6575000286102295,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "display_tray",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.04000001400709152,
+            0.6604999899864197,
+            -1.590000033378601
+          ],
+          "max": [
+            0.6200000047683716,
+            0.6834999918937683,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.04000001400709152,
+            0.6779999732971191,
+            -1.5889999866485596
+          ],
+          "max": [
+            0.6200000047683716,
+            0.706000030040741,
+            -1.5709999799728394
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.04000001400709152,
+            0.6779999732971191,
+            -1.4290000200271606
+          ],
+          "max": [
+            0.6200000047683716,
+            0.706000030040741,
+            -1.4110000133514404
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.039000000804662704,
+            0.6779999732971191,
+            -1.590000033378601
+          ],
+          "max": [
+            -0.020999999716877937,
+            0.706000030040741,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "tray_rim",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.6010000109672546,
+            0.6779999732971191,
+            -1.590000033378601
+          ],
+          "max": [
+            0.6190000176429749,
+            0.706000030040741,
+            -1.409999966621399
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            0.02576196752488613,
+            0.6859999895095825,
+            -1.5360000133514404
+          ],
+          "max": [
+            0.0942380353808403,
+            0.8560000061988831,
+            -1.4639999866485596
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            0.044250503182411194,
+            0.843999981880188,
+            -1.5165599584579468
+          ],
+          "max": [
+            0.07574949413537979,
+            0.871999979019165,
+            -1.4834400415420532
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.043800000101327896,
+            0.7285000085830688,
+            -1.4639999866485596
+          ],
+          "max": [
+            0.07620000094175339,
+            0.7795000076293945,
+            -1.4600000381469727
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            0.22576196491718292,
+            0.6859999895095825,
+            -1.5360000133514404
+          ],
+          "max": [
+            0.29423803091049194,
+            0.8959999680519104,
+            -1.4639999866485596
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            0.24425050616264343,
+            0.8840000033378601,
+            -1.5165599584579468
+          ],
+          "max": [
+            0.2757495045661926,
+            0.9120000004768372,
+            -1.4834400415420532
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.24379999935626984,
+            0.7384999990463257,
+            -1.4639999866485596
+          ],
+          "max": [
+            0.27619999647140503,
+            0.8015000224113464,
+            -1.4600000381469727
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 66,
+        "bounds": {
+          "min": [
+            0.42576196789741516,
+            0.6859999895095825,
+            -1.5360000133514404
+          ],
+          "max": [
+            0.494238018989563,
+            0.8560000061988831,
+            -1.4639999866485596
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_cap",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            0.4442504942417145,
+            0.843999981880188,
+            -1.5165599584579468
+          ],
+          "max": [
+            0.47574949264526367,
+            0.871999979019165,
+            -1.4834400415420532
+          ]
+        }
+      },
+      {
+        "label": "perfume_flask_paper_band",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.4438000023365021,
+            0.7285000085830688,
+            -1.4639999866485596
+          ],
+          "max": [
+            0.47620001435279846,
+            0.7795000076293945,
+            -1.4600000381469727
+          ]
+        }
+      },
+      {
+        "label": "display_plinth",
+        "material": "facade_aged_brass",
+        "vertices": 88,
+        "bounds": {
+          "min": [
+            -1.2226461172103882,
+            1.2984999418258667,
+            -0.843999981880188
+          ],
+          "max": [
+            -1.117353916168213,
+            1.3075000047683716,
+            -0.7360000014305115
+          ]
+        }
+      },
+      {
+        "label": "display_ceramic",
+        "material": "facade_ivory_ceramic",
+        "vertices": 91,
+        "bounds": {
+          "min": [
+            -1.218999981880188,
+            1.309999942779541,
+            -0.8389999866485596
+          ],
+          "max": [
+            -1.121000051498413,
+            1.4500000476837158,
+            -0.7409999966621399
+          ]
+        }
+      },
+      {
+        "label": "display_ceramic_mouth",
+        "material": "facade_walnut_frames",
+        "vertices": 76,
+        "bounds": {
+          "min": [
+            -1.1944999694824219,
+            1.430999994277954,
+            -0.8144999742507935
+          ],
+          "max": [
+            -1.1454999446868896,
+            1.437000036239624,
+            -0.765500009059906
+          ]
+        }
+      },
+      {
+        "label": "display_plinth",
+        "material": "facade_aged_brass",
+        "vertices": 88,
+        "bounds": {
+          "min": [
+            -0.42264610528945923,
+            1.2984999418258667,
+            -0.843999981880188
+          ],
+          "max": [
+            -0.31735390424728394,
+            1.3075000047683716,
+            -0.7360000014305115
+          ]
+        }
+      },
+      {
+        "label": "display_ceramic",
+        "material": "facade_ivory_ceramic",
+        "vertices": 91,
+        "bounds": {
+          "min": [
+            -0.4189999997615814,
+            1.309999942779541,
+            -0.8389999866485596
+          ],
+          "max": [
+            -0.32100000977516174,
+            1.4500000476837158,
+            -0.7409999966621399
+          ]
+        }
+      },
+      {
+        "label": "display_ceramic_mouth",
+        "material": "facade_walnut_frames",
+        "vertices": 76,
+        "bounds": {
+          "min": [
+            -0.3944999873638153,
+            1.430999994277954,
+            -0.8144999742507935
+          ],
+          "max": [
+            -0.34549999237060547,
+            1.437000036239624,
+            -0.765500009059906
+          ]
+        }
+      },
+      {
+        "label": "clock_housing",
+        "material": "facade_walnut_frames",
+        "vertices": 124,
+        "bounds": {
+          "min": [
+            -0.8199999928474426,
+            1.2899999618530273,
+            -0.7799999713897705
+          ],
+          "max": [
+            -0.6399999856948853,
+            1.4700000286102295,
+            -0.7400000095367432
+          ]
+        }
+      },
+      {
+        "label": "clock_face",
+        "material": "facade_ivory_ceramic",
+        "vertices": 22,
+        "bounds": {
+          "min": [
+            -0.8037999868392944,
+            1.3062000274658203,
+            -0.7360000014305115
+          ],
+          "max": [
+            -0.6561999917030334,
+            1.4537999629974365,
+            -0.7360000014305115
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.734000027179718,
+            1.4294999837875366,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.7260000109672546,
+            1.4474999904632568,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7047500014305115,
+            1.421662449836731,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.6967499852180481,
+            1.4396624565124512,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.6833375096321106,
+            1.40024995803833,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.6753374934196472,
+            1.4182499647140503,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.6754999756813049,
+            1.371000051498413,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.6675000190734863,
+            1.3890000581741333,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.6833375096321106,
+            1.3417500257492065,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.6753374934196472,
+            1.3597500324249268,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7047500014305115,
+            1.3203375339508057,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.6967499852180481,
+            1.3383375406265259,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.734000027179718,
+            1.3125,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.7260000109672546,
+            1.3305000066757202,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7632499933242798,
+            1.3203375339508057,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.7552499771118164,
+            1.3383375406265259,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7846624851226807,
+            1.3417500257492065,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.7766624689102173,
+            1.3597500324249268,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7925000190734863,
+            1.371000051498413,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.784500002861023,
+            1.3890000581741333,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7846624851226807,
+            1.40024995803833,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.7766624689102173,
+            1.4182499647140503,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_tick",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7632499933242798,
+            1.421662449836731,
+            -0.734000027179718
+          ],
+          "max": [
+            -0.7552499771118164,
+            1.4396624565124512,
+            -0.7300000190734863
+          ]
+        }
+      },
+      {
+        "label": "clock_hand",
+        "material": "facade_walnut_frames",
+        "vertices": 46,
+        "bounds": {
+          "min": [
+            -0.7343854904174805,
+            1.3747711181640625,
+            -0.7333067655563354
+          ],
+          "max": [
+            -0.6977145075798035,
+            1.4086288213729858,
+            -0.7200000286102295
+          ]
+        }
+      },
+      {
+        "label": "clock_hand",
+        "material": "facade_walnut_frames",
+        "vertices": 46,
+        "bounds": {
+          "min": [
+            -0.754231333732605,
+            1.3779689073562622,
+            -0.7315048575401306
+          ],
+          "max": [
+            -0.7255686521530151,
+            1.4252310991287231,
+            -0.722000002861023
+          ]
+        }
+      },
+      {
+        "label": "low_round_window_plinth",
+        "material": "facade_oak_wood",
+        "vertices": 100,
+        "bounds": {
+          "min": [
+            -1.899999976158142,
+            0.09200000762939453,
+            -0.6499999761581421
+          ],
+          "max": [
+            -1.659999966621399,
+            0.4819999933242798,
+            -0.4099999964237213
+          ]
+        }
+      },
+      {
+        "label": "round_plinth_top",
+        "material": "facade_carved_limestone",
+        "vertices": 112,
+        "bounds": {
+          "min": [
+            -1.9050705432891846,
+            0.48249998688697815,
+            -0.6570000052452087
+          ],
+          "max": [
+            -1.6549293994903564,
+            0.5074999928474426,
+            -0.40299999713897705
+          ]
+        }
+      },
+      {
+        "label": "window_statement_vase",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 133,
+        "bounds": {
+          "min": [
+            -1.8834048509597778,
+            0.5099999904632568,
+            -0.6349999904632568
+          ],
+          "max": [
+            -1.6765952110290527,
+            0.9100000262260437,
+            -0.42500001192092896
+          ]
+        }
+      },
+      {
+        "label": "cabinet_drawer",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9700000286102295,
+            0.7099999785423279,
+            -1.2400000095367432
+          ],
+          "max": [
+            1.7300000190734863,
+            0.9100000262260437,
+            -1.159999966621399
+          ]
+        }
+      },
+      {
+        "label": "drawer_inset",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9950000047683716,
+            0.7300000190734863,
+            -1.159500002861023
+          ],
+          "max": [
+            1.7050000429153442,
+            0.8899999856948853,
+            -1.1484999656677246
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            1.1469999551773071,
+            0.796999990940094,
+            -1.154363751411438
+          ],
+          "max": [
+            1.1729999780654907,
+            0.8230000138282776,
+            -1.129636287689209
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            1.5269999504089355,
+            0.796999990940094,
+            -1.154363751411438
+          ],
+          "max": [
+            1.5529999732971191,
+            0.8230000138282776,
+            -1.129636287689209
+          ]
+        }
+      },
+      {
+        "label": "cabinet_drawer",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9700000286102295,
+            0.29500001668930054,
+            -1.2400000095367432
+          ],
+          "max": [
+            1.7300000190734863,
+            0.6449999809265137,
+            -1.159999966621399
+          ]
+        }
+      },
+      {
+        "label": "drawer_inset",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.9950000047683716,
+            0.3149999976158142,
+            -1.159500002861023
+          ],
+          "max": [
+            1.7050000429153442,
+            0.625,
+            -1.1484999656677246
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            1.1469999551773071,
+            0.4569999873638153,
+            -1.154363751411438
+          ],
+          "max": [
+            1.1729999780654907,
+            0.4830000102519989,
+            -1.129636287689209
+          ]
+        }
+      },
+      {
+        "label": "drawer_knob",
+        "material": "facade_aged_brass",
+        "vertices": 77,
+        "bounds": {
+          "min": [
+            1.5269999504089355,
+            0.4569999873638153,
+            -1.154363751411438
+          ],
+          "max": [
+            1.5529999732971191,
+            0.4830000102519989,
+            -1.129636287689209
+          ]
+        }
+      },
+      {
+        "label": "cash_register_base",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.4887499809265137,
+            1.0700000524520874,
+            -1.472499966621399
+          ],
+          "max": [
+            1.691249966621399,
+            1.1299999952316284,
+            -1.3075000047683716
+          ]
+        }
+      },
+      {
+        "label": "cash_register_body",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.5149999856948853,
+            1.115951418876648,
+            -1.460141658782959
+          ],
+          "max": [
+            1.6649999618530273,
+            1.2130485773086548,
+            -1.3723583221435547
+          ]
+        }
+      },
+      {
+        "label": "register_screen",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.5449999570846558,
+            1.156999945640564,
+            -1.3772499561309814
+          ],
+          "max": [
+            1.6349999904632568,
+            1.191499948501587,
+            -1.371250033378601
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.5427500009536743,
+            1.1299999952316284,
+            -1.3663749694824219
+          ],
+          "max": [
+            1.558500051498413,
+            1.1390000581741333,
+            -1.3536250591278076
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.569000005722046,
+            1.1299999952316284,
+            -1.3663749694824219
+          ],
+          "max": [
+            1.5847500562667847,
+            1.1390000581741333,
+            -1.3536250591278076
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.5952500104904175,
+            1.1299999952316284,
+            -1.3663749694824219
+          ],
+          "max": [
+            1.6109999418258667,
+            1.1390000581741333,
+            -1.3536250591278076
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.621500015258789,
+            1.1299999952316284,
+            -1.3663749694824219
+          ],
+          "max": [
+            1.6372499465942383,
+            1.1390000581741333,
+            -1.3536250591278076
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.5427500009536743,
+            1.1299999952316284,
+            -1.3438750505447388
+          ],
+          "max": [
+            1.558500051498413,
+            1.1390000581741333,
+            -1.331125020980835
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.569000005722046,
+            1.1299999952316284,
+            -1.3438750505447388
+          ],
+          "max": [
+            1.5847500562667847,
+            1.1390000581741333,
+            -1.331125020980835
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.5952500104904175,
+            1.1299999952316284,
+            -1.3438750505447388
+          ],
+          "max": [
+            1.6109999418258667,
+            1.1390000581741333,
+            -1.331125020980835
+          ]
+        }
+      },
+      {
+        "label": "register_key",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.621500015258789,
+            1.1299999952316284,
+            -1.3438750505447388
+          ],
+          "max": [
+            1.6372499465942383,
+            1.1390000581741333,
+            -1.331125020980835
+          ]
+        }
+      },
+      {
+        "label": "cash_drawer_slot",
+        "material": "facade_aged_brass",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.5149999856948853,
+            1.0855000019073486,
+            -1.309249997138977
+          ],
+          "max": [
+            1.6649999618530273,
+            1.090499997138977,
+            -1.3012499809265137
+          ]
+        }
+      },
+      {
+        "label": "receipt_printer",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.002500057220459,
+            1.0674999952316284,
+            -1.4800000190734863
+          ],
+          "max": [
+            1.1575000286102295,
+            1.1464999914169312,
+            -1.2999999523162842
+          ]
+        }
+      },
+      {
+        "label": "paper_receipt",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            1.0204999446868896,
+            1.1390000581741333,
+            -1.305999994277954
+          ],
+          "max": [
+            1.1395000219345093,
+            1.180999994277954,
+            -1.2920000553131104
+          ]
+        }
+      },
+      {
+        "label": "cashier_cup",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 65,
+        "bounds": {
+          "min": [
+            1.6399999856948853,
+            1.0700000524520874,
+            -1.6399999856948853
+          ],
+          "max": [
+            1.7000000476837158,
+            1.149999976158142,
+            -1.5800000429153442
+          ]
+        }
+      },
+      {
+        "label": "cashier_cup_handle",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 65,
+        "bounds": {
+          "min": [
+            1.6928999423980713,
+            1.0856000185012817,
+            -1.6360000371932983
+          ],
+          "max": [
+            1.708899974822998,
+            1.1375999450683594,
+            -1.5839999914169312
+          ]
+        }
+      },
+      {
+        "label": "rear_low_cubby_floor",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.4850000143051147,
+            0.14100000262260437,
+            -1.8700000047683716
+          ],
+          "max": [
+            -0.9350000023841858,
+            0.1589999943971634,
+            -1.590000033378601
+          ]
+        }
+      },
+      {
+        "label": "folded_goods",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.4049999713897705,
+            0.20250000059604645,
+            -1.8250000476837158
+          ],
+          "max": [
+            -1.0149999856948853,
+            0.2395000010728836,
+            -1.6150000095367432
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.3990000486373901,
+            0.2084999978542328,
+            -1.815999984741211
+          ],
+          "max": [
+            -1.0210000276565552,
+            0.23149999976158142,
+            -1.6119999885559082
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.1605000495910645,
+            0.2395000010728836,
+            -1.7934999465942383
+          ],
+          "max": [
+            -1.1425000429153442,
+            0.24250000715255737,
+            -1.6464999914169312
+          ]
+        }
+      },
+      {
+        "label": "folded_goods",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.4049999713897705,
+            0.2524999976158142,
+            -1.8250000476837158
+          ],
+          "max": [
+            -1.0149999856948853,
+            0.28949999809265137,
+            -1.6150000095367432
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.3990000486373901,
+            0.25850000977516174,
+            -1.815999984741211
+          ],
+          "max": [
+            -1.0210000276565552,
+            0.2815000116825104,
+            -1.6119999885559082
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.1605000495910645,
+            0.28949999809265137,
+            -1.7934999465942383
+          ],
+          "max": [
+            -1.1425000429153442,
+            0.29249998927116394,
+            -1.6464999914169312
+          ]
+        }
+      },
+      {
+        "label": "folded_goods",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.4049999713897705,
+            0.30250000953674316,
+            -1.8250000476837158
+          ],
+          "max": [
+            -1.0149999856948853,
+            0.3395000100135803,
+            -1.6150000095367432
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.3990000486373901,
+            0.3084999918937683,
+            -1.815999984741211
+          ],
+          "max": [
+            -1.0210000276565552,
+            0.33149999380111694,
+            -1.6119999885559082
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.1605000495910645,
+            0.3395000100135803,
+            -1.7934999465942383
+          ],
+          "max": [
+            -1.1425000429153442,
+            0.3425000011920929,
+            -1.6464999914169312
+          ]
+        }
+      },
+      {
+        "label": "rear_low_cubby_floor",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.824999988079071,
+            0.14100000262260437,
+            -1.8700000047683716
+          ],
+          "max": [
+            -0.2750000059604645,
+            0.1589999943971634,
+            -1.590000033378601
+          ]
+        }
+      },
+      {
+        "label": "folded_goods",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7450000047683716,
+            0.20250000059604645,
+            -1.8250000476837158
+          ],
+          "max": [
+            -0.35500001907348633,
+            0.2395000010728836,
+            -1.6150000095367432
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7390000224113464,
+            0.2084999978542328,
+            -1.815999984741211
+          ],
+          "max": [
+            -0.3610000014305115,
+            0.23149999976158142,
+            -1.6119999885559082
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5005000233650208,
+            0.2395000010728836,
+            -1.7934999465942383
+          ],
+          "max": [
+            -0.48249998688697815,
+            0.24250000715255737,
+            -1.6464999914169312
+          ]
+        }
+      },
+      {
+        "label": "folded_goods",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7450000047683716,
+            0.2524999976158142,
+            -1.8250000476837158
+          ],
+          "max": [
+            -0.35500001907348633,
+            0.28949999809265137,
+            -1.6150000095367432
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7390000224113464,
+            0.25850000977516174,
+            -1.815999984741211
+          ],
+          "max": [
+            -0.3610000014305115,
+            0.2815000116825104,
+            -1.6119999885559082
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5005000233650208,
+            0.28949999809265137,
+            -1.7934999465942383
+          ],
+          "max": [
+            -0.48249998688697815,
+            0.29249998927116394,
+            -1.6464999914169312
+          ]
+        }
+      },
+      {
+        "label": "folded_goods",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7450000047683716,
+            0.30250000953674316,
+            -1.8250000476837158
+          ],
+          "max": [
+            -0.35500001907348633,
+            0.3395000100135803,
+            -1.6150000095367432
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.7390000224113464,
+            0.3084999918937683,
+            -1.815999984741211
+          ],
+          "max": [
+            -0.3610000014305115,
+            0.33149999380111694,
+            -1.6119999885559082
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.5005000233650208,
+            0.3395000100135803,
+            -1.7934999465942383
+          ],
+          "max": [
+            -0.48249998688697815,
+            0.3425000011920929,
+            -1.6464999914169312
+          ]
+        }
+      },
+      {
+        "label": "rear_low_cubby_floor",
+        "material": "facade_oak_wood",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.17500001192092896,
+            0.14100000262260437,
+            -1.8700000047683716
+          ],
+          "max": [
+            0.375,
+            0.1589999943971634,
+            -1.590000033378601
+          ]
+        }
+      },
+      {
+        "label": "folded_goods",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.09499999135732651,
+            0.20250000059604645,
+            -1.8250000476837158
+          ],
+          "max": [
+            0.29499998688697815,
+            0.2395000010728836,
+            -1.6150000095367432
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.08899999409914017,
+            0.2084999978542328,
+            -1.815999984741211
+          ],
+          "max": [
+            0.289000004529953,
+            0.23149999976158142,
+            -1.6119999885559082
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.14949999749660492,
+            0.2395000010728836,
+            -1.7934999465942383
+          ],
+          "max": [
+            0.16750000417232513,
+            0.24250000715255737,
+            -1.6464999914169312
+          ]
+        }
+      },
+      {
+        "label": "folded_goods",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.09499999135732651,
+            0.2524999976158142,
+            -1.8250000476837158
+          ],
+          "max": [
+            0.29499998688697815,
+            0.28949999809265137,
+            -1.6150000095367432
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.08899999409914017,
+            0.25850000977516174,
+            -1.815999984741211
+          ],
+          "max": [
+            0.289000004529953,
+            0.2815000116825104,
+            -1.6119999885559082
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.14949999749660492,
+            0.28949999809265137,
+            -1.7934999465942383
+          ],
+          "max": [
+            0.16750000417232513,
+            0.29249998927116394,
+            -1.6464999914169312
+          ]
+        }
+      },
+      {
+        "label": "folded_goods",
+        "material": "facade_teal_enamel_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.09499999135732651,
+            0.30250000953674316,
+            -1.8250000476837158
+          ],
+          "max": [
+            0.29499998688697815,
+            0.3395000100135803,
+            -1.6150000095367432
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_pages",
+        "material": "facade_ivory_ceramic",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.08899999409914017,
+            0.3084999918937683,
+            -1.815999984741211
+          ],
+          "max": [
+            0.289000004529953,
+            0.33149999380111694,
+            -1.6119999885559082
+          ]
+        }
+      },
+      {
+        "label": "folded_goods_bookmark",
+        "material": "facade_burgundy_fabric_and_books",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            0.14949999749660492,
+            0.3395000100135803,
+            -1.7934999465942383
+          ],
+          "max": [
+            0.16750000417232513,
+            0.3425000011920929,
+            -1.6464999914169312
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.9199999570846558,
+            1.1619999408721924,
+            -1.6109999418258667
+          ],
+          "max": [
+            -1.2599999904632568,
+            1.1740000247955322,
+            -1.5889999866485596
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.9800000190734863,
+            1.1619999408721924,
+            -1.6109999418258667
+          ],
+          "max": [
+            -0.3199999928474426,
+            1.1740000247955322,
+            -1.5889999866485596
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.04000001400709152,
+            1.1619999408721924,
+            -1.6109999418258667
+          ],
+          "max": [
+            0.6200000047683716,
+            1.1740000247955322,
+            -1.5889999866485596
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.9199999570846558,
+            1.7120000123977661,
+            -1.6109999418258667
+          ],
+          "max": [
+            -1.2599999904632568,
+            1.7239999771118164,
+            -1.5889999866485596
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.9800000190734863,
+            1.7120000123977661,
+            -1.6109999418258667
+          ],
+          "max": [
+            -0.3199999928474426,
+            1.7239999771118164,
+            -1.5889999866485596
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.04000001400709152,
+            1.7120000123977661,
+            -1.6109999418258667
+          ],
+          "max": [
+            0.6200000047683716,
+            1.7239999771118164,
+            -1.5889999866485596
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.9199999570846558,
+            2.26200008392334,
+            -1.6109999418258667
+          ],
+          "max": [
+            -1.2599999904632568,
+            2.2739999294281006,
+            -1.5889999866485596
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.9800000190734863,
+            2.26200008392334,
+            -1.6109999418258667
+          ],
+          "max": [
+            -0.3199999928474426,
+            2.2739999294281006,
+            -1.5889999866485596
+          ]
+        }
+      },
+      {
+        "label": "shelf_warm_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -0.04000001400709152,
+            2.26200008392334,
+            -1.6109999418258667
+          ],
+          "max": [
+            0.6200000047683716,
+            2.2739999294281006,
+            -1.5889999866485596
+          ]
+        }
+      },
+      {
+        "label": "ceiling_track",
+        "material": "facade_walnut_frames",
+        "vertices": 24,
+        "bounds": {
+          "min": [
+            -1.850000023841858,
+            3.253999948501587,
+            -1.7699999809265137
+          ],
+          "max": [
+            1.850000023841858,
+            3.2860000133514404,
+            -1.6299999952316284
+          ]
+        }
+      },
+      {
+        "label": "track_spot_housing",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            -1.388993263244629,
+            3.1575000286102295,
+            -1.7410000562667847
+          ],
+          "max": [
+            -1.3110066652297974,
+            3.242500066757202,
+            -1.659000039100647
+          ]
+        }
+      },
+      {
+        "label": "track_spot_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            -1.3804337978363037,
+            3.1505000591278076,
+            -1.7319999933242798
+          ],
+          "max": [
+            -1.319566249847412,
+            3.1575000286102295,
+            -1.6679999828338623
+          ]
+        }
+      },
+      {
+        "label": "track_spot_housing",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            -0.3889933228492737,
+            3.1575000286102295,
+            -1.7410000562667847
+          ],
+          "max": [
+            -0.31100669503211975,
+            3.242500066757202,
+            -1.659000039100647
+          ]
+        }
+      },
+      {
+        "label": "track_spot_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            -0.3804337978363037,
+            3.1505000591278076,
+            -1.7319999933242798
+          ],
+          "max": [
+            -0.31956619024276733,
+            3.1575000286102295,
+            -1.6679999828338623
+          ]
+        }
+      },
+      {
+        "label": "track_spot_housing",
+        "material": "facade_aged_brass",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            0.6110066771507263,
+            3.1575000286102295,
+            -1.7410000562667847
+          ],
+          "max": [
+            0.6889933347702026,
+            3.242500066757202,
+            -1.659000039100647
+          ]
+        }
+      },
+      {
+        "label": "track_spot_diffuser",
+        "material": "facade_interior_light",
+        "vertices": 64,
+        "bounds": {
+          "min": [
+            0.6195662021636963,
+            3.1505000591278076,
+            -1.7319999933242798
+          ],
+          "max": [
+            0.6804338097572327,
+            3.1575000286102295,
+            -1.6679999828338623
+          ]
+        }
+      }
+    ],
+    "validation": {
+      "errors": 0,
+      "warnings": 0
+    },
+    "sha256": "cf67984c650e1e119cf7b92a0cbc23a4b19e7177902d03f181edc79c5d2565da"
+  }
+}

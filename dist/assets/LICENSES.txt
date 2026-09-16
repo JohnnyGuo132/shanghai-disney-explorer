@@ -1,0 +1,20 @@
+Scene data and assets
+=====================
+OpenStreetMap contributors, ODbL 1.0. Derived database: geography/park-local.json; source/projection: geography/manifest.json.
+https://www.openstreetmap.org/copyright
+https://opendatacommons.org/licenses/odbl/1-0/
+
+Castle, TRON, Mickey Avenue, Zootopia, mountain, port, ship and Fantasyland facade geometry: original models for this project from public photographic references, with estimated details. See landmarks/*SOURCES* files and ../credits.html. No scanned park model is used.
+
+CC0 assets: Poly Haven Tree Small 02 (Rico Cilliers), Shrub 04 (Rico Cilliers), Fern 02 (Rob Tuytel and Rico Cilliers), Concrete Pavement, Beige Wall 001, Roof Slates 03, Kloppenheim 05 Pure Sky, Rock Face (Dario Barresi and Greg Zaal). ambientCG Grass005. See ../credits.html for direct asset links and adaptation notes.
+https://polyhaven.com/license
+https://docs.ambientcg.com/license/
+
+Water normal: Three.js example, MIT. ../vendor/LICENSE.txt
+https://threejs.org/examples/textures/waternormals.jpg
+Google Draco: Apache 2.0. ../vendor/DRACO-LICENSE.txt
+N8AO: CC0. ../vendor/N8AO-LICENSE.txt
+pmndrs/postprocessing: Zlib. ../vendor/POSTPROCESSING-LICENSE.txt
+
+V7 additions: Poly Haven Flower Heliophila (Jenelle van Heerden), Flower Gazania (James Ray Cock, Jenelle van Heerden), Grass Bermuda 01 (Rico Cilliers), all CC0. See landmarks/FLOWER-SOURCES.json.
+Original facade modules with inferred furnishings: classical_window, timber_storefront, urban_storefront. See landmarks/FACADE-MODULES.json.

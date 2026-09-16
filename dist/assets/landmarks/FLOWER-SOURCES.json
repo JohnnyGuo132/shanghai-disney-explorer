@@ -1,0 +1,254 @@
+{
+  "createdAt": "2026-09-15T15:24:26.334Z",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "coordinateSystem": "meters; Y-up; ground centered; no external resources",
+  "models": [
+    {
+      "file": "white-flowers.glb",
+      "bytes": 348576,
+      "triangles": 4756,
+      "meshes": 1,
+      "materials": 1,
+      "bounds": {
+        "min": [
+          -0.17384257912635803,
+          1.8679426627699058e-06,
+          -0.1422647407230839
+        ],
+        "max": [
+          0.17384257912635803,
+          0.2697186268044991,
+          0.1422647407230839
+        ]
+      },
+      "name": "white-flowers",
+      "source": "https://polyhaven.com/a/flower_heliophila",
+      "authors": [
+        "Jenelle van Heerden"
+      ],
+      "sourceTriangles": 17593,
+      "sourceReducedTriangles": 4766,
+      "simplificationNormalizedError": 0.001423070440068841,
+      "method": "Official small photographed-texture flowering clump; UV-aware geometry reduction; full original flower, leaf and stem atlas/alpha retained; source showroom offset removed.",
+      "sha256": "05983208c48e482995d4d45049a74e37d7a385dde2a6f813b42d9552e292ff2e",
+      "sizeMeters": [
+        0.347685,
+        0.269717,
+        0.284529
+      ]
+    },
+    {
+      "file": "orange-flowers.glb",
+      "bytes": 478952,
+      "triangles": 4316,
+      "meshes": 1,
+      "materials": 1,
+      "bounds": {
+        "min": [
+          -0.25187602639198303,
+          -8.565412970285013e-07,
+          -0.2291305458141493
+        ],
+        "max": [
+          0.25187602639198303,
+          0.10206554802527149,
+          0.2291305458141493
+        ]
+      },
+      "name": "orange-flowers",
+      "source": "https://polyhaven.com/a/flower_gazania",
+      "authors": [
+        "James Ray Cock",
+        "Jenelle van Heerden"
+      ],
+      "method": "Four complete official Gazania variants with original geometry and original photographic flower/leaf texture; source node rotations and meter scale baked; rearranged into a compact irregular clump. No geometry simplification.",
+      "clumps": 4,
+      "sha256": "8241b3692432f91652644c9c91a67027ed0f4dafc146bd704ed89e88af045eb6",
+      "sizeMeters": [
+        0.503752,
+        0.102066,
+        0.458261
+      ]
+    },
+    {
+      "file": "grass-tuft.glb",
+      "bytes": 268316,
+      "triangles": 3240,
+      "meshes": 1,
+      "materials": 1,
+      "bounds": {
+        "min": [
+          -0.1661933958530426,
+          5.599863834720997e-07,
+          -0.15631318908642597
+        ],
+        "max": [
+          0.1661933958530426,
+          0.24431758254691882,
+          0.15631318908642597
+        ]
+      },
+      "name": "grass-tuft",
+      "source": "https://polyhaven.com/a/grass_bermuda_01",
+      "authors": [
+        "Rico Cilliers"
+      ],
+      "method": "62 whole original photographed-texture grass blade/seedling meshes scattered with varied orientations and physical scale into one dense tuft. No generated substitute leaves, spherical foliage, or geometry simplification.",
+      "sprigs": 62,
+      "sha256": "40107610bd0a082ff63d653d6ea814a9ef3f37272c55e08de46a85e65238bbdf",
+      "sizeMeters": [
+        0.332387,
+        0.244317,
+        0.312626
+      ]
+    }
+  ],
+  "sourceIntegrity": [
+    {
+      "file": "source\\flower_heliophila\\flower_heliophila.gltf",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/flower_heliophila/flower_heliophila_1k.gltf",
+      "bytes": 5983,
+      "md5": "0f0838e09b55edfe74ab34ef7d6980ea",
+      "verified": true
+    },
+    {
+      "file": "source\\flower_heliophila\\textures\\flower_heliophila_nor_gl_1k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_heliophila/flower_heliophila_nor_gl_1k.jpg",
+      "bytes": 501286,
+      "md5": "7dee360a2a64500056b1ce0f3cfefba9",
+      "verified": true
+    },
+    {
+      "file": "source\\flower_heliophila\\textures\\flower_heliophila_arm_1k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_heliophila/flower_heliophila_arm_1k.jpg",
+      "bytes": 444561,
+      "md5": "769a32a15f4d73465a12f1f3fa05c948",
+      "verified": true
+    },
+    {
+      "file": "source\\flower_heliophila\\textures\\flower_heliophila_diff_1k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_heliophila/flower_heliophila_diff_1k.jpg",
+      "bytes": 377527,
+      "md5": "5bc66662e45e47c957bcc893dcc79161",
+      "verified": true
+    },
+    {
+      "file": "source\\flower_heliophila\\flower_heliophila.bin",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/flower_heliophila/flower_heliophila.bin",
+      "bytes": 2519780,
+      "md5": "68a757b5563acc23b3d92959f6c07c2d",
+      "verified": true
+    },
+    {
+      "file": "source\\flower_heliophila\\alpha.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_heliophila/flower_heliophila_alpha_1k.png",
+      "bytes": 41796,
+      "md5": "fea8485812ce7637d2558a2cc0ba83a3",
+      "verified": true
+    },
+    {
+      "file": "source\\flower_gazania\\flower_gazania.gltf",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/flower_gazania/flower_gazania_1k.gltf",
+      "bytes": 19686,
+      "md5": "78053547581103a0630049ab073e93bd",
+      "verified": true
+    },
+    {
+      "file": "source\\flower_gazania\\flower_gazania.bin",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/flower_gazania/flower_gazania.bin",
+      "bytes": 848136,
+      "md5": "2ce0f3360d107e2567f8ff47d8fe0d1d",
+      "verified": true
+    },
+    {
+      "file": "source\\flower_gazania\\textures\\flower_gazania_nor_gl_1k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_nor_gl_1k.jpg",
+      "bytes": 874324,
+      "md5": "072dc75b84857662454cdcac932e4732",
+      "verified": true
+    },
+    {
+      "file": "source\\flower_gazania\\textures\\flower_gazania_diff_1k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_diff_1k.jpg",
+      "bytes": 435784,
+      "md5": "617b04076469b00d231225d565f520f4",
+      "verified": true
+    },
+    {
+      "file": "source\\flower_gazania\\textures\\flower_gazania_arm_1k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/flower_gazania/flower_gazania_arm_1k.jpg",
+      "bytes": 670914,
+      "md5": "7ccebc1c751aa6a012867583e5380f0c",
+      "verified": true
+    },
+    {
+      "file": "source\\flower_gazania\\alpha.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/flower_gazania/flower_gazania_alpha_1k.png",
+      "bytes": 110222,
+      "md5": "72a02f7f5a2c73e5d61e8f0b22fb3473",
+      "verified": true
+    },
+    {
+      "file": "source\\grass_bermuda_01\\grass_bermuda_01.gltf",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/grass_bermuda_01/grass_bermuda_01_1k.gltf",
+      "bytes": 32912,
+      "md5": "a1bdd74118d2387a42dba4f605226f87",
+      "verified": true
+    },
+    {
+      "file": "source\\grass_bermuda_01\\textures\\grass_bermuda_01_nor_gl_1k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/grass_bermuda_01/grass_bermuda_01_nor_gl_1k.jpg",
+      "bytes": 709845,
+      "md5": "73a585e0963ff6bf3cefa845cbee0645",
+      "verified": true
+    },
+    {
+      "file": "source\\grass_bermuda_01\\textures\\grass_bermuda_01_diff_1k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/grass_bermuda_01/grass_bermuda_01_diff_1k.jpg",
+      "bytes": 175425,
+      "md5": "234be9f52cfcd3380c7f782baaa841c3",
+      "verified": true
+    },
+    {
+      "file": "source\\grass_bermuda_01\\textures\\grass_bermuda_01_arm_1k.jpg",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/grass_bermuda_01/grass_bermuda_01_arm_1k.jpg",
+      "bytes": 500088,
+      "md5": "87c58d5d3345d579eab570f7eb446313",
+      "verified": true
+    },
+    {
+      "file": "source\\grass_bermuda_01\\grass_bermuda_01.bin",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/grass_bermuda_01/grass_bermuda_01.bin",
+      "bytes": 32260,
+      "md5": "2940aa3405004b62983fd70bede8e47f",
+      "verified": true
+    },
+    {
+      "file": "source\\grass_bermuda_01\\alpha.png",
+      "source": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/grass_bermuda_01/grass_bermuda_01_alpha_1k.png",
+      "bytes": 59564,
+      "md5": "274285abb11b3b7a0fd277b9923d1074",
+      "verified": true
+    }
+  ],
+  "validation": {
+    "khronos": "0 errors, 0 warnings for each GLB",
+    "webgl": "6 closeup views, no page errors, WebGL error 0",
+    "geometry": "No degenerate triangles; UV alpha sampling on decoded final texture",
+    "preview": "flowers-preview.png"
+  },
+  "axisHandling": "Source official glTF files are already meter-scale Y-up. Bake source node orientation/scale, remove showroom translations, center X/Z, place minimum Y at 0. Do not apply another Z-up rotation.",
+  "textureSetup": {
+    "base": "1024 x 1024 photograph-derived RGBA palette PNG, sRGB",
+    "normal": "512 x 512 official OpenGL normal JPEG, linear",
+    "roughness": "512 x 512 official ARM JPEG, green channel; linear",
+    "alphaMode": "MASK",
+    "alphaCutoff": 0.4,
+    "doubleSided": true,
+    "roughnessFactor": 0.92,
+    "metallicFactor": 0,
+    "externalFilesRequired": false,
+    "requiredExtension": "KHR_mesh_quantization"
+  }
+}

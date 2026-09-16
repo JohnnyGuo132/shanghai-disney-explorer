@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-09-15T13:57:08.709428+00:00",
+  "retrieval": {
+    "endpoint": "https://overpass-api.de/api/interpreter",
+    "retrieved_at": "2026-09-15T13:50:30.329673+00:00",
+    "bbox": [
+      121.643,
+      31.1375,
+      121.6695,
+      31.1545
+    ],
+    "elements": 26647,
+    "errors": []
+  },
+  "osm_database_timestamp": "2026-09-15T13:48:46Z",
+  "data_license": {
+    "name": "Open Database License (ODbL) 1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "attribution": "© OpenStreetMap contributors",
+    "attribution_url": "https://www.openstreetmap.org/copyright",
+    "derived_database_license": "ODbL-1.0"
+  },
+  "projection": {
+    "origin": {
+      "lon": 121.65532470959127,
+      "lat": 31.14574596160655,
+      "source": "https://www.openstreetmap.org/way/494348161",
+      "method": "area_centroid_of_OSM_castle_footprint_in_WGS84"
+    },
+    "units": "meters",
+    "x_axis": "east",
+    "z_axis": "south",
+    "y_axis": "up_without_elevation_data",
+    "meters_per_degree_lon": 95358.70039320139,
+    "meters_per_degree_lat": 110871.97260300307,
+    "formula": {
+      "x": "(lon - origin.lon) * meters_per_degree_lon",
+      "z": "(origin.lat - lat) * meters_per_degree_lat"
+    },
+    "method": "WGS84 ellipsoid local tangent-plane linearization at castle latitude; no GCJ02/BD09 offset applied; 1 unit = 1 meter"
+  },
+  "orientation": {
+    "entrance_reference": {
+      "lon": 121.6578848,
+      "lat": 31.1434257,
+      "x": 244.13,
+      "z": 257.25,
+      "source": "https://www.openstreetmap.org/way/594312280",
+      "method": "southern_endpoint_of_mapped_Mickey_Avenue_segment_entrance_approach_not_exact_gate_center"
+    },
+    "castle_to_entrance_bearing_deg_clockwise_from_north": 136.5,
+    "castle_model_front_plusZ_yaw_rad_toward_entrance": 0.75922616,
+    "official_guide_orientation": "Compass north points upper-right; main entrance is southeast of castle; illustrated guide is rotated and not a scale-true georeferenced map."
+  },
+  "counts": {
+    "poi": 45,
+    "tree": 94,
+    "building": 178,
+    "waterway": 10,
+    "water": 15,
+    "path": 158,
+    "ride_track": 13,
+    "vegetation": 391,
+    "service_road": 46,
+    "ride_area": 2,
+    "barrier": 33,
+    "boundary": 1,
+    "plaza": 8,
+    "landmark": 22,
+    "land": 8
+  },
+  "park_area_m2": 850206.77,
+  "park_extent_m": [
+    -534.12,
+    -537.47,
+    694.43,
+    423.65
+  ],
+  "geometry_sources": [
+    {
+      "name": "OpenStreetMap Overpass API",
+      "url": "https://overpass-api.de/api/interpreter",
+      "query_file": "overpass-query.txt",
+      "raw_file": "osm-raw.json"
+    },
+    {
+      "name": "Shanghai Disney Resort official latest map located during this research",
+      "url": "https://static.shanghaidisneyresort.com/web-img-gallery/park-map-260227.pdf",
+      "filename_date": "2026-02-27",
+      "local_reference_file": "official-map-260227.pdf",
+      "license": "© Disney; reference only, not bundled in geographic derivative dataset",
+      "use": "Visual validation of orientation and eight lands only. No coordinates traced from the copyrighted guide."
+    },
+    {
+      "name": "Official current attractions",
+      "url": "https://www.shanghaidisneyresort.com/zh-cn/experience?group=attraction",
+      "use": "Chinese names and land membership"
+    }
+  ],
+  "limitations": [
+    "OSM is community-mapped, not an official Disney survey. Coordinate decimal precision is not positional accuracy; real offsets may be meters or tens of meters and no numerical positional accuracy has been verified.",
+    "All geographic geometry is derived from OSM WGS84. Never mix these coordinates directly with GCJ-02 or BD-09 basemaps.",
+    "Attraction nodes are mapped labels, while polygon landmarks use area centroids; neither is a verified entrance or building pivot. Navigation anchors are nearest mapped guest-like paths, not verified queue entrances.",
+    "No elevation, facade geometry, roof structures, vegetation height, track height, or exact ride movement is surveyed here. Building extrusion heights and path widths are rendering estimates unless specifically marked from OSM tags.",
+    "The park boundary includes backstage/service areas. Paths with explicit private/no access are flagged restricted. Absence of access=no is not proof of public access, and queue/service paths may be incomplete.",
+    "Seven land locality points and one derived Mickey Avenue midpoint are available. Exact official land boundary polygons are unavailable; no invented land boundaries were added.",
+    "Some OSM names are historical (e.g. Star Wars Launch Bay); landmarks normalize the 16 implemented names using the current official catalog, but every secondary business/POI has not been current-checked.",
+    "The OSM castle tag height_ft=60 appears inconsistent and is ignored; castle rendering height 60 m is marked an estimate, not source measurement.",
+    "The official guide is illustrative and rotated. It validates adjacency and general arrangement only, not distances or geodetic accuracy.",
+    "Source self-intersections, if present, are repaired with shapely.make_valid and reported in geometry_issues. Features crossing the park boundary are clipped; dimension-collapsed boundary-only touches are omitted."
+  ],
+  "official_map_check": {
+    "viewed": true,
+    "eight_lands_verified": true,
+    "relative_positions_true_north_frame": {
+      "Mickey Avenue": "southeast of castle on entrance axis",
+      "Gardens of Imagination": "southeast foreground between castle and entrance",
+      "Tomorrowland": "southwest of castle",
+      "Disney Pixar Toy Story Land": "west of castle, north of Tomorrowland",
+      "Fantasyland": "northwest and north of castle, surrounds rear of castle",
+      "Zootopia": "north of castle behind Seven Dwarfs Mine Train",
+      "Treasure Cove": "northeast/east of castle",
+      "Adventure Isle": "east of castle and south of Treasure Cove"
+    },
+    "date_checked": "2026-09-15"
+  },
+  "geometry_issues": [],
+  "files": {
+    "park.geojson": {
+      "bytes": 785293,
+      "sha256": "8b4089482f12f1bc53bda75aa67c5584ee1346fbae6904f407a85fa7cc564946"
+    },
+    "park-local.json": {
+      "bytes": 631814,
+      "sha256": "d09d280a0ae740c65f1a57dd740333bc7fe477f367fd0c20e95041644ce0ce06"
+    },
+    "landmarks.json": {
+      "bytes": 21856,
+      "sha256": "d800b3c0f7cc952b26f2d50d6e961ac1be6d9725a50ee36f42640b34ddb5e20f"
+    },
+    "osm-raw.json": {
+      "bytes": 5045538,
+      "sha256": "e2a5081a9bbdb42ef7c037d3912b2c6d23c6870c5b9c4becca952ad97a4123e0"
+    },
+    "overpass-query.txt": {
+      "bytes": 104,
+      "sha256": "2d20143414285e4972a09a3bc49a34174d42988364c6a67015e7ad815b422e68"
+    }
+  },
+  "validation": {
+    "wgs84_geometry_count": 1024,
+    "wgs84_invalid_geometry_ids": [],
+    "runtime_invalid_geometry_ids": [],
+    "geometry_plot_visually_reviewed": true,
+    "official_pdf_visually_reviewed": true,
+    "attraction_landmark_count": 22,
+    "land_label_count": 8,
+    "exact_official_land_boundary_polygons": 0
+  }
+}

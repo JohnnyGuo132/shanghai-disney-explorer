@@ -1,0 +1,523 @@
+{
+  "classical_window": {
+    "nominalSize": [
+      1.5,
+      2.4
+    ],
+    "wallPlaneZ": 0,
+    "interiorDepth": 1.6,
+    "wallOpening": {
+      "type": "arch",
+      "width": 0.91,
+      "height": 1.79,
+      "bottomY": 0.36
+    },
+    "description": "Arched limestone window, hinged louver shutters, folded curtains, writing desk, books, vase, chair, framed wall art and pendant light.",
+    "triangles": 5241,
+    "effectiveTriangles": 5241,
+    "surfaceAreaM2": 61.952568511917114,
+    "bounds": {
+      "min": [
+        -0.75,
+        0,
+        -1.600000023841858
+      ],
+      "max": [
+        0.75,
+        2.4000000953674316,
+        0.25999999046325684
+      ]
+    },
+    "size": [
+      1.5,
+      2.4000000953674316,
+      1.8600000143051147
+    ],
+    "meshCount": 18,
+    "materialNames": [
+      "facade_interior_floor",
+      "facade_interior_plaster",
+      "facade_oak_wood",
+      "facade_walnut_frames",
+      "facade_carved_limestone",
+      "facade_aged_brass",
+      "facade_glass",
+      "facade_painted_sage_joinery",
+      "facade_ivory_fabric",
+      "facade_burgundy_fabric_and_books",
+      "facade_ivory_ceramic",
+      "facade_teal_enamel_and_books",
+      "facade_interior_light"
+    ],
+    "parts": [
+      {
+        "name": "exterior__facade_interior_floor",
+        "role": "exterior",
+        "material": "facade_interior_floor"
+      },
+      {
+        "name": "interior__facade_interior_plaster",
+        "role": "interior",
+        "material": "facade_interior_plaster"
+      },
+      {
+        "name": "exterior__facade_interior_plaster",
+        "role": "exterior",
+        "material": "facade_interior_plaster"
+      },
+      {
+        "name": "interior__facade_oak_wood",
+        "role": "interior",
+        "material": "facade_oak_wood"
+      },
+      {
+        "name": "exterior__facade_oak_wood",
+        "role": "exterior",
+        "material": "facade_oak_wood"
+      },
+      {
+        "name": "interior__facade_walnut_frames",
+        "role": "interior",
+        "material": "facade_walnut_frames"
+      },
+      {
+        "name": "exterior__facade_carved_limestone",
+        "role": "exterior",
+        "material": "facade_carved_limestone"
+      },
+      {
+        "name": "exterior__facade_aged_brass",
+        "role": "exterior",
+        "material": "facade_aged_brass"
+      },
+      {
+        "name": "exterior__facade_glass",
+        "role": "exterior",
+        "material": "facade_glass"
+      },
+      {
+        "name": "exterior__facade_walnut_frames",
+        "role": "exterior",
+        "material": "facade_walnut_frames"
+      },
+      {
+        "name": "exterior__facade_painted_sage_joinery",
+        "role": "exterior",
+        "material": "facade_painted_sage_joinery"
+      },
+      {
+        "name": "interior__facade_ivory_fabric",
+        "role": "interior",
+        "material": "facade_ivory_fabric"
+      },
+      {
+        "name": "interior__facade_aged_brass",
+        "role": "interior",
+        "material": "facade_aged_brass"
+      },
+      {
+        "name": "interior__facade_burgundy_fabric_and_books",
+        "role": "interior",
+        "material": "facade_burgundy_fabric_and_books"
+      },
+      {
+        "name": "interior__facade_ivory_ceramic",
+        "role": "interior",
+        "material": "facade_ivory_ceramic"
+      },
+      {
+        "name": "interior__facade_teal_enamel_and_books",
+        "role": "interior",
+        "material": "facade_teal_enamel_and_books"
+      },
+      {
+        "name": "interior__facade_carved_limestone",
+        "role": "interior",
+        "material": "facade_carved_limestone"
+      },
+      {
+        "name": "interior__facade_interior_light",
+        "role": "interior",
+        "material": "facade_interior_light"
+      }
+    ],
+    "coordinateSystem": "meters; Y-up; X=0 horizontal center; Y=0 ground; exterior wall Z=0; interior -Z; street +Z",
+    "source": "Original geometry and original 256-pixel procedural wood texture / generated shop lettering; no source meshes or photos used",
+    "validation": {
+      "errors": 0,
+      "warnings": 0,
+      "infos": 16
+    },
+    "bytes": 574892,
+    "browserErrors": [],
+    "file": "classical_window.glb",
+    "wallCutRectangle": [
+      -0.455,
+      0.36,
+      0.455,
+      2.15
+    ],
+    "sha256": "768f7339735fa2bb27999bdb5f60a9c76326de07a0c70811deb9e54405f2f251",
+    "maxExteriorProjection": 0.25999999046325684,
+    "minimumSurfaceOffsetNote": "Wall datum Z=0. Frame skins generally +0.015 to +0.035m; glass is recessed. Cut host wall through its full thickness."
+  },
+  "timber_storefront": {
+    "nominalSize": [
+      4.2,
+      3.5
+    ],
+    "wallPlaneZ": 0,
+    "interiorDepth": 1.8,
+    "wallOpening": {
+      "type": "rectangle",
+      "min": [
+        -1.82,
+        0.22
+      ],
+      "max": [
+        1.82,
+        2.84
+      ]
+    },
+    "doorOpening": {
+      "min": [
+        -0.525,
+        0.225
+      ],
+      "max": [
+        0.525,
+        2.785
+      ]
+    },
+    "description": "Timber porch, frame-and-panel joinery, angled glazed door, brass hinges/handle, display counter, pottery/books shelves, chair, two pendant shades.",
+    "triangles": 9236,
+    "effectiveTriangles": 9236,
+    "surfaceAreaM2": 209.70869299139332,
+    "bounds": {
+      "min": [
+        -2.0999999046325684,
+        -4.7683716530855236e-08,
+        -1.7999999523162842
+      ],
+      "max": [
+        2.0999999046325684,
+        3.5,
+        1.090000033378601
+      ]
+    },
+    "size": [
+      4.199999809265137,
+      3.5000000476837165,
+      2.8899999856948853
+    ],
+    "meshCount": 17,
+    "materialNames": [
+      "facade_interior_floor",
+      "facade_interior_plaster",
+      "facade_oak_wood",
+      "facade_walnut_frames",
+      "facade_glass",
+      "facade_aged_brass",
+      "facade_label_craft_goods",
+      "facade_ivory_ceramic",
+      "facade_burgundy_fabric_and_books",
+      "facade_teal_enamel_and_books",
+      "facade_carved_limestone",
+      "facade_interior_light"
+    ],
+    "parts": [
+      {
+        "name": "exterior__facade_interior_floor",
+        "role": "exterior",
+        "material": "facade_interior_floor"
+      },
+      {
+        "name": "interior__facade_interior_plaster",
+        "role": "interior",
+        "material": "facade_interior_plaster"
+      },
+      {
+        "name": "exterior__facade_interior_plaster",
+        "role": "exterior",
+        "material": "facade_interior_plaster"
+      },
+      {
+        "name": "interior__facade_oak_wood",
+        "role": "interior",
+        "material": "facade_oak_wood"
+      },
+      {
+        "name": "exterior__facade_oak_wood",
+        "role": "exterior",
+        "material": "facade_oak_wood"
+      },
+      {
+        "name": "interior__facade_walnut_frames",
+        "role": "interior",
+        "material": "facade_walnut_frames"
+      },
+      {
+        "name": "exterior__facade_walnut_frames",
+        "role": "exterior",
+        "material": "facade_walnut_frames"
+      },
+      {
+        "name": "exterior__facade_glass",
+        "role": "exterior",
+        "material": "facade_glass"
+      },
+      {
+        "name": "exterior__facade_aged_brass",
+        "role": "exterior",
+        "material": "facade_aged_brass"
+      },
+      {
+        "name": "exterior__facade_label_craft_goods",
+        "role": "exterior",
+        "material": "facade_label_craft_goods"
+      },
+      {
+        "name": "interior__facade_aged_brass",
+        "role": "interior",
+        "material": "facade_aged_brass"
+      },
+      {
+        "name": "interior__facade_ivory_ceramic",
+        "role": "interior",
+        "material": "facade_ivory_ceramic"
+      },
+      {
+        "name": "interior__facade_burgundy_fabric_and_books",
+        "role": "interior",
+        "material": "facade_burgundy_fabric_and_books"
+      },
+      {
+        "name": "interior__facade_teal_enamel_and_books",
+        "role": "interior",
+        "material": "facade_teal_enamel_and_books"
+      },
+      {
+        "name": "interior__facade_carved_limestone",
+        "role": "interior",
+        "material": "facade_carved_limestone"
+      },
+      {
+        "name": "interior__facade_glass",
+        "role": "interior",
+        "material": "facade_glass"
+      },
+      {
+        "name": "interior__facade_interior_light",
+        "role": "interior",
+        "material": "facade_interior_light"
+      }
+    ],
+    "coordinateSystem": "meters; Y-up; X=0 horizontal center; Y=0 ground; exterior wall Z=0; interior -Z; street +Z",
+    "source": "Original geometry and original 256-pixel procedural wood texture / generated shop lettering; no source meshes or photos used",
+    "validation": {
+      "errors": 0,
+      "warnings": 0,
+      "infos": 14
+    },
+    "bytes": 969648,
+    "browserErrors": [],
+    "file": "timber_storefront.glb",
+    "wallCutRectangle": [
+      -1.82,
+      0.22,
+      1.82,
+      2.84
+    ],
+    "sha256": "279f6a77d8370aa95c3fce057bd0457caaa3db0c112f675a5eb96216209e6c77",
+    "maxExteriorProjection": 1.090000033378601,
+    "minimumSurfaceOffsetNote": "Wall datum Z=0. Frame skins generally +0.015 to +0.035m; glass is recessed. Cut host wall through its full thickness."
+  },
+  "urban_storefront": {
+    "nominalSize": [
+      4.2,
+      3.5
+    ],
+    "wallPlaneZ": 0,
+    "interiorDepth": 2,
+    "wallOpening": {
+      "type": "rectangle",
+      "min": [
+        -1.935,
+        0.24
+      ],
+      "max": [
+        1.91,
+        3.06
+      ]
+    },
+    "doorOpening": {
+      "min": [
+        0.8,
+        0.24
+      ],
+      "max": [
+        1.84,
+        2.97
+      ]
+    },
+    "description": "Modern mullioned glazing, recessed glass door and brass pull, striped fabric awning, glass display case with gifts, rear bookshelves, cashier terminal and pendant lights.",
+    "triangles": 6702,
+    "effectiveTriangles": 6702,
+    "surfaceAreaM2": 201.1447789781078,
+    "bounds": {
+      "min": [
+        -2.0999999046325684,
+        -5.7220457705398076e-08,
+        -2
+      ],
+      "max": [
+        2.0999999046325684,
+        3.5,
+        0.8612008094787598
+      ]
+    },
+    "size": [
+      4.199999809265137,
+      3.5000000572204577,
+      2.8612008094787598
+    ],
+    "meshCount": 20,
+    "materialNames": [
+      "facade_interior_floor",
+      "facade_interior_plaster",
+      "facade_oak_wood",
+      "facade_walnut_frames",
+      "facade_powder_coated_graphite",
+      "facade_aged_brass",
+      "facade_glass",
+      "facade_teal_enamel_and_books",
+      "facade_ivory_fabric",
+      "facade_label_atelier_gifts",
+      "facade_carved_limestone",
+      "facade_burgundy_fabric_and_books",
+      "facade_ivory_ceramic",
+      "facade_interior_light"
+    ],
+    "parts": [
+      {
+        "name": "exterior__facade_interior_floor",
+        "role": "exterior",
+        "material": "facade_interior_floor"
+      },
+      {
+        "name": "interior__facade_interior_plaster",
+        "role": "interior",
+        "material": "facade_interior_plaster"
+      },
+      {
+        "name": "exterior__facade_interior_plaster",
+        "role": "exterior",
+        "material": "facade_interior_plaster"
+      },
+      {
+        "name": "interior__facade_oak_wood",
+        "role": "interior",
+        "material": "facade_oak_wood"
+      },
+      {
+        "name": "exterior__facade_oak_wood",
+        "role": "exterior",
+        "material": "facade_oak_wood"
+      },
+      {
+        "name": "interior__facade_walnut_frames",
+        "role": "interior",
+        "material": "facade_walnut_frames"
+      },
+      {
+        "name": "exterior__facade_powder_coated_graphite",
+        "role": "exterior",
+        "material": "facade_powder_coated_graphite"
+      },
+      {
+        "name": "exterior__facade_aged_brass",
+        "role": "exterior",
+        "material": "facade_aged_brass"
+      },
+      {
+        "name": "exterior__facade_glass",
+        "role": "exterior",
+        "material": "facade_glass"
+      },
+      {
+        "name": "interior__facade_glass",
+        "role": "interior",
+        "material": "facade_glass"
+      },
+      {
+        "name": "exterior__facade_teal_enamel_and_books",
+        "role": "exterior",
+        "material": "facade_teal_enamel_and_books"
+      },
+      {
+        "name": "exterior__facade_ivory_fabric",
+        "role": "exterior",
+        "material": "facade_ivory_fabric"
+      },
+      {
+        "name": "exterior__facade_label_atelier_gifts",
+        "role": "exterior",
+        "material": "facade_label_atelier_gifts"
+      },
+      {
+        "name": "interior__facade_carved_limestone",
+        "role": "interior",
+        "material": "facade_carved_limestone"
+      },
+      {
+        "name": "interior__facade_aged_brass",
+        "role": "interior",
+        "material": "facade_aged_brass"
+      },
+      {
+        "name": "interior__facade_burgundy_fabric_and_books",
+        "role": "interior",
+        "material": "facade_burgundy_fabric_and_books"
+      },
+      {
+        "name": "interior__facade_teal_enamel_and_books",
+        "role": "interior",
+        "material": "facade_teal_enamel_and_books"
+      },
+      {
+        "name": "interior__facade_ivory_ceramic",
+        "role": "interior",
+        "material": "facade_ivory_ceramic"
+      },
+      {
+        "name": "interior__facade_powder_coated_graphite",
+        "role": "interior",
+        "material": "facade_powder_coated_graphite"
+      },
+      {
+        "name": "interior__facade_interior_light",
+        "role": "interior",
+        "material": "facade_interior_light"
+      }
+    ],
+    "coordinateSystem": "meters; Y-up; X=0 horizontal center; Y=0 ground; exterior wall Z=0; interior -Z; street +Z",
+    "source": "Original geometry and original 256-pixel procedural wood texture / generated shop lettering; no source meshes or photos used",
+    "validation": {
+      "errors": 0,
+      "warnings": 0,
+      "infos": 17
+    },
+    "bytes": 724420,
+    "browserErrors": [],
+    "file": "urban_storefront.glb",
+    "wallCutRectangle": [
+      -1.935,
+      0.24,
+      1.91,
+      3.06
+    ],
+    "sha256": "db230477bb424df2d51a159ecb4d5d1cb171b51b1545993ebc0a5445c0e63e41",
+    "maxExteriorProjection": 0.8612008094787598,
+    "minimumSurfaceOffsetNote": "Wall datum Z=0. Frame skins generally +0.015 to +0.035m; glass is recessed. Cut host wall through its full thickness."
+  }
+}

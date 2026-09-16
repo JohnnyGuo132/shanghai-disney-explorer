@@ -1,0 +1,22 @@
+{
+  "file": "fantasy-facade.glb",
+  "description": "Original Fantasyland-style two-storey cottage frontage with three gables, individual brickwork and shingles, timber framing, recessed dark glazing with leadwork, shutters, two dormers, two chimneys, entry canopy and street furniture.",
+  "dimensionsMetersXYZ": [24.630435943603516, 14.015144879305346, 12.80031739249855],
+  "triangles": 67667,
+  "meshCount": 14,
+  "bytes": 5006924,
+  "up": "+Y",
+  "front": "+Z",
+  "origin": "horizontal bounding-box center at ground Y approximately zero (quantization tolerance under 0.001m)",
+  "units": "meters",
+  "thirdPartyGeometry": false,
+  "thirdPartyTextures": false,
+  "licensing": "All mesh geometry and embedded textures are original to this task. No third-party images or meshes are embedded; no additional third-party asset license obligations.",
+  "accuracy": "Original plausible fantasy cottage architecture; dimensions are designed in meters. Not an exact as-built replica of Peter Pan or Pooh buildings.",
+  "requiredExtensions": ["KHR_mesh_quantization"],
+  "gltfValidation": {"errors": 0, "warnings": 0},
+  "runtimeValidation": {"browserErrors": 0, "webglError": 0, "allTexturesLoaded": true},
+  "sourceFiles": ["fantasy-builder.js", "fantasy-section.js"],
+  "reports": ["fantasy-facade-validation.json", "fantasy-runtime-validation.json"],
+  "preview": "fantasy-facade-final.png"
+}

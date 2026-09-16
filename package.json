@@ -1,0 +1,20 @@
+{
+  "name": "shanghai-disney-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "奇境漫游 · 上海迪士尼非官方三维探索",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JohnnyGuo132/shanghai-disney-explorer.git"
+  },
+  "homepage": "https://JohnnyGuo132.github.io/shanghai-disney-explorer/"
+}
