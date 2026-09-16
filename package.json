@@ -1,6 +1,6 @@
 {
   "name": "shanghai-disney-explorer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "奇境漫游 · 上海迪士尼非官方三维探索",
   "type": "module",
@@ -8,7 +8,7 @@
     "dev": "node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",
     "check": "node scripts/check.mjs",
-    "test": "node --test scripts/server.test.mjs scripts/release.test.mjs",
+    "test": "node --test scripts/server.test.mjs scripts/release.test.mjs scripts/camera-profile.test.mjs scripts/vegetation-view.test.mjs",
     "release": "node scripts/release.mjs"
   },
   "engines": {

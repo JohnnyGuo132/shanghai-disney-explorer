@@ -10,13 +10,15 @@
 
 </div>
 
-![日光下的城堡与花园，来自本版本实际运行画面](./docs/media/daylight.png)
+![日光下的城堡与花园，来自 v1.0.0 实际运行画面](./docs/media/daylight.png)
 
 ## 关于项目
 
 奇境漫游是一款以上海迪士尼园区为主题的非官方三维探索应用。你可以从全园鸟瞰落到地面步道，走近地标与游乐设施，切换日光、暮色和星夜，观看城堡灯光与烟花演示。
 
-**v1.0.0 为私有发行版。** 仓库与 Release 仅向获授权成员开放；公开演示已下线，本版本不自动发布网站。下载完整项目后可以在本机运行，无需账号、API Key 或外部素材 CDN。
+**v1.0.1 为私有发行版。** 仓库与 Release 仅向获授权成员开放；公开演示已下线，本版本不自动发布网站。下载完整项目后可以在本机运行，无需账号、API Key 或外部素材 CDN。
+
+本次补丁修正缩放时雾和阴影的突变，平滑滚轮镜头，并改善地面、植被和水面反射的稳定性。改动与验证范围见 [v1.0.1 发行说明](./docs/releases/v1.0.1.md)。
 
 园区地面轮廓来自 OpenStreetMap，建筑与景观依据公开资料进行近似重建。它不是测绘级 1:1 复刻，也不是官方导览；路线、内景、演出和设施动画用于虚拟场景体验。
 
@@ -43,12 +45,12 @@
   </tr>
 </table>
 
-截图来自本版本实际浏览器画面；不同显卡、窗口尺寸和画质设置会影响效果。
+截图来自 v1.0.0 实际浏览器画面；不同显卡、窗口尺寸和画质设置会影响效果。
 
 ## 开始体验
 
-1. 登录有仓库访问权限的 GitHub 账号，打开 [v1.0.0 Release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.0)。
-2. 下载并解压 `shanghai-disney-explorer-v1.0.0-source.zip`。
+1. 登录有仓库访问权限的 GitHub 账号，打开 [v1.0.1 Release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.1)。
+2. 下载并解压 `shanghai-disney-explorer-v1.0.1-source.zip`。
 3. 安装 [Node.js](https://nodejs.org/) **22 或更新版本**。在解压后的项目目录打开终端，运行：
 
 ```sh
@@ -117,7 +119,8 @@ npm test
 - [操作指南](./docs/USER_GUIDE.md)：浏览、导航、画质、常见问题。
 - [架构说明](./docs/ARCHITECTURE.md)：模块职责、资源加载与运行路径。
 - [性能与兼容性](./docs/PERFORMANCE.md)：验证范围与复测记录要求。
-- [v1.0.0 验收记录](./docs/RELEASE-VALIDATION.md)：本次实际检查的操作、截图与未覆盖范围。
+- [v1.0.1 补丁说明](./docs/releases/v1.0.1.md)：缩放闪变修复、下载与验证范围。
+- [v1.0.0 验收记录](./docs/RELEASE-VALIDATION.md)：首个正式版本检查的操作、截图与未覆盖范围。
 - [发行说明](./docs/RELEASING.md)：版本、下载包、校验和与私有分发。
 - [路线图](./docs/ROADMAP.md)：已知限制和后续优先级。
 - [反馈与支持](./SUPPORT.md) · [安全报告](./SECURITY.md) · [贡献指南](./CONTRIBUTING.md)。

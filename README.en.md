@@ -16,7 +16,9 @@ Browser-based 3D exploration · Day and night · Walking routes · Castle show
 
 Wonder Walk is an unofficial 3D exploration app inspired by Shanghai Disneyland. Move between park-wide aerial views and ground-level paths, approach landmarks, explore changing light, and watch a castle fireworks demonstration.
 
-**v1.0.0 is a private release.** The repository and release assets are available to authorized members. The public demo has been taken offline, and this version does not deploy a public website automatically. All runtime assets are bundled; local use needs no account, API key, or external asset CDN.
+**v1.0.1 is a private release.** The repository and release assets are available to authorized members. The public demo has been taken offline, and this version does not deploy a public website automatically. All runtime assets are bundled; local use needs no account, API key, or external asset CDN.
+
+This patch addresses abrupt fog and shadow changes during zoom, smooths wheel-driven camera movement, and improves the stability of ground surfaces, vegetation, and water reflections. See the [v1.0.1 notes](./docs/releases/v1.0.1.md) for changes and validation limits.
 
 Ground outlines are derived from OpenStreetMap. Buildings, landscape details, and interiors are approximate reconstructions informed by public references. This is not an official guide or a survey-grade replica. Routes and show sequences belong to the virtual scene.
 
@@ -34,12 +36,12 @@ Ground outlines are derived from OpenStreetMap. Buildings, landscape details, an
 | --- | --- |
 | ![In-app castle show at night](./docs/media/night-show.png) | ![In-app aerial park view](./docs/media/park-overview.png) |
 
-These are actual browser captures. Rendering varies with hardware, viewport, and quality settings.
+These are actual browser captures from v1.0.0. Rendering varies with hardware, viewport, and quality settings.
 
 ## Quick start
 
-1. Sign in with an authorized GitHub account and open the [v1.0.0 release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.0).
-2. Download and extract `shanghai-disney-explorer-v1.0.0-source.zip`.
+1. Sign in with an authorized GitHub account and open the [v1.0.1 release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.1).
+2. Download and extract `shanghai-disney-explorer-v1.0.1-source.zip`.
 3. Install [Node.js](https://nodejs.org/) **22 or later**. Open a terminal in the extracted project directory and run:
 
 ```sh
@@ -87,7 +89,7 @@ npm test
 
 Read the [architecture guide](./docs/ARCHITECTURE.md), [contribution guide](./CONTRIBUTING.md), [support policy](./SUPPORT.md), and [security policy](./SECURITY.md) before making changes.
 
-The [v1.0.0 validation record](./docs/RELEASE-VALIDATION.md) lists the actual browser checks, screenshots, and untested environments.
+The [v1.0.1 patch notes](./docs/releases/v1.0.1.md) describe the zoom stability changes and their verification scope. The [v1.0.0 validation record](./docs/RELEASE-VALIDATION.md) preserves the first release's browser checks, screenshots, and untested environments.
 
 ## Licensing and credits
 
