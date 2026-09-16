@@ -8,13 +8,13 @@
 [![最新版本](https://img.shields.io/github/v/release/JohnnyGuo132/shanghai-disney-explorer)](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest)
 [![原创内容采用 MIT 许可](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
-[下载体验](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest) · [快速开始](#快速开始) · [操作指南](./docs/USER_GUIDE.md) · [English](./README.en.md)
+[**在线体验**](https://johnnyguo132.github.io/shanghai-disney-explorer/) · [下载源码](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest) · [快速开始](#快速开始) · [操作指南](./docs/USER_GUIDE.md) · [English](./README.en.md)
 
 </div>
 
 [![奇幻童话城堡，来自应用实际运行画面](./docs/media/showcase/hero-castle.jpg)](./docs/media/showcase/hero-castle.jpg)
 
-沿着步道走近地标，拉远镜头俯瞰园区，再回到城堡前等待烟花。奇境漫游是一款非官方开源三维探索应用，在本机浏览器中运行，模型、纹理、渲染库与解码器均随项目提供。
+沿着步道走近地标，拉远镜头俯瞰园区，再回到城堡前等待烟花。奇境漫游是一款非官方开源三维探索应用，可直接在线体验，也可以下载后在本机浏览器运行。模型、纹理、渲染库与解码器均随项目提供。
 
 ## 走进园区
 
@@ -69,7 +69,15 @@
 
 ## 快速开始
 
-需要 **[Node.js 22+](https://nodejs.org/)**，以及支持 **WebGL 2**、开启**硬件加速**的浏览器。推荐使用电脑、鼠标与键盘。
+### 直接在线体验
+
+打开 **[奇境漫游在线版](https://johnnyguo132.github.io/shanghai-disney-explorer/)** 即可游览，**无需安装 Node.js 或下载源码**。推荐使用电脑、鼠标与键盘，浏览器需支持 **WebGL 2** 并开启**硬件加速**。
+
+首次打开需要下载约 **30 MB** 的模型与纹理，请保持页面打开，等待加载完成；耗时取决于网络和设备。
+
+### 下载到本机运行
+
+安装 **[Node.js 22+](https://nodejs.org/)**，然后运行：
 
 ```sh
 git clone https://github.com/JohnnyGuo132/shanghai-disney-explorer.git
@@ -79,7 +87,9 @@ node scripts/serve.mjs
 
 打开 [http://127.0.0.1:4173/](http://127.0.0.1:4173/)，等待场景载入即可开始。无需 `npm install`、前端构建、API Key 或外部素材 CDN。游览时保持终端运行，结束后按 `Ctrl+C` 关闭服务。
 
-**不使用 Git？** 打开 [最新发行版](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest)，下载名称以 `-source.zip` 结尾的源码包，解压后在项目目录运行 `node scripts/serve.mjs`。下载无需登录。GitHub Pages 尚未启用，目前通过本机运行体验。静态网站包与校验方法见 [发行指南](./docs/RELEASING.md)，启动问题见 [反馈与支持](./SUPPORT.md)。
+**不使用 Git？** 打开 [最新发行版](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest)，下载名称以 `-source.zip` 结尾的源码包，解压后在项目目录运行 `node scripts/serve.mjs`。下载无需登录。静态网站包与校验方法见 [发行指南](./docs/RELEASING.md)，启动问题见 [反馈与支持](./SUPPORT.md)。
+
+在线版由 `main` 分支自动部署，下载包对应固定发行版本。部署自己的副本见 [GitHub Pages 部署指南](./docs/DEPLOYMENT.md)。
 
 ## 一起完善它
 

@@ -8,13 +8,13 @@
 [![Latest release](https://img.shields.io/github/v/release/JohnnyGuo132/shanghai-disney-explorer)](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest)
 [![Original content: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
-[Download](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest) · [Quick start](#quick-start) · [User guide](./docs/USER_GUIDE.md) · [简体中文](./README.md)
+[**Try it online**](https://johnnyguo132.github.io/shanghai-disney-explorer/) · [Download](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest) · [Quick start](#quick-start) · [User guide](./docs/USER_GUIDE.md) · [简体中文](./README.md)
 
 </div>
 
 [![The Enchanted Storybook Castle in the running 3D scene](./docs/media/showcase/hero-castle.jpg)](./docs/media/showcase/hero-castle.jpg)
 
-Walk between landmarks, pull back to see the park, then stay for the castle lights and fireworks. Wonder Walk runs locally in your browser, with its models, textures, rendering libraries, and decoders included.
+Walk between landmarks, pull back to see the park, then stay for the castle lights and fireworks. Explore online or run Wonder Walk locally in your browser, with its models, textures, rendering libraries, and decoders included.
 
 ## Around the park
 
@@ -69,7 +69,15 @@ An approximately 60-second sequence brings together fireworks, castle lighting, 
 
 ## Quick start
 
-You need **[Node.js 22+](https://nodejs.org/)** and a browser with **WebGL 2** and **hardware acceleration**. Desktop mouse and keyboard are recommended.
+### Open it online
+
+Visit **[Wonder Walk](https://johnnyguo132.github.io/shanghai-disney-explorer/)** — **no Node.js installation or source download is needed**. Use a browser with **WebGL 2** and **hardware acceleration**; desktop mouse and keyboard are recommended.
+
+The first visit downloads approximately **30 MB** of models and textures. Keep the page open while they load; loading time depends on your network and device.
+
+### Run it locally
+
+Install **[Node.js 22+](https://nodejs.org/)**, then run:
 
 ```sh
 git clone https://github.com/JohnnyGuo132/shanghai-disney-explorer.git
@@ -79,7 +87,9 @@ node scripts/serve.mjs
 
 Open [http://127.0.0.1:4173/](http://127.0.0.1:4173/) and wait for the scene to load. No `npm install`, build step, API key, or external asset CDN is needed. Keep the terminal running while exploring; press `Ctrl+C` to stop.
 
-**Prefer a ZIP?** Open the [latest release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest), download the named `shanghai-disney-explorer-v…-source.zip` attachment, extract it, and run `node scripts/serve.mjs` in that folder. Downloads are public. GitHub Pages is not enabled; the application is available to run locally. See [release packaging](./docs/RELEASING.md) for the static website archive and checksum verification, or [support](./SUPPORT.md) for startup help.
+**Prefer a ZIP?** Open the [latest release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest), download the named `shanghai-disney-explorer-v…-source.zip` attachment, extract it, and run `node scripts/serve.mjs` in that folder. Downloads are public. See [release packaging](./docs/RELEASING.md) for the static website archive and checksum verification, or [support](./SUPPORT.md) for startup help.
+
+The online site deploys automatically from `main`; download packages preserve specific release versions. See the [GitHub Pages deployment guide](./docs/DEPLOYMENT.md) to host your own copy.
 
 ## Build on it
 

@@ -4,7 +4,9 @@
 
 ## 当前分发方式
 
-项目通过公开 GitHub 仓库的 [Releases](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases) 分发，源码和附件无需登录即可下载。当前版本为 `v1.0.3`。GitHub Pages 尚未启用；持续检查仅用于验证代码与交付物，不自动发布网站。
+项目通过公开 GitHub 仓库的 [Releases](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases) 分发，源码和附件无需登录即可下载。当前发行版本为 `v1.0.3`。
+
+[GitHub Pages 在线版](https://johnnyguo132.github.io/shanghai-disney-explorer/) 由 `main` 分支的 `dist/` 自动发布。`.github/workflows/pages.yml` 在校验通过后部署静态网站，流程见 [部署指南](./DEPLOYMENT.md)。在线版可能包含尚未打包为 Release 的改动；发行附件保留各自标签对应的固定内容。
 
 发行标签、`package.json` 版本、CHANGELOG 标题及下载文件名使用同一版本号。`v1.0.0` 对应首个完整私有发行，`v1.0.3` 是首次公开开源发行。历史发行文档保留其当时的分发方式。
 
@@ -57,7 +59,7 @@ npm run release
 7. 解压生成的包，验证本地启动、主页面和完整资源路径；对照校验和。
 8. 为核实后的提交创建 `v1.0.3` 标签，将四个附件上传至 Release 草稿，填写变化、检查范围和已知限制。核对附件完整性后发布，并检查匿名访问、下载及标签对应提交。
 
-发行工具只负责生成本地附件，不应将生成包或凭据提交回代码目录。GitHub 仓库和 Release 已公开，恢复在线演示仍是独立操作；现有发行流程不部署网站。
+发行工具只负责生成本地附件，不应将生成包或凭据提交回代码目录。Release 打包与网站部署分别执行：前者生成固定版本附件，后者由 `pages.yml` 校验并发布 `main` 中的 `dist/`。
 
 ## 子路径验证
 

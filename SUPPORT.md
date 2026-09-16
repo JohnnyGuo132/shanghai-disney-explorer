@@ -7,6 +7,7 @@
 | 不知道怎么启动、移动或导航 | [操作指南](./docs/USER_GUIDE.md) |
 | 黑屏、卡顿、设备差异 | [性能与兼容性](./docs/PERFORMANCE.md) |
 | 不知道下载哪个文件 | [发行与下载包](./docs/RELEASING.md) |
+| 在线访问或部署自己的副本 | [在线体验](https://johnnyguo132.github.io/shanghai-disney-explorer/)、[部署指南](./docs/DEPLOYMENT.md) |
 | 模型不真实、建筑不能进入 | [已知限制与路线图](./docs/ROADMAP.md) |
 | 素材来源或使用权限 | [许可范围](./LICENSE.md)、[第三方声明](./THIRD_PARTY_NOTICES.md) |
 
@@ -24,7 +25,9 @@
 
 遇到场景细节问题，请写清景点名称、日夜状态和观察位置。性能问题请按 [性能反馈方法](./docs/PERFORMANCE.md) 记录，避免只写“很卡”。
 
-仓库与 Release 已公开。下载问题请从 [Release 列表](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases) 确认版本和附件名称；如果现行发行链接返回 404，请通过 Issue 反馈。GitHub Pages 尚未启用，体验方式为下载后在本机运行。
+仓库与 Release 已公开。下载问题请从 [Release 列表](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases) 确认版本和附件名称；如果现行发行链接返回 404，请通过 Issue 反馈。
+
+[在线版](https://johnnyguo132.github.io/shanghai-disney-explorer/) 无需安装 Node.js。首次需加载约 30 MB 素材，请使用支持 WebGL 2、开启硬件加速的桌面浏览器并等待加载完成。反馈在线问题时附上页面地址与访问时间；反馈本地问题时注明下载版本。在线版跟随 `main` 更新，可能包含尚未打包为 Release 的改动。
 
 ## 范围
 
