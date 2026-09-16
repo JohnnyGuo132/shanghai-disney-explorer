@@ -9,3 +9,6 @@ Thumbs.db
 .sites-runtime/
 work/
 outputs/
+artifacts/
+coverage/
+*.tmp

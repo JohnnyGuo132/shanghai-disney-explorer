@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "node scripts/serve.mjs",
     "start": "node scripts/serve.mjs",
-    "check": "node scripts/check.mjs"
+    "check": "node scripts/check.mjs",
+    "test": "node --test scripts/server.test.mjs scripts/release.test.mjs",
+    "release": "node scripts/release.mjs"
   },
   "engines": {
     "node": ">=22"
@@ -15,6 +17,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/JohnnyGuo132/shanghai-disney-explorer.git"
-  },
-  "homepage": "https://JohnnyGuo132.github.io/shanghai-disney-explorer/"
+  }
 }
