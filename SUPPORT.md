@@ -12,7 +12,7 @@
 
 ## 提交反馈
 
-有仓库权限的成员可以通过 [Issues](https://github.com/JohnnyGuo132/shanghai-disney-explorer/issues/new/choose) 提交问题或功能建议。当前没有公开社区聊天室、客服或响应时限承诺。
+欢迎通过 [Issues](https://github.com/JohnnyGuo132/shanghai-disney-explorer/issues/new/choose) 提交问题或功能建议，也欢迎通过 Pull Request 提供改进。浏览源码与下载 Release 无需登录；提交 Issue 或 PR 需要 GitHub 账号。当前没有社区聊天室、客服或响应时限承诺。
 
 一个有效问题报告通常包含：
 
@@ -24,7 +24,7 @@
 
 遇到场景细节问题，请写清景点名称、日夜状态和观察位置。性能问题请按 [性能反馈方法](./docs/PERFORMANCE.md) 记录，避免只写“很卡”。
 
-仓库与 Release 为私有，匿名访问显示 404 属于预期行为。访问权限由项目所有者管理；原公开演示地址已停用。
+仓库与 Release 已公开。下载问题请从 [Release 列表](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases) 确认版本和附件名称；如果现行发行链接返回 404，请通过 Issue 反馈。GitHub Pages 尚未启用，体验方式为下载后在本机运行。
 
 ## 范围
 

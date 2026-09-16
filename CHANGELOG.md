@@ -2,6 +2,24 @@
 
 记录面向使用者的功能变化、修复、兼容性与交付变化。发行号采用 `MAJOR.MINOR.PATCH`；历史开发快照不追溯标记为正式发行版。
 
+## [1.0.3] — 2026-09-16
+
+首次公开开源发行，公开源码和 Release 下载包。
+
+### 开源与协作
+
+- 项目原创内容采用 MIT 许可，第三方软件、素材及数据继续保留各自许可与署名。
+- 更新中英文 README、下载与发行指南，支持公开克隆和匿名下载。
+- 欢迎通过 Issue 和 Pull Request 协作，安全问题使用 GitHub 私密漏洞报告渠道。
+- 保留 `package.json` 的 `private: true`，用于防止误发布到 npm；GitHub 仓库和 Release 为公开。
+- GitHub Pages 尚未启用，本次发行不恢复在线演示。
+
+### 场景与历史记录
+
+- 场景功能继承 v1.0.2，保留城堡接地和缩放稳定性修复；本次没有新的场景表现变更。
+- 历史发行说明与 v1.0.0 实际截图保留原版本标记。
+- 下载方式与验证范围见 [v1.0.3 发行说明](./docs/releases/v1.0.3.md)。
+
 ## [1.0.2] — 2026-09-16
 
 修正主城堡像放在矩形展示板上的外观。此补丁继续以私有发行版分发，公开站点保持关闭。
@@ -64,6 +82,7 @@
 - 建筑和植被为近似重建；内景覆盖有限，无真实设施乘坐模拟或实时运营数据。
 - 尚未完成广泛移动设备、显卡与浏览器性能矩阵验证。查看 [性能说明](./docs/PERFORMANCE.md) 与 [路线图](./docs/ROADMAP.md)。
 
+[1.0.3]: https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.3
 [1.0.2]: https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.2
 [1.0.1]: https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.1
 [1.0.0]: https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.0

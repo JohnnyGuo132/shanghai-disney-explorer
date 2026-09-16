@@ -84,4 +84,4 @@ node scripts/serve.mjs
 
 ### GitHub Release 返回 404
 
-仓库当前为私有。请登录获授权的 GitHub 账号；没有访问权限的账号和匿名访客不会看到仓库或发行附件。原公开演示地址已停用。
+仓库和 Release 已公开，无需登录即可下载。请从 [Release 列表](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases) 检查版本与附件名称，并使用当前发行的完整链接。如果现行链接仍返回 404，可按 [支持说明](../SUPPORT.md) 反馈具体地址。GitHub Pages 尚未启用，请下载源码包后启动本地服务。

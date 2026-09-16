@@ -16,9 +16,9 @@
 
 奇境漫游是一款以上海迪士尼园区为主题的非官方三维探索应用。你可以从全园鸟瞰落到地面步道，走近地标与游乐设施，切换日光、暮色和星夜，观看城堡灯光与烟花演示。
 
-**v1.0.2 为私有发行版。** 仓库与 Release 仅向获授权成员开放；公开演示已下线，本版本不自动发布网站。下载完整项目后可以在本机运行，无需账号、API Key 或外部素材 CDN。
+**v1.0.3 为首次公开开源发行。** 可以直接浏览、克隆源码或匿名下载 Release，在本机运行无需账号、API Key 或外部素材 CDN。GitHub Pages 尚未启用；本次公开提供源码与下载包。
 
-本次补丁移除主城堡底部突出的矩形展示底板，保留墙脚和塔基，让建筑与园区地面衔接更自然。此前的缩放稳定性修复继续保留。改动与验证范围见 [v1.0.2 发行说明](./docs/releases/v1.0.2.md)。
+本次发行明确原创内容的 MIT 许可并完善公开协作文档，场景继承 v1.0.2 的城堡接地修复与此前的缩放稳定性修复。第三方库、素材和数据继续遵守各自许可。见 [v1.0.3 发行说明](./docs/releases/v1.0.3.md)。
 
 园区地面轮廓来自 OpenStreetMap，建筑与景观依据公开资料进行近似重建。它不是测绘级 1:1 复刻，也不是官方导览；路线、内景、演出和设施动画用于虚拟场景体验。
 
@@ -49,8 +49,8 @@
 
 ## 开始体验
 
-1. 登录有仓库访问权限的 GitHub 账号，打开 [v1.0.2 Release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.2)。
-2. 下载并解压 `shanghai-disney-explorer-v1.0.2-source.zip`。
+1. 打开 [v1.0.3 Release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.3)，无需登录即可下载。
+2. 下载并解压 `shanghai-disney-explorer-v1.0.3-source.zip`。
 3. 安装 [Node.js](https://nodejs.org/) **22 或更新版本**。在解压后的项目目录打开终端，运行：
 
 ```sh
@@ -68,6 +68,14 @@ node scripts/serve.mjs
 端口被占用时使用 `npm run dev -- --port 4184`。不要直接双击 HTML 文件；浏览器需要通过 HTTP 加载模型与模块。
 
 Release 还包含面向部署的 `website.zip`、`SHA256SUMS.txt` 和版本清单。普通体验优先选择上面的 `source.zip`；区别与校验方法见 [发行说明](./docs/RELEASING.md)。
+
+也可以直接克隆仓库：
+
+```sh
+git clone https://github.com/JohnnyGuo132/shanghai-disney-explorer.git
+cd shanghai-disney-explorer
+npm run dev
+```
 
 ## 基本操作
 
@@ -119,16 +127,19 @@ npm test
 - [操作指南](./docs/USER_GUIDE.md)：浏览、导航、画质、常见问题。
 - [架构说明](./docs/ARCHITECTURE.md)：模块职责、资源加载与运行路径。
 - [性能与兼容性](./docs/PERFORMANCE.md)：验证范围与复测记录要求。
-- [v1.0.2 补丁说明](./docs/releases/v1.0.2.md)：城堡底板修复、下载与验证范围。
+- [v1.0.3 开源发行说明](./docs/releases/v1.0.3.md)：原创内容 MIT 许可与公开下载。
+- [v1.0.2 补丁说明](./docs/releases/v1.0.2.md)：城堡底板修复与验证范围。
 - [v1.0.1 补丁说明](./docs/releases/v1.0.1.md)：此前的缩放闪变修复与验证范围。
 - [v1.0.0 验收记录](./docs/RELEASE-VALIDATION.md)：首个正式版本检查的操作、截图与未覆盖范围。
-- [发行说明](./docs/RELEASING.md)：版本、下载包、校验和与私有分发。
+- [发行说明](./docs/RELEASING.md)：版本、下载包、校验和与公开分发。
 - [路线图](./docs/ROADMAP.md)：已知限制和后续优先级。
 - [反馈与支持](./SUPPORT.md) · [安全报告](./SECURITY.md) · [贡献指南](./CONTRIBUTING.md)。
 
+欢迎通过 [Issues](https://github.com/JohnnyGuo132/shanghai-disney-explorer/issues/new/choose) 反馈问题、讨论功能，或提交 Pull Request。安全问题请使用 [私密报告渠道](./SECURITY.md)。历史 v1.0.0–v1.0.2 文档保留了当时的私有发行记录；当前分发方式以本页与 v1.0.3 说明为准。
+
 ## 许可与致谢
 
-本仓库采用**分层许可**，不是整体 MIT 开源项目。未另行标注的原创内容没有新增公开再分发许可；第三方库、素材及数据保留各自条款。范围见 [LICENSE.md](./LICENSE.md) 和 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md)。
+项目原创内容采用 **MIT 许可**，欢迎使用、修改与贡献。第三方库、素材及数据保留各自条款，MIT 不覆盖这些第三方内容。完整范围见 [LICENSE.md](./LICENSE.md) 和 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md)。
 
 感谢 Three.js、OpenStreetMap 贡献者、Poly Haven、ambientCG、HYG、NASA SVS 及随附库与素材的作者。逐项署名、素材修改记录和精度说明保留在 [素材来源页面](./dist/credits.html)。
 

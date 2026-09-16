@@ -6,7 +6,7 @@ https://opendatacommons.org/licenses/odbl/1-0/
 
 Castle, TRON, Mickey Avenue, Zootopia, mountain, port, ship and Fantasyland facade geometry: original models for this project from public photographic references, with estimated details. See landmarks/*SOURCES* files and ../credits.html. No scanned park model is used.
 
-CC0 assets: Poly Haven Tree Small 02 (Rico Cilliers), Shrub 04 (Rico Cilliers), Fern 02 (Rob Tuytel and Rico Cilliers), Concrete Pavement, Beige Wall 001, Roof Slates 03, Kloppenheim 05 Pure Sky, Rock Face (Dario Barresi and Greg Zaal). ambientCG Grass005. See ../credits.html for direct asset links and adaptation notes.
+CC0 assets: Poly Haven Tree Small 02 (Rico Cilliers), Shrub 04 (Rico Cilliers), Fern 02 (Rob Tuytel and Rico Cilliers), Concrete Pavement, Beige Wall 001, Roof Slates 03, Kloppenheim 05 Pure Sky, Rock Face (Dario Barresi and Greg Zaal). ambientCG Grass001 (current lawn) and Grass005 (earlier ground material). See ../credits.html for direct asset links and adaptation notes.
 https://polyhaven.com/license
 https://docs.ambientcg.com/license/
 

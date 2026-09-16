@@ -4,16 +4,18 @@
 
 ## 当前分发方式
 
-项目通过私有 GitHub 仓库的 [Releases](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases) 分发。只有获授权成员可访问。公开 Pages 已停用；持续检查仅用于验证代码与交付物，不自动发布网站。
+项目通过公开 GitHub 仓库的 [Releases](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases) 分发，源码和附件无需登录即可下载。当前版本为 `v1.0.3`。GitHub Pages 尚未启用；持续检查仅用于验证代码与交付物，不自动发布网站。
 
-发行标签、`package.json` 版本、CHANGELOG 标题及下载文件名使用同一版本号。`v1.0.0` 对应首个完整私有发行。
+发行标签、`package.json` 版本、CHANGELOG 标题及下载文件名使用同一版本号。`v1.0.0` 对应首个完整私有发行，`v1.0.3` 是首次公开开源发行。历史发行文档保留其当时的分发方式。
+
+`package.json` 中的 `private: true` 仅防止误发布到 npm，不影响 GitHub 仓库公开、克隆或 Release 下载。`license: "MIT"` 对应项目原创内容；第三方内容的许可范围见 [LICENSE.md](../LICENSE.md)。
 
 ## 下载哪个文件
 
 | 附件 | 内容与用途 |
 | --- | --- |
-| `shanghai-disney-explorer-v1.0.0-source.zip` | 浏览器源码、全部运行素材、本地服务、检查脚本及文档。普通体验和后续编辑选这个包 |
-| `shanghai-disney-explorer-v1.0.0-website.zip` | 静态网站文件，`index.html` 位于包根目录，适合交给静态 HTTP 服务；不含完整本地开发工具 |
+| `shanghai-disney-explorer-v1.0.3-source.zip` | 浏览器源码、全部运行素材、本地服务、检查脚本及文档。普通体验和后续编辑选这个包 |
+| `shanghai-disney-explorer-v1.0.3-website.zip` | 静态网站文件，`index.html` 位于包根目录，适合交给静态 HTTP 服务；不含完整本地开发工具 |
 | `SHA256SUMS.txt` | 下载包的 SHA-256 校验值，用于检查下载文件是否与发布文件一致 |
 | `release-manifest.json` | 发行版本、提交与文件信息，供追溯和自动化核对 |
 
@@ -24,7 +26,7 @@ GitHub 还可能显示自动生成的 Source code 下载项；本指南中的本
 将附件与 `SHA256SUMS.txt` 放在同一目录。Windows PowerShell 示例：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\shanghai-disney-explorer-v1.0.0-source.zip
+Get-FileHash -Algorithm SHA256 .\shanghai-disney-explorer-v1.0.3-source.zip
 ```
 
 将输出的哈希与 `SHA256SUMS.txt` 中同名文件对应值比较，忽略字母大小写。macOS 可使用 `shasum -a 256 文件名`，Linux 可使用 `sha256sum 文件名`。值一致后再解压；校验和用于文件完整性核对，本身不是独立的作者签名。
@@ -33,7 +35,7 @@ Get-FileHash -Algorithm SHA256 .\shanghai-disney-explorer-v1.0.0-source.zip
 
 以下适用于维护者，需要安装 Node.js 22+ 与 Git，并在完整 Git 检出目录运行。
 
-1. 更新版本号、CHANGELOG、README 中的发行信息及实际截图。
+1. 更新版本号、CHANGELOG 与 README 中的发行信息；功能变化需要新截图时，从实际运行画面采集，并明确截图版本。
 2. 检查新增素材来源，并保留全部许可声明。
 3. 执行资源检查与本地服务测试：
 
@@ -50,12 +52,12 @@ npm test
 npm run release
 ```
 
-本版本输出在 `artifacts/v1.0.0/`。工具从已提交的 Git 内容读取文件，以固定 UTF-8 排序、固定时间元数据和 DEFLATE 压缩生成 ZIP。在相同提交、脚本和 Node.js / zlib 版本下，输出字节可复现；不承诺不同 zlib 版本间的压缩字节一致。版本清单记录了实际工具链。
+本版本输出在 `artifacts/v1.0.3/`。工具从已提交的 Git 内容读取文件，以固定 UTF-8 排序、固定时间元数据和 DEFLATE 压缩生成 ZIP。在相同提交、脚本和 Node.js / zlib 版本下，输出字节可复现；不承诺不同 zlib 版本间的压缩字节一致。版本清单记录了实际工具链。
 
 7. 解压生成的包，验证本地启动、主页面和完整资源路径；对照校验和。
-8. 为核实后的提交创建 `v1.0.0` 标签，将四个附件上传至私有 Release，填写功能、检查范围和已知限制。发布后确认仓库仍为私有。
+8. 为核实后的提交创建 `v1.0.3` 标签，将四个附件上传至 Release 草稿，填写变化、检查范围和已知限制。核对附件完整性后发布，并检查匿名访问、下载及标签对应提交。
 
-发行工具只负责生成本地附件，不应将生成包或凭据提交回代码目录。公开网站恢复与仓库公开是独立操作，需要项目所有者另行决定。
+发行工具只负责生成本地附件，不应将生成包或凭据提交回代码目录。GitHub 仓库和 Release 已公开，恢复在线演示仍是独立操作；现有发行流程不部署网站。
 
 ## 子路径验证
 

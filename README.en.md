@@ -16,9 +16,9 @@ Browser-based 3D exploration · Day and night · Walking routes · Castle show
 
 Wonder Walk is an unofficial 3D exploration app inspired by Shanghai Disneyland. Move between park-wide aerial views and ground-level paths, approach landmarks, explore changing light, and watch a castle fireworks demonstration.
 
-**v1.0.2 is a private release.** The repository and release assets are available to authorized members. The public demo has been taken offline, and this version does not deploy a public website automatically. All runtime assets are bundled; local use needs no account, API key, or external asset CDN.
+**v1.0.3 is the first public open-source release.** Browse or clone the source and download release assets without signing in. All runtime assets are bundled; local use needs no account, API key, or external asset CDN. GitHub Pages remains disabled; this release makes the source and downloadable packages public.
 
-This patch removes the oversized rectangular display base beneath the main castle while retaining the wall footings and tower bases, improving the transition to the surrounding ground. The earlier zoom stability fixes are retained. See the [v1.0.2 notes](./docs/releases/v1.0.2.md) for changes and validation limits.
+This release licenses original project content under MIT and updates the public collaboration guides. The scene retains v1.0.2's castle ground-contact correction and the earlier zoom stability fixes. Third-party software, assets, and data keep their own licenses. See the [v1.0.3 notes](./docs/releases/v1.0.3.md).
 
 Ground outlines are derived from OpenStreetMap. Buildings, landscape details, and interiors are approximate reconstructions informed by public references. This is not an official guide or a survey-grade replica. Routes and show sequences belong to the virtual scene.
 
@@ -40,8 +40,8 @@ These are actual browser captures from v1.0.0. Rendering varies with hardware, v
 
 ## Quick start
 
-1. Sign in with an authorized GitHub account and open the [v1.0.2 release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.2).
-2. Download and extract `shanghai-disney-explorer-v1.0.2-source.zip`.
+1. Open the [v1.0.3 release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.3). No GitHub login is required to download it.
+2. Download and extract `shanghai-disney-explorer-v1.0.3-source.zip`.
 3. Install [Node.js](https://nodejs.org/) **22 or later**. Open a terminal in the extracted project directory and run:
 
 ```sh
@@ -53,6 +53,14 @@ Visit **http://127.0.0.1:4173/** and allow the scene to load. No `npm install` o
 For a different port, run `npm run dev -- --port 4184`. Do not open the HTML file directly: module and model loading requires HTTP.
 
 The release also provides a static website archive, SHA-256 checksums, and a version manifest. See [release packaging](./docs/RELEASING.md) for their roles and verification commands.
+
+Or clone the public repository:
+
+```sh
+git clone https://github.com/JohnnyGuo132/shanghai-disney-explorer.git
+cd shanghai-disney-explorer
+npm run dev
+```
 
 ## Controls
 
@@ -89,11 +97,13 @@ npm test
 
 Read the [architecture guide](./docs/ARCHITECTURE.md), [contribution guide](./CONTRIBUTING.md), [support policy](./SUPPORT.md), and [security policy](./SECURITY.md) before making changes.
 
-The [v1.0.2 patch notes](./docs/releases/v1.0.2.md) describe the castle base correction and its verification scope. The [v1.0.1 patch notes](./docs/releases/v1.0.1.md) document the earlier zoom stability fixes. The [v1.0.0 validation record](./docs/RELEASE-VALIDATION.md) preserves the first release's browser checks, screenshots, and untested environments.
+The [v1.0.3 release notes](./docs/releases/v1.0.3.md) describe the licensing and public distribution changes. The [v1.0.2 patch notes](./docs/releases/v1.0.2.md) describe the castle base correction and its verification scope. The [v1.0.1 patch notes](./docs/releases/v1.0.1.md) document the earlier zoom stability fixes. The [v1.0.0 validation record](./docs/RELEASE-VALIDATION.md) preserves the first release's browser checks, screenshots, and untested environments.
+
+[Issues](https://github.com/JohnnyGuo132/shanghai-disney-explorer/issues/new/choose) and pull requests are welcome. Report security issues through the [private reporting channel](./SECURITY.md). Historical v1.0.0–v1.0.2 documents retain the private distribution policy that applied at the time; this README and the v1.0.3 notes describe the current policy.
 
 ## Licensing and credits
 
-This repository has **separate licenses for different components**, rather than one blanket MIT license. Unmarked original content receives no new public redistribution license. Third-party software, assets, and data retain their existing terms. See [LICENSE.md](./LICENSE.md), [third-party notices](./THIRD_PARTY_NOTICES.md), and the [asset credits](./dist/credits.html).
+Original project content is licensed under **MIT**. You are welcome to use, modify, and contribute to it. Third-party software, assets, and data retain their existing terms and are outside the project's MIT grant. See [LICENSE.md](./LICENSE.md), [third-party notices](./THIRD_PARTY_NOTICES.md), and the [asset credits](./dist/credits.html).
 
 Thanks to Three.js, OpenStreetMap contributors, Poly Haven, ambientCG, HYG, NASA SVS, and all bundled library and asset authors.
 
