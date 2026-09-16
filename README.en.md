@@ -2,109 +2,102 @@
 
 # Wonder Walk · Shanghai Disneyland
 
-**Explore the park at your own pace. Stay for the castle after dark.**
+**An unofficial, open-source 3D park to explore on foot, from above, and after dark.**
 
-Browser-based 3D exploration · Day and night · Walking routes · Castle show
+[![CI](https://github.com/JohnnyGuo132/shanghai-disney-explorer/actions/workflows/ci.yml/badge.svg)](https://github.com/JohnnyGuo132/shanghai-disney-explorer/actions/workflows/ci.yml)
+[![Latest release](https://img.shields.io/github/v/release/JohnnyGuo132/shanghai-disney-explorer)](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest)
+[![Original content: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
-[Quick start](#quick-start) · [Release notes](./CHANGELOG.md) · [简体中文](./README.md)
+[Download](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest) · [Quick start](#quick-start) · [User guide](./docs/USER_GUIDE.md) · [简体中文](./README.md)
 
 </div>
 
-![In-app daylight view of the castle and gardens](./docs/media/daylight.png)
+[![The Enchanted Storybook Castle in the running 3D scene](./docs/media/showcase/hero-castle.jpg)](./docs/media/showcase/hero-castle.jpg)
 
-## About
+Walk between landmarks, pull back to see the park, then stay for the castle lights and fireworks. Wonder Walk runs locally in your browser, with its models, textures, rendering libraries, and decoders included.
 
-Wonder Walk is an unofficial 3D exploration app inspired by Shanghai Disneyland. Move between park-wide aerial views and ground-level paths, approach landmarks, explore changing light, and watch a castle fireworks demonstration.
+## Around the park
 
-**v1.0.3 is the first public open-source release.** Browse or clone the source and download release assets without signing in. All runtime assets are bundled; local use needs no account, API key, or external asset CDN. GitHub Pages remains disabled; this release makes the source and downloadable packages public.
+<table>
+  <tr>
+    <td width="50%"><a href="./docs/media/showcase/park-overview.jpg"><img src="./docs/media/showcase/park-overview.jpg" alt="Aerial view of the park" /></a></td>
+    <td width="50%"><a href="./docs/media/showcase/tron.jpg"><img src="./docs/media/showcase/tron.jpg" alt="TRON attraction in Tomorrowland" /></a></td>
+  </tr>
+  <tr>
+    <td align="center">The park from above</td>
+    <td align="center">TRON · Tomorrowland</td>
+  </tr>
+  <tr>
+    <td><a href="./docs/media/showcase/treasure-cove.jpg"><img src="./docs/media/showcase/treasure-cove.jpg" alt="Pirate ship in Treasure Cove" /></a></td>
+    <td><a href="./docs/media/showcase/roaring-mountain.jpg"><img src="./docs/media/showcase/roaring-mountain.jpg" alt="Roaring Mountain in Adventure Isle" /></a></td>
+  </tr>
+  <tr>
+    <td align="center">Treasure Cove</td>
+    <td align="center">Roaring Mountain · Adventure Isle</td>
+  </tr>
+  <tr>
+    <td><a href="./docs/media/showcase/zootopia.jpg"><img src="./docs/media/showcase/zootopia.jpg" alt="Buildings in the Zootopia area" /></a></td>
+    <td><a href="./docs/media/showcase/carousel.jpg"><img src="./docs/media/showcase/carousel.jpg" alt="Fantasia Carousel in Gardens of Imagination" /></a></td>
+  </tr>
+  <tr>
+    <td align="center">Zootopia</td>
+    <td align="center">Fantasia Carousel</td>
+  </tr>
+</table>
 
-This release licenses original project content under MIT and updates the public collaboration guides. The scene retains v1.0.2's castle ground-contact correction and the earlier zoom stability fixes. Third-party software, assets, and data keep their own licenses. See the [v1.0.3 notes](./docs/releases/v1.0.3.md).
+## Stay for the night show
 
-Ground outlines are derived from OpenStreetMap. Buildings, landscape details, and interiors are approximate reconstructions informed by public references. This is not an official guide or a survey-grade replica. Routes and show sequences belong to the virtual scene.
+[![Animated capture of the castle lighting and fireworks show](./docs/media/showcase/fireworks.gif)](./docs/media/showcase/fireworks.gif)
 
-## Features
+An approximately 60-second sequence brings together fireworks, castle lighting, projection, and smoke. Outside the show, switch between daylight, twilight, and night. Stars and moon phase are calculated for the scene's Shanghai date, while daylight and night follow the time setting.
 
-- Eight themed lands and 22 main destinations, with additional selectable buildings.
-- Ground-level exploration, close-up views, continuous zoom out into aerial mode, and a minimap.
-- Walking routes from the current position, distance and time estimates, autoplay, pause, and resume.
-- Daylight, twilight, and night; sun, moon phase, and stars calculated for the selected Shanghai date and time.
-- An approximately one-minute castle show combining fireworks, lighting, projection, and smoke.
-- Architectural details, vegetation, paving, street furniture, and animated rides; selected rides offer normal, slow, and paused playback.
-- Bundled models, textures, rendering libraries, and decoders. No npm dependencies to install.
+*All images and the animation on this page are captured from the running v1.0.3 application. Click an image to open it at full size. Appearance varies with hardware, viewport, and quality settings. See [Capture notes](./docs/SHOWCASE.md).*
 
-| Castle show | Park overview |
+## Explore your way
+
+| Experience | What you can do |
 | --- | --- |
-| ![In-app castle show at night](./docs/media/night-show.png) | ![In-app aerial park view](./docs/media/park-overview.png) |
+| **8 themed lands, 22 main destinations** | Search for a landmark or click a building to move to a nearby viewing point. |
+| **Walk or fly above the park** | Use ground-level movement, close-up views, continuous zoom into aerial mode, and a minimap. |
+| **Follow a route** | Preview a walking route with distance and time estimates, then start, pause, or resume automatic walking. |
+| **Watch the details** | Explore architectural features, planting, paving, and street furniture; selected rides offer normal, slow, and paused animation. |
+| **Change the atmosphere** | Move through daylight and night, or take a place in front of the castle for the show. |
 
-These are actual browser captures from v1.0.0. Rendering varies with hardware, viewport, and quality settings.
+[![Walking route preview and navigation controls in the application](./docs/media/showcase/navigation.jpg)](./docs/media/showcase/navigation.jpg)
+
+**Controls:** drag to look around, scroll to zoom, use `W A S D` or arrow keys to walk, and hold `Shift` to move faster. Press `/` to search and `Esc` to dismiss panels or interrupt automatic movement. The application interface is currently in **Simplified Chinese**; see the [user guide](./docs/USER_GUIDE.md) for detailed controls.
 
 ## Quick start
 
-1. Open the [v1.0.3 release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.3). No GitHub login is required to download it.
-2. Download and extract `shanghai-disney-explorer-v1.0.3-source.zip`.
-3. Install [Node.js](https://nodejs.org/) **22 or later**. Open a terminal in the extracted project directory and run:
-
-```sh
-npm run dev
-```
-
-Visit **http://127.0.0.1:4173/** and allow the scene to load. No `npm install` or build step is needed. Keep the terminal open while exploring; press `Ctrl+C` to stop the server. If PowerShell blocks `npm.ps1`, use `node scripts/serve.mjs` instead.
-
-For a different port, run `npm run dev -- --port 4184`. Do not open the HTML file directly: module and model loading requires HTTP.
-
-The release also provides a static website archive, SHA-256 checksums, and a version manifest. See [release packaging](./docs/RELEASING.md) for their roles and verification commands.
-
-Or clone the public repository:
+You need **[Node.js 22+](https://nodejs.org/)** and a browser with **WebGL 2** and **hardware acceleration**. Desktop mouse and keyboard are recommended.
 
 ```sh
 git clone https://github.com/JohnnyGuo132/shanghai-disney-explorer.git
 cd shanghai-disney-explorer
-npm run dev
+node scripts/serve.mjs
 ```
 
-## Controls
+Open **http://127.0.0.1:4173/** and wait for the scene to load. No `npm install`, build step, API key, or external asset CDN is needed. Keep the terminal running while exploring; press `Ctrl+C` to stop.
 
-| Input | Action |
-| --- | --- |
-| Drag | Look around; orbit in aerial mode |
-| Scroll | Zoom; continue zooming out to enter aerial mode |
-| `W A S D` / arrow keys | Walk; hold `Shift` to move faster |
-| Click a building | Travel to a nearby viewing point |
-| Search a destination | Select it, then choose the close-up or navigation action |
-| Navigation controls | Preview, start, pause, resume, or inspect the route |
-| Time / fireworks controls | Change lighting or watch the castle show |
-| Quality control | Switch between high quality and reduced rendering cost |
-| `/` / `Esc` | Open search / dismiss panels and interrupt automatic movement |
+**Prefer a ZIP?** Open the [latest release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest), download the named `shanghai-disney-explorer-v…-source.zip` attachment, extract it, and run `node scripts/serve.mjs` in that folder. Downloads are public. GitHub Pages is not enabled; the application is available to run locally. See [release packaging](./docs/RELEASING.md) for the static website archive and checksum verification, or [support](./SUPPORT.md) for startup help.
 
-The app interface and detailed guides are currently in Chinese. See the [user guide](./docs/USER_GUIDE.md).
+## Build on it
 
-## Requirements and limits
-
-A modern browser with **WebGL 2** and hardware acceleration is required. Desktop mouse and keyboard are the primary input devices. Touch direction buttons are available, but broad mobile and tablet validation has not been completed.
-
-Vegetation, shadows, transparent surfaces, and fireworks are GPU-intensive. Use the lower-cost quality setting first. No fixed frame rate, loading time, or broad hardware compatibility is guaranteed. See [performance and compatibility](./docs/PERFORMANCE.md) for the validation scope.
-
-Interiors consist mainly of selected shop windows and furnishings; many buildings cannot be entered. The app does not provide live queues, ticketing, operating schedules, or ride simulation. See [known limits and roadmap](./docs/ROADMAP.md).
-
-## Development
-
-`dist/` contains both editable website source and the complete deployable payload. `scripts/` contains the local server, checks, tests, and release packager. There is no frontend build step.
+`dist/` contains the editable application and all runtime assets. `scripts/` contains the local server, checks, tests, and release packager. There is no frontend build step.
 
 ```sh
 npm run check
 npm test
 ```
 
-Read the [architecture guide](./docs/ARCHITECTURE.md), [contribution guide](./CONTRIBUTING.md), [support policy](./SUPPORT.md), and [security policy](./SECURITY.md) before making changes.
+Issues and pull requests are welcome. Start with the [contribution guide](./CONTRIBUTING.md) and [architecture](./docs/ARCHITECTURE.md), browse the [roadmap](./docs/ROADMAP.md), or [report an issue](https://github.com/JohnnyGuo132/shanghai-disney-explorer/issues/new/choose). For security concerns, use the [private reporting channel](./SECURITY.md). Changes are recorded in the [changelog](./CHANGELOG.md).
 
-The [v1.0.3 release notes](./docs/releases/v1.0.3.md) describe the licensing and public distribution changes. The [v1.0.2 patch notes](./docs/releases/v1.0.2.md) describe the castle base correction and its verification scope. The [v1.0.1 patch notes](./docs/releases/v1.0.1.md) document the earlier zoom stability fixes. The [v1.0.0 validation record](./docs/RELEASE-VALIDATION.md) preserves the first release's browser checks, screenshots, and untested environments.
+**Scope:** park outlines use OpenStreetMap data, while buildings and landscapes are approximate reconstructions. Interiors cover selected windows and furnishings; this is not a survey-grade replica or an official guide. There are no live queues, ticketing, operating data, or full ride simulations, and broad mobile-device validation is still pending. See [known limits](./docs/ROADMAP.md) and [performance notes](./docs/PERFORMANCE.md).
 
-[Issues](https://github.com/JohnnyGuo132/shanghai-disney-explorer/issues/new/choose) and pull requests are welcome. Report security issues through the [private reporting channel](./SECURITY.md). Historical v1.0.0–v1.0.2 documents retain the private distribution policy that applied at the time; this README and the v1.0.3 notes describe the current policy.
+## License and acknowledgements
 
-## Licensing and credits
+Original project content is available under the **[MIT license](./LICENSE.md)**. Third-party software, assets, and data retain their own terms; they are not covered by the project's MIT grant. See the [third-party notices](./THIRD_PARTY_NOTICES.md) and [asset credits](./dist/credits.html) for sources and attribution.
 
-Original project content is licensed under **MIT**. You are welcome to use, modify, and contribute to it. Third-party software, assets, and data retain their existing terms and are outside the project's MIT grant. See [LICENSE.md](./LICENSE.md), [third-party notices](./THIRD_PARTY_NOTICES.md), and the [asset credits](./dist/credits.html).
+Thanks to Three.js, OpenStreetMap contributors, Poly Haven, ambientCG, HYG, NASA SVS, and the authors of the bundled libraries and assets.
 
-Thanks to Three.js, OpenStreetMap contributors, Poly Haven, ambientCG, HYG, NASA SVS, and all bundled library and asset authors.
-
-This project is not affiliated with or endorsed by Disney or Shanghai Disney Resort. Names, trademarks, and third-party likenesses belong to their respective rights holders.
+Wonder Walk is not affiliated with or endorsed by Disney or Shanghai Disney Resort. Names, trademarks, and third-party likenesses belong to their respective rights holders.

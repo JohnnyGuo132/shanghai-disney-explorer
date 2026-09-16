@@ -2,145 +2,102 @@
 
 # 奇境漫游 · 上海迪士尼
 
-**沿着步道探索园区，在城堡前等待夜幕与烟花。**
+**在浏览器里逛上海迪士尼，从全园鸟瞰到城堡夜色。**
 
-浏览器三维漫游 · 昼夜光影 · 场景导航 · 城堡演出
+[![持续检查](https://github.com/JohnnyGuo132/shanghai-disney-explorer/actions/workflows/ci.yml/badge.svg)](https://github.com/JohnnyGuo132/shanghai-disney-explorer/actions/workflows/ci.yml)
+[![最新版本](https://img.shields.io/github/v/release/JohnnyGuo132/shanghai-disney-explorer)](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest)
+[![原创内容采用 MIT 许可](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
-[开始体验](#开始体验) · [操作指南](./docs/USER_GUIDE.md) · [版本记录](./CHANGELOG.md) · [English](./README.en.md)
+[下载体验](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest) · [快速开始](#快速开始) · [操作指南](./docs/USER_GUIDE.md) · [English](./README.en.md)
 
 </div>
 
-![日光下的城堡与花园，来自 v1.0.0 实际运行画面](./docs/media/daylight.png)
+[![奇幻童话城堡，来自应用实际运行画面](./docs/media/showcase/hero-castle.jpg)](./docs/media/showcase/hero-castle.jpg)
 
-## 关于项目
+沿着步道走近地标，拉远镜头俯瞰园区，再回到城堡前等待烟花。奇境漫游是一款非官方开源三维探索应用，在本机浏览器中运行，模型、纹理、渲染库与解码器均随项目提供。
 
-奇境漫游是一款以上海迪士尼园区为主题的非官方三维探索应用。你可以从全园鸟瞰落到地面步道，走近地标与游乐设施，切换日光、暮色和星夜，观看城堡灯光与烟花演示。
-
-**v1.0.3 为首次公开开源发行。** 可以直接浏览、克隆源码或匿名下载 Release，在本机运行无需账号、API Key 或外部素材 CDN。GitHub Pages 尚未启用；本次公开提供源码与下载包。
-
-本次发行明确原创内容的 MIT 许可并完善公开协作文档，场景继承 v1.0.2 的城堡接地修复与此前的缩放稳定性修复。第三方库、素材和数据继续遵守各自许可。见 [v1.0.3 发行说明](./docs/releases/v1.0.3.md)。
-
-园区地面轮廓来自 OpenStreetMap，建筑与景观依据公开资料进行近似重建。它不是测绘级 1:1 复刻，也不是官方导览；路线、内景、演出和设施动画用于虚拟场景体验。
-
-## 可以体验什么
-
-| 体验 | 已实现内容 |
-| --- | --- |
-| 全园探索 | 8 个主题区域、22 个主要目的地，另可点击沿街建筑 |
-| 自由漫游 | 地面行走、建筑近景、可连续拉远的鸟瞰、小地图 |
-| 场景导航 | 从当前位置规划步道路线，显示距离与预计时间，支持自动行走、暂停和继续 |
-| 昼夜变化 | 日光、暮色、星夜；太阳、月相与星空根据上海日期和时间计算 |
-| 城堡夜间演出 | 多种烟花形态、分区灯光、投影与烟雾的约一分钟演示 |
-| 细节观察 | 建筑窗饰与檐口、植物与铺地、路灯座椅；部分游乐设施支持运行、慢速与定格 |
-| 本地运行 | 模型、纹理、渲染库与解码器随包分发，无需安装 npm 依赖 |
+## 走进园区
 
 <table>
   <tr>
-    <td><img src="./docs/media/night-show.png" alt="夜间城堡灯光与烟花实际运行截图" /></td>
-    <td><img src="./docs/media/park-overview.png" alt="园区鸟瞰实际运行截图" /></td>
+    <td width="50%"><a href="./docs/media/showcase/park-overview.jpg"><img src="./docs/media/showcase/park-overview.jpg" alt="全园鸟瞰实际运行截图" /></a></td>
+    <td width="50%"><a href="./docs/media/showcase/tron.jpg"><img src="./docs/media/showcase/tron.jpg" alt="明日世界创极速光轮实际运行截图" /></a></td>
   </tr>
   <tr>
-    <td align="center">城堡夜间演出</td>
     <td align="center">全园鸟瞰</td>
+    <td align="center">明日世界 · 创极速光轮</td>
+  </tr>
+  <tr>
+    <td><a href="./docs/media/showcase/treasure-cove.jpg"><img src="./docs/media/showcase/treasure-cove.jpg" alt="宝藏湾海盗船实际运行截图" /></a></td>
+    <td><a href="./docs/media/showcase/roaring-mountain.jpg"><img src="./docs/media/showcase/roaring-mountain.jpg" alt="探险岛雷鸣山实际运行截图" /></a></td>
+  </tr>
+  <tr>
+    <td align="center">宝藏湾</td>
+    <td align="center">探险岛 · 雷鸣山</td>
+  </tr>
+  <tr>
+    <td><a href="./docs/media/showcase/zootopia.jpg"><img src="./docs/media/showcase/zootopia.jpg" alt="疯狂动物城建筑实际运行截图" /></a></td>
+    <td><a href="./docs/media/showcase/carousel.jpg"><img src="./docs/media/showcase/carousel.jpg" alt="幻想曲旋转木马实际运行截图" /></a></td>
+  </tr>
+  <tr>
+    <td align="center">疯狂动物城</td>
+    <td align="center">幻想曲旋转木马</td>
   </tr>
 </table>
 
-截图来自 v1.0.0 实际浏览器画面；不同显卡、窗口尺寸和画质设置会影响效果。
+## 等一场城堡烟花
 
-## 开始体验
+[![城堡灯光与烟花演出的实际运行录屏片段](./docs/media/showcase/fireworks.gif)](./docs/media/showcase/fireworks.gif)
 
-1. 打开 [v1.0.3 Release](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.3)，无需登录即可下载。
-2. 下载并解压 `shanghai-disney-explorer-v1.0.3-source.zip`。
-3. 安装 [Node.js](https://nodejs.org/) **22 或更新版本**。在解压后的项目目录打开终端，运行：
+约 60 秒的演出结合烟花、城堡分区灯光、投影与烟雾。也可以自由切换日光、暮色与星夜；星空与月相随日期计算，昼夜随时间设置变化。
 
-```sh
-npm run dev
-```
+*本页图片与动图均采集自 v1.0.3 实际运行画面，点击可查看原图。不同设备、窗口尺寸和画质设置会影响效果。详见 [截图与录制说明](./docs/SHOWCASE.md)。*
 
-打开终端显示的 **http://127.0.0.1:4173/**，等待模型载入即可游览。无需 `npm install`，也没有前端构建步骤。请保持终端运行；结束游览后按 `Ctrl+C` 关闭本地服务。
+## 按自己的节奏探索
 
-若 PowerShell 阻止执行 `npm.ps1`，可直接运行等效命令：
+| 体验 | 可以做什么 |
+| --- | --- |
+| **8 个主题区域，22 个主要目的地** | 搜索地标，或直接点击建筑，前往附近的观景位置。 |
+| **从步道走向全园鸟瞰** | 地面行走、近景观察，连续拉远进入鸟瞰，通过小地图辨认位置。 |
+| **沿路线自动漫游** | 预览步道路线、距离与预计时间，再开始自动行走，随时暂停或继续。 |
+| **停下来观察细节** | 查看建筑、植物、铺地与街道家具；部分游乐设施支持运行、慢速和定格。 |
+| **切换昼夜，观看演出** | 从日光走到星夜，或前往城堡观演位置，观看灯光烟花。 |
 
-```sh
-node scripts/serve.mjs
-```
+[![步道路线预览与导航控件实际运行截图](./docs/media/showcase/navigation.jpg)](./docs/media/showcase/navigation.jpg)
 
-端口被占用时使用 `npm run dev -- --port 4184`。不要直接双击 HTML 文件；浏览器需要通过 HTTP 加载模型与模块。
+**基本操作：**拖动环顾，滚轮缩放，`W A S D` 或方向键行走，按住 `Shift` 加速。`/` 打开搜索，`Esc` 关闭面板或中断自动移动。完整交互见 [操作指南](./docs/USER_GUIDE.md)。
 
-Release 还包含面向部署的 `website.zip`、`SHA256SUMS.txt` 和版本清单。普通体验优先选择上面的 `source.zip`；区别与校验方法见 [发行说明](./docs/RELEASING.md)。
+## 快速开始
 
-也可以直接克隆仓库：
+需要 **[Node.js 22+](https://nodejs.org/)**，以及支持 **WebGL 2**、开启**硬件加速**的浏览器。推荐使用电脑、鼠标与键盘。
 
 ```sh
 git clone https://github.com/JohnnyGuo132/shanghai-disney-explorer.git
 cd shanghai-disney-explorer
-npm run dev
+node scripts/serve.mjs
 ```
 
-## 基本操作
+打开 **http://127.0.0.1:4173/**，等待场景载入即可开始。无需 `npm install`、前端构建、API Key 或外部素材 CDN。游览时保持终端运行，结束后按 `Ctrl+C` 关闭服务。
 
-| 操作 | 作用 |
-| --- | --- |
-| 拖动场景 | 环顾四周；鸟瞰时旋转视角 |
-| 滚轮 | 拉近或拉远；地面持续拉远后进入鸟瞰 |
-| `W A S D` / 方向键 | 沿场景步道行走，`Shift` 加速 |
-| 点击场景建筑 | 移动到附近观景位置 |
-| 搜索目的地 | 选择后使用「看近景」或「导航」 |
-| 「导航」 | 预览路线，再开始自动行走；可以暂停、继续或查看全程 |
-| 昼夜控件 / 烟花按钮 | 切换光照，或前往城堡观看演出 |
-| 「高画质 / 流畅」 | 调整渲染开销 |
-| `/` / `Esc` | 打开搜索 / 关闭面板并退出当前自动操作 |
+**不使用 Git？** 打开 [最新发行版](https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/latest)，下载名称以 `-source.zip` 结尾的源码包，解压后在项目目录运行 `node scripts/serve.mjs`。下载无需登录。GitHub Pages 尚未启用，目前通过本机运行体验。静态网站包与校验方法见 [发行指南](./docs/RELEASING.md)，启动问题见 [反馈与支持](./SUPPORT.md)。
 
-完整说明与常见问题见 [操作指南](./docs/USER_GUIDE.md)。
+## 一起完善它
 
-## 运行要求与体验边界
-
-需要支持 **WebGL 2**、开启硬件加速的现代浏览器。桌面鼠标与键盘是主要交互方式；触屏提供方向按钮，但手机与平板尚未完成广泛机型验证。
-
-大范围植被、透明材质、阴影和烟花会增加显卡负担。建议先使用「流畅」模式，再根据设备情况切换画质。当前不承诺特定显卡的帧率、加载时长或全设备兼容性；实测范围与复测方法见 [性能与兼容性](./docs/PERFORMANCE.md)。
-
-建筑内景目前以局部橱窗和陈设为主，许多建筑不能进入；场景没有真实排队时间、票务、营业数据或设施乘坐模拟。详见 [已知限制与路线图](./docs/ROADMAP.md)。
-
-## 项目结构
-
-```text
-dist/                可直接运行的网站源码与完整本地素材
-  index.html         全园漫游入口
-  explore.js         界面、镜头、导航状态与输入
-  world-*.js         场景、建筑、植被、设施、灯光与烟花
-  assets/            模型、纹理、地理数据、星表与来源记录
-  vendor/            随附渲染库与解码器
-scripts/             本地服务、检查、测试和发行打包
-docs/                操作、架构、性能与发行说明
-.github/             持续检查和协作模板
-```
-
-`dist/` 同时是网站源文件与交付目录；没有隐藏的构建产物生成步骤。开发前阅读 [架构说明](./docs/ARCHITECTURE.md) 与 [贡献指南](./CONTRIBUTING.md)。
+`dist/` 包含可直接编辑的应用代码与全部运行素材；`scripts/` 提供本地服务、检查、测试和发行工具，无需前端构建。
 
 ```sh
 npm run check
 npm test
 ```
 
-## 文档与反馈
+欢迎提交 Issue 和 Pull Request。从 [贡献指南](./CONTRIBUTING.md) 与 [架构说明](./docs/ARCHITECTURE.md) 开始，也可以查看 [路线图](./docs/ROADMAP.md) 或 [反馈问题](https://github.com/JohnnyGuo132/shanghai-disney-explorer/issues/new/choose)。安全问题请使用 [私密报告渠道](./SECURITY.md)，版本变化见 [更新记录](./CHANGELOG.md)。
 
-- [操作指南](./docs/USER_GUIDE.md)：浏览、导航、画质、常见问题。
-- [架构说明](./docs/ARCHITECTURE.md)：模块职责、资源加载与运行路径。
-- [性能与兼容性](./docs/PERFORMANCE.md)：验证范围与复测记录要求。
-- [v1.0.3 开源发行说明](./docs/releases/v1.0.3.md)：原创内容 MIT 许可与公开下载。
-- [v1.0.2 补丁说明](./docs/releases/v1.0.2.md)：城堡底板修复与验证范围。
-- [v1.0.1 补丁说明](./docs/releases/v1.0.1.md)：此前的缩放闪变修复与验证范围。
-- [v1.0.0 验收记录](./docs/RELEASE-VALIDATION.md)：首个正式版本检查的操作、截图与未覆盖范围。
-- [发行说明](./docs/RELEASING.md)：版本、下载包、校验和与公开分发。
-- [路线图](./docs/ROADMAP.md)：已知限制和后续优先级。
-- [反馈与支持](./SUPPORT.md) · [安全报告](./SECURITY.md) · [贡献指南](./CONTRIBUTING.md)。
-
-欢迎通过 [Issues](https://github.com/JohnnyGuo132/shanghai-disney-explorer/issues/new/choose) 反馈问题、讨论功能，或提交 Pull Request。安全问题请使用 [私密报告渠道](./SECURITY.md)。历史 v1.0.0–v1.0.2 文档保留了当时的私有发行记录；当前分发方式以本页与 v1.0.3 说明为准。
+**体验范围：**园区轮廓参考 OpenStreetMap，建筑与景观为近似重建，内景以局部橱窗和陈设为主；未达到测绘级复刻。应用不提供真实排队、票务、营业数据或完整设施乘坐模拟，手机与平板尚未完成广泛机型验证。详见 [已知限制](./docs/ROADMAP.md) 与 [性能说明](./docs/PERFORMANCE.md)。
 
 ## 许可与致谢
 
-项目原创内容采用 **MIT 许可**，欢迎使用、修改与贡献。第三方库、素材及数据保留各自条款，MIT 不覆盖这些第三方内容。完整范围见 [LICENSE.md](./LICENSE.md) 和 [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md)。
+项目原创内容采用 **[MIT 许可](./LICENSE.md)**，欢迎使用、修改与贡献。第三方软件、素材及数据保留各自条款，不属于项目 MIT 授权范围；来源与署名见 [第三方声明](./THIRD_PARTY_NOTICES.md) 和 [素材来源](./dist/credits.html)。
 
-感谢 Three.js、OpenStreetMap 贡献者、Poly Haven、ambientCG、HYG、NASA SVS 及随附库与素材的作者。逐项署名、素材修改记录和精度说明保留在 [素材来源页面](./dist/credits.html)。
+感谢 Three.js、OpenStreetMap 贡献者、Poly Haven、ambientCG、HYG、NASA SVS，以及随附库与素材的作者。
 
 本项目与迪士尼及上海迪士尼度假区没有官方关联，也未获其背书。名称、商标与第三方形象的权利归各自权利人。
