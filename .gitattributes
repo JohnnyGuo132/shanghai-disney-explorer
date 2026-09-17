@@ -14,3 +14,5 @@
 *.jpg binary
 *.webp binary
 *.zip binary
+dist/app.bundle.js linguist-generated=true whitespace=-blank-at-eol
+dist/app.bundle.js.LEGAL.txt linguist-generated=true

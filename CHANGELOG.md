@@ -2,6 +2,22 @@
 
 记录面向使用者的功能变化、修复、兼容性与交付变化。发行号采用 `MAJOR.MINOR.PATCH`；历史开发快照不追溯标记为正式发行版。
 
+## [Unreleased]
+
+### 手机首屏与加载
+
+- 将主入口的 51 个 JavaScript 源码模块合并、压缩为一个 bundle，原始字节由约 3.51 MB 降至约 1.08 MB，减少入口模块的分散请求；运行时解码器等资源继续单独加载。
+- 为移动档提供 13 张轻量纹理，对应纹理原始字节由约 5.91 MB 降至约 0.67 MB；保留完整纹理供高画质使用。
+- 窄屏触控、省流或低内存条件下默认采用「流畅」与轻量纹理；从该档切换「高画质」会重新载入完整纹理。
+- 首页内联样式以提前显示加载界面，补充加载错误与重试提示；首帧绘制后再撤下加载界面。
+
+### 开发与验证边界
+
+- 引入锁定版本的 esbuild。源码修改需执行 `npm ci`、`npm run build`，再检查与测试；直接运行已提交的 `dist/` 仍无需安装依赖。
+- CI 校验已提交 bundle、许可文件与内联样式，避免源码变化后发布旧产物。
+- 上述体积为原始文件字节比较，最终 bundle 会随代码微调；不等同于网络传输量或手机提速比例。
+- 本机首页直接访问约 0.21–0.55 秒仅是当前 Windows 路线的两次 HTML 测量，不能代表手机或跨网络连接。尚未完成 iOS / Android 真机基准，详见 [性能说明](./docs/PERFORMANCE.md)。
+
 ## [1.0.3] — 2026-09-16
 
 首次公开开源发行，公开源码和 Release 下载包。
@@ -82,6 +98,7 @@
 - 建筑和植被为近似重建；内景覆盖有限，无真实设施乘坐模拟或实时运营数据。
 - 尚未完成广泛移动设备、显卡与浏览器性能矩阵验证。查看 [性能说明](./docs/PERFORMANCE.md) 与 [路线图](./docs/ROADMAP.md)。
 
+[Unreleased]: https://github.com/JohnnyGuo132/shanghai-disney-explorer/compare/v1.0.3...main
 [1.0.3]: https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.3
 [1.0.2]: https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.2
 [1.0.1]: https://github.com/JohnnyGuo132/shanghai-disney-explorer/releases/tag/v1.0.1

@@ -1,0 +1,639 @@
+{
+  "schema_version": 1,
+  "profile": "mobile",
+  "generator": {
+    "script": "scripts/build-mobile-assets.py",
+    "library": "Pillow",
+    "version": "12.3.0"
+  },
+  "scope": "Mobile texture alternatives only. Original textures, environment HDR, and GLB models are unchanged.",
+  "licensing": "Every output inherits its source asset's terms. Existing credits and license files remain required; these files are not relicensed.",
+  "environment_hdr": {
+    "path": "assets/realism/environment.hdr",
+    "action": "reuse original; not copied"
+  },
+  "summary": {
+    "surface_textures": 12,
+    "surface_source_bytes": 5661736,
+    "surface_output_bytes": 632548,
+    "surface_reduction_percent": 88.83,
+    "surface_budget_bytes": 800000,
+    "files": 13,
+    "total_source_bytes": 5910549,
+    "total_output_bytes": 666491,
+    "total_reduction_percent": 88.72
+  },
+  "files": [
+    {
+      "source": {
+        "path": "assets/realism/paving_diff.jpg",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 1273859,
+        "sha256": "1a6755ddd81ca9465010ffcccd416ec49b9c5053444a1d4fca2491f181f3b43d"
+      },
+      "output": {
+        "path": "assets/mobile/paving_diff.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 29464,
+        "sha256": "ed6d7e9f6be13e054d2402bfadab452e3b76e3d7573a62a8e7d12108865a5a0a"
+      },
+      "kind": "diffuse",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 82,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Rectangular Paving",
+        "creator": "Dimitrios Savva / Poly Haven",
+        "url": "https://polyhaven.com/a/rectangular_paving"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/realism/paving_nor.jpg",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 1287145,
+        "sha256": "86ae737ba97b6d0f85b98424857954ebbe2f165395e5c970a8c383e5b4e41094"
+      },
+      "output": {
+        "path": "assets/mobile/paving_nor.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 41246,
+        "sha256": "4cd78d405d8a477704fc03c2e1ac071ae581c1be43b428e7209bf6fa5bd91cca"
+      },
+      "kind": "normal",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 90,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Rectangular Paving",
+        "creator": "Dimitrios Savva / Poly Haven",
+        "url": "https://polyhaven.com/a/rectangular_paving"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/realism/paving_rough.jpg",
+        "width": 2048,
+        "height": 2048,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 672181,
+        "sha256": "bd6b641835516da561d478855ef6d0076b48cd7c6732fa2c155dd32be5e1cae4"
+      },
+      "output": {
+        "path": "assets/mobile/paving_rough.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 15295,
+        "sha256": "8cc26f896fe0af346d4c5c4795f817f1a3abbcc8eee092dd57f3ac9eca98e70f"
+      },
+      "kind": "roughness",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 80,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Rectangular Paving",
+        "creator": "Dimitrios Savva / Poly Haven",
+        "url": "https://polyhaven.com/a/rectangular_paving"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/realism/grass_diff.jpg",
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 563927,
+        "sha256": "2304effe5c98b4274e2b45d1d9c0091dc3f52743ccdc2ef35112d9b2f9982f42"
+      },
+      "output": {
+        "path": "assets/mobile/grass_diff.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 81242,
+        "sha256": "dbbd240ef017e94376ccb2eddd8c984cd5dac0c48116ac66016f8a080173b9c3"
+      },
+      "kind": "diffuse",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 82,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Grass001",
+        "creator": "Lennart Demes / ambientCG",
+        "url": "https://ambientcg.com/a/Grass001"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/realism/grass_nor.jpg",
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 1099636,
+        "sha256": "1f39e5f5def7ca0b9d196a2db629a00aac767cc31322d58735cab75d5fe0d67e"
+      },
+      "output": {
+        "path": "assets/mobile/grass_nor.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 223588,
+        "sha256": "da553834699adea42c4fff83bdc59531a52244fad2220ed49c30de774b280cde"
+      },
+      "kind": "normal",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 90,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Grass001",
+        "creator": "Lennart Demes / ambientCG",
+        "url": "https://ambientcg.com/a/Grass001"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/realism/grass_rough.jpg",
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 505637,
+        "sha256": "70265f81822e6d9481e9aaeca48fbff5fc3ae30148be470afcff6bd07eead87d"
+      },
+      "output": {
+        "path": "assets/mobile/grass_rough.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 71030,
+        "sha256": "793cbb8aa164221f3cae2bddbced548c37a4aa2f1a977b5da059c297f6c61559"
+      },
+      "kind": "roughness",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 80,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Grass001",
+        "creator": "Lennart Demes / ambientCG",
+        "url": "https://ambientcg.com/a/Grass001"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/realism/wall_diff.jpg",
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 16140,
+        "sha256": "b9bffd2d931cfb13479b7e678f7de673663bf96619f3bbd9ae417741e06bac30"
+      },
+      "output": {
+        "path": "assets/mobile/wall_diff.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 4747,
+        "sha256": "b27a623ce2894dc4f1313ed81d5974fbf76c9fbf65871c92c389550b9666bf9a"
+      },
+      "kind": "diffuse",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 82,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Beige Wall 001",
+        "provider": "Poly Haven",
+        "url": "https://polyhaven.com/a/beige_wall_001"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/realism/wall_nor.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 25671,
+        "sha256": "68c5677a6c4abf1006db38bdb78a6f74841223dad46a8903e7be280aade5782f"
+      },
+      "output": {
+        "path": "assets/mobile/wall_nor.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 28434,
+        "sha256": "b84fc59014d341c82c425c6d1af7cb541f70147ac5d1488a1cda01d68e5fe1ee"
+      },
+      "kind": "normal",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 90,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Beige Wall 001",
+        "provider": "Poly Haven",
+        "url": "https://polyhaven.com/a/beige_wall_001"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/realism/wall_rough.jpg",
+        "width": 256,
+        "height": 256,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 7525,
+        "sha256": "ef4c9ff89900b585e856eb209bd692be2dba20c315c1fd5c950565c40afce2a4"
+      },
+      "output": {
+        "path": "assets/mobile/wall_rough.jpg",
+        "width": 256,
+        "height": 256,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 5315,
+        "sha256": "ba7d40aec4f356357b5830522becd281910ca55ddb0cbcee1af165ed754814e2"
+      },
+      "kind": "roughness",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 80,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Beige Wall 001",
+        "provider": "Poly Haven",
+        "url": "https://polyhaven.com/a/beige_wall_001"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/realism/roof_diff.jpg",
+        "width": 768,
+        "height": 768,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 145023,
+        "sha256": "48575b582c9dfb1e128d4d082930ecd3fbef4d6726e147c04f8b4045e48e2bfc"
+      },
+      "output": {
+        "path": "assets/mobile/roof_diff.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 54056,
+        "sha256": "89f9eb2e7ac28e07aa1804920f2e1423f3bd2d529bf167a6137f0280a79c74d2"
+      },
+      "kind": "diffuse",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 82,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Roof Slates 03",
+        "provider": "Poly Haven",
+        "url": "https://polyhaven.com/a/roof_slates_03"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/realism/roof_nor.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 64342,
+        "sha256": "5ee07af4a84e080a8a0a660bd903f1a1c537fb62caad0a025d78320e78bd5239"
+      },
+      "output": {
+        "path": "assets/mobile/roof_nor.jpg",
+        "width": 512,
+        "height": 512,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 77079,
+        "sha256": "880d71afff180fc1876bf2eae5520f15b21213dec088971c81636b47ce477493"
+      },
+      "kind": "normal",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 90,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Roof Slates 03",
+        "provider": "Poly Haven",
+        "url": "https://polyhaven.com/a/roof_slates_03"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/realism/roof_rough.jpg",
+        "width": 256,
+        "height": 256,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 650,
+        "sha256": "56536e804af03f8f288001144ca46a6d0187bbb0c13e0ef0e6646546dd7e4ed0"
+      },
+      "output": {
+        "path": "assets/mobile/roof_rough.jpg",
+        "width": 256,
+        "height": 256,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 1052,
+        "sha256": "1402a65b3be7ba8924429c05821e50796a9d25abb93befe82c592536a3d5e210"
+      },
+      "kind": "roughness",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 512,
+        "resampling": "Lanczos",
+        "jpeg_quality": 80,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Roof Slates 03",
+        "provider": "Poly Haven",
+        "url": "https://polyhaven.com/a/roof_slates_03"
+      },
+      "license": {
+        "spdx": "CC0-1.0",
+        "inheritance": "Derived only by resizing and JPEG encoding; inherits the bundled source asset's CC0 terms.",
+        "bundled_license": "assets/LICENSES.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/landmarks/V8-SOURCES.md"
+        ]
+      }
+    },
+    {
+      "source": {
+        "path": "assets/water-normal.jpg",
+        "width": 1024,
+        "height": 1024,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 248813,
+        "sha256": "add9912b158a4fe9c12421745babe68c44c8af75631ac4837236cb2a03bc373f"
+      },
+      "output": {
+        "path": "assets/mobile/water-normal.jpg",
+        "width": 256,
+        "height": 256,
+        "mode": "RGB",
+        "format": "JPEG",
+        "bytes": 33943,
+        "sha256": "d023828575ac1b314c768f29e694418d63c877016a5535e3a81b11ce591bbe37"
+      },
+      "kind": "water_normal",
+      "transform": {
+        "resize": "thumbnail; preserve aspect ratio; never upscale",
+        "max_edge_px": 256,
+        "resampling": "Lanczos",
+        "jpeg_quality": 90,
+        "jpeg_subsampling": "4:4:4",
+        "jpeg_optimize": true,
+        "jpeg_progressive": false,
+        "color_adjustments": "none",
+        "normal_vector_edits": "none",
+        "source_file_preserved": true
+      },
+      "upstream_asset": {
+        "title": "Three.js example water normals",
+        "provider": "Three.js contributors",
+        "url": "https://threejs.org/examples/textures/waternormals.jpg"
+      },
+      "license": {
+        "spdx": "MIT",
+        "inheritance": "Resized from the bundled Three.js water normal; retains the source MIT license and copyright notice.",
+        "bundled_license": "vendor/LICENSE.txt",
+        "attribution_records": [
+          "credits.html",
+          "assets/LICENSES.txt"
+        ]
+      }
+    }
+  ]
+}

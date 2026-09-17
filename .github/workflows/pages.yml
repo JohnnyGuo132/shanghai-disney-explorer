@@ -24,6 +24,10 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
+      - name: Install pinned build tools
+        run: npm ci --no-audit --no-fund
+      - name: Verify committed bundle and inline styles match source
+        run: npm run build -- --check
       - name: Validate website assets and attribution
         run: npm run check
       - name: Test distribution and preview server
